@@ -1,8 +1,19 @@
 import * as THREE from 'three';
-import { acceleratedRaycast, computeBatchedBoundsTree, disposeBatchedBoundsTree } from 'three-mesh-bvh';
+import {
+  acceleratedRaycast,
+  computeBatchedBoundsTree,
+  computeBoundsTree,
+  disposeBatchedBoundsTree,
+  disposeBoundsTree,
+} from 'three-mesh-bvh';
 import type { SystemId } from '../atlas/types';
 import { explodeOffset, type Vec3 } from './explode';
 
+// The batched raycast hands each instance to Mesh.raycast with only a BVH and no
+// bounding sphere, so Mesh must use the accelerated raycast too or every ray misses.
+THREE.BufferGeometry.prototype.computeBoundsTree = computeBoundsTree;
+THREE.BufferGeometry.prototype.disposeBoundsTree = disposeBoundsTree;
+THREE.Mesh.prototype.raycast = acceleratedRaycast;
 THREE.BatchedMesh.prototype.computeBoundsTree = computeBatchedBoundsTree;
 THREE.BatchedMesh.prototype.disposeBoundsTree = disposeBatchedBoundsTree;
 THREE.BatchedMesh.prototype.raycast = acceleratedRaycast;
