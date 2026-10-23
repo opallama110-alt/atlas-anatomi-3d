@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mockup napas dan oksigen</title>
+<style>
+  :root { --bg-primary:#1d1d1f; --bg-secondary:#2d2d2f; --bg-tertiary:#3d3d3f; --border:#424245;
+          --text-primary:#f5f5f7; --text-secondary:#a1a1a6; --text-tertiary:#636366; --accent:#0a84ff; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:system-ui,-apple-system,sans-serif; background:var(--bg-primary); color:var(--text-primary); line-height:1.5; padding:2rem 16px; }
+  h2 { font-size:1.5rem; font-weight:600; margin-bottom:.5rem; }
+  h3 { font-size:1.1rem; font-weight:600; margin-bottom:.25rem; }
+  .subtitle { color:var(--text-secondary); margin-bottom:1.5rem; }
+  .mockup { background:var(--bg-secondary); border:1px solid var(--border); border-radius:12px; overflow:hidden; }
+  .mockup-header { background:var(--bg-tertiary); padding:.5rem 1rem; font-size:.75rem; color:var(--text-secondary); border-bottom:1px solid var(--border); }
+  .mockup-body { padding:1.5rem; }
+</style>
+</head>
+<body>
+<!-- Mockup yang disetujui pemilik pada 23 Oktober 2026 (sesi brainstorming). Ketiga panel adalah tingkat zoom yang tampil satu per satu. -->
+<style>
+  .panels { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+  @media (max-width: 900px) { .panels { grid-template-columns: 1fr; } }
+  .panel { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+  .panel svg { display: block; width: 100%; height: auto; background: #0d1117; }
+  .panel .cap { padding: 0.85rem 1rem 1rem; }
+  .panel .cap h3 { font-size: 0.95rem; }
+  .panel .cap p { color: var(--text-secondary); font-size: 0.85rem; }
+  .step { display: inline-block; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.04em; color: var(--accent); margin-bottom: 0.2rem; }
+  .chips { display: flex; gap: 0.45rem; flex-wrap: wrap; align-items: center; }
+  .chip { font-size: 0.8rem; padding: 0.3rem 0.7rem; border-radius: 999px; border: 1px solid var(--border); color: var(--text-secondary); background: var(--bg-primary); }
+  .chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .sep { color: var(--text-tertiary); padding: 0 0.2rem; }
+  .note { color: var(--text-secondary); font-size: 0.85rem; margin-top: 1rem; }
+  svg text { font-family: system-ui, sans-serif; }
+</style>
+
+<h2>Napas dan pertukaran oksigen: gambaran awal</h2>
+<p class="subtitle">Sketsa kasar untuk mengecek idenya, bukan tampilan akhir. Gerakannya sudah dianimasikan supaya kebayang.</p>
+
+<div class="panels">
+
+  <!-- 1. Seluruh tubuh -->
+  <div class="panel">
+    <svg viewBox="0 0 300 380" role="img" aria-label="Udara masuk lewat hidung ke trakea, bronkus, lalu paru-paru">
+      <defs>
+        <path id="airA" d="M150 58 L150 160 Q140 170 124 186 Q114 200 106 226"/>
+        <path id="airB" d="M150 58 L150 160 Q160 170 176 186 Q186 200 194 226"/>
+        <path id="lungShape" d="M-6 -64 C-28 -60 -44 -30 -46 0 C-48 32 -42 60 -26 68 C-10 74 8 70 16 58 C22 34 20 -22 10 -52 C6 -62 0 -65 -6 -64 Z"/>
+      </defs>
+      <!-- siluet tubuh -->
+      <g fill="rgba(255,255,255,0.035)" stroke="rgba(255,255,255,0.16)" stroke-width="1.2">
+        <ellipse cx="150" cy="50" rx="30" ry="36"/>
+        <path d="M136 84 L136 100 Q96 104 80 124 Q70 140 72 190 L76 300 Q78 340 100 366 L200 366 Q222 340 224 300 L228 190 Q230 140 220 124 Q204 104 164 100 L164 84 Z"/>
+      </g>
+      <!-- paru-paru (mengembang dan mengempis) -->
+      <g transform="translate(110 216)">
+        <g>
+          <animateTransform attributeName="transform" type="scale" values="0.9;1.05;0.9" keyTimes="0;0.4;1" dur="4s" repeatCount="indefinite"/>
+          <use href="#lungShape" fill="rgba(232,137,160,0.26)" stroke="#e889a0" stroke-opacity="0.85" stroke-width="1.4"/>
+        </g>
+      </g>
+      <g transform="translate(190 216) scale(-1 1)">
+        <g>
+          <animateTransform attributeName="transform" type="scale" values="0.9;1.05;0.9" keyTimes="0;0.4;1" dur="4s" repeatCount="indefinite"/>
+          <use href="#lungShape" fill="rgba(232,137,160,0.26)" stroke="#e889a0" stroke-opacity="0.85" stroke-width="1.4"/>
+        </g>
+      </g>
+      <!-- saluran napas -->
+      <g fill="none" stroke="#8fd3e6" stroke-opacity="0.6" stroke-linecap="round">
+        <path d="M150 60 L150 160" stroke-width="7"/>
+        <path d="M150 160 Q140 170 124 186" stroke-width="5.5"/>
+        <path d="M150 160 Q160 170 176 186" stroke-width="5.5"/>
+        <path d="M124 186 Q112 200 104 224 M124 186 Q122 212 118 244 M176 186 Q188 200 196 224 M176 186 Q178 212 182 244" stroke-width="2.4"/>
+      </g>
+      <!-- jantung berdetak (~70 kali per menit) -->
+      <g transform="translate(162 240)">
+        <g>
+          <animateTransform attributeName="transform" type="scale" values="0.7;0.82;0.7;0.75;0.7" keyTimes="0;0.15;0.35;0.5;1" dur="0.86s" repeatCount="indefinite"/>
+          <path d="M0 -10 C8 -22 28 -14 22 4 C18 16 6 24 0 30 C-6 24 -18 16 -22 4 C-28 -14 -8 -22 0 -10 Z" fill="#d23a4f" fill-opacity="0.9"/>
+        </g>
+      </g>
+      <!-- diafragma: turun saat tarik napas -->
+      <path fill="none" stroke="#c98b6b" stroke-width="3" stroke-linecap="round" d="M78 282 Q114 246 150 262 Q186 246 222 282">
+        <animate attributeName="d" dur="4s" repeatCount="indefinite" keyTimes="0;0.4;1"
+          values="M78 282 Q114 246 150 262 Q186 246 222 282;M78 290 Q114 270 150 280 Q186 270 222 290;M78 282 Q114 246 150 262 Q186 246 222 282"/>
+      </path>
+      <!-- partikel udara: biru muda saat masuk (kaya O2), abu-abu saat keluar (CO2) -->
+      <g>
+        <circle r="2.4"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;0.6;0" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#airA"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+        <circle r="2.4"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0.08;0.68;0.08" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#airA"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+        <circle r="2.4"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0.16;0.76;0.16" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#airA"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+        <circle r="2.4"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0.24;0.84;0.24" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#airA"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+        <circle r="2.4"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0.32;0.92;0.32" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#airA"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+        <circle r="2.4"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0.4;1;0.4" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#airA"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+        <circle r="2.4"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0.04;0.64;0.04" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#airB"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+        <circle r="2.4"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0.12;0.72;0.12" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#airB"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+        <circle r="2.4"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0.2;0.8;0.2" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#airB"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+        <circle r="2.4"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0.28;0.88;0.28" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#airB"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+        <circle r="2.4"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0.36;0.96;0.36" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#airB"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+      </g>
+      <text x="12" y="22" font-size="11" fill="#8b949e">Tarik napas → buang napas (±15 kali/menit)</text>
+    </svg>
+    <div class="cap">
+      <span class="step">1 · SELURUH TUBUH</span>
+      <h3>Udara masuk sampai paru-paru</h3>
+      <p>Hidung → tenggorokan → trakea → bronkus → paru-paru. Paru-paru mengembang, diafragma turun. Saat buang napas, udara keluar membawa CO₂ (titik abu-abu).</p>
+    </div>
+  </div>
+
+  <!-- 2. Zoom ke paru-paru -->
+  <div class="panel">
+    <svg viewBox="0 0 300 380" role="img" aria-label="Cabang bronkus yang berakhir di gugus alveolus">
+      <defs>
+        <linearGradient id="capGrad" x1="0" x2="1">
+          <stop offset="0" stop-color="#6b7fd6"/>
+          <stop offset="1" stop-color="#e2344a"/>
+        </linearGradient>
+        <path id="br1" d="M150 0 L150 70 Q128 104 104 140 Q88 176 72 222 Q70 250 70 276"/>
+        <path id="br2" d="M150 0 L150 70 Q128 104 104 140 Q116 180 126 222 Q128 250 128 276"/>
+        <path id="br3" d="M150 0 L150 70 Q172 104 196 140 Q184 180 174 222 Q172 250 172 276"/>
+        <path id="br4" d="M150 0 L150 70 Q172 104 196 140 Q212 176 228 222 Q230 250 230 276"/>
+        <g id="sac">
+          <circle cx="0" cy="0" r="13"/><circle cx="-16" cy="12" r="11"/><circle cx="16" cy="12" r="11"/>
+          <circle cx="-9" cy="28" r="11"/><circle cx="9" cy="28" r="11"/><circle cx="0" cy="-14" r="8"/>
+        </g>
+      </defs>
+      <g fill="none" stroke="#8fd3e6" stroke-opacity="0.6" stroke-linecap="round">
+        <path d="M150 0 L150 70" stroke-width="10"/>
+        <path d="M150 70 Q128 104 104 140 M150 70 Q172 104 196 140" stroke-width="7"/>
+        <path d="M104 140 Q88 176 72 222 M104 140 Q116 180 126 222 M196 140 Q184 180 174 222 M196 140 Q212 176 228 222" stroke-width="4.5"/>
+        <path d="M72 222 L70 270 M126 222 L128 270 M174 222 L172 270 M228 222 L230 270" stroke-width="3"/>
+      </g>
+      <!-- gugus alveolus, ikut mengembang -->
+      <g fill="rgba(232,137,160,0.24)" stroke="#e889a0" stroke-opacity="0.85" stroke-width="1.2">
+        <g transform="translate(70 292)"><g><animateTransform attributeName="transform" type="scale" values="0.92;1.06;0.92" keyTimes="0;0.4;1" dur="4s" repeatCount="indefinite"/><use href="#sac"/></g></g>
+        <g transform="translate(128 292)"><g><animateTransform attributeName="transform" type="scale" values="0.92;1.06;0.92" keyTimes="0;0.4;1" dur="4s" repeatCount="indefinite"/><use href="#sac"/></g></g>
+        <g transform="translate(172 292)"><g><animateTransform attributeName="transform" type="scale" values="0.92;1.06;0.92" keyTimes="0;0.4;1" dur="4s" repeatCount="indefinite"/><use href="#sac"/></g></g>
+        <g transform="translate(230 292)"><g><animateTransform attributeName="transform" type="scale" values="0.92;1.06;0.92" keyTimes="0;0.4;1" dur="4s" repeatCount="indefinite"/><use href="#sac"/></g></g>
+      </g>
+      <!-- jaring kapiler: biru (miskin O2) ke merah (kaya O2) -->
+      <g fill="none" stroke="url(#capGrad)" stroke-width="1.6" stroke-opacity="0.9">
+        <path d="M40 300 Q70 268 100 300 Q128 330 156 300 Q186 270 214 300 Q240 328 264 300"/>
+        <path d="M44 324 Q72 344 100 322 Q128 300 156 324 Q186 348 214 322 Q240 300 262 326"/>
+        <path d="M48 280 Q76 300 100 280 Q130 258 156 282 Q184 304 212 280 Q240 258 258 282"/>
+      </g>
+      <g>
+        <circle r="2.2"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0.1;0.95;0.1" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#br1"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+        <circle r="2.2"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0.25;0.98;0.25" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#br2"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+        <circle r="2.2"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0.05;0.92;0.05" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#br3"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+        <circle r="2.2"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0.18;0.97;0.18" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#br4"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+        <circle r="2.2"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0.32;0.9;0.32" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#br1"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+        <circle r="2.2"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0.38;0.99;0.38" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#br4"/></animateMotion><animate attributeName="fill" dur="4s" repeatCount="indefinite" keyTimes="0;0.39;0.41;1" values="#c9f6ff;#c9f6ff;#a3aab3;#a3aab3"/></circle>
+      </g>
+      <text x="12" y="368" font-size="11" fill="#8b949e">Gugus alveolus + jaring kapiler</text>
+    </svg>
+    <div class="cap">
+      <span class="step">2 · ZOOM KE PARU-PARU</span>
+      <h3>Cabang bronkus sampai alveolus</h3>
+      <p>Bronkus bercabang terus sampai ujungnya jadi kantung udara kecil (alveolus) yang dibungkus jaring pembuluh kapiler.</p>
+    </div>
+  </div>
+
+  <!-- 3. Di dalam alveolus -->
+  <div class="panel">
+    <svg viewBox="0 0 300 380" role="img" aria-label="Oksigen pindah dari alveolus ke sel darah merah, karbon dioksida keluar">
+      <defs>
+        <path id="capLine" d="M223 -14 Q239 190 223 394"/>
+        <g id="rbc"><ellipse rx="10" ry="6"/><ellipse rx="4.5" ry="2.6" fill="rgba(0,0,0,0.28)"/></g>
+      </defs>
+      <!-- alveolus -->
+      <circle cx="112" cy="190" r="92" fill="rgba(150,215,235,0.10)" stroke="#8fd3e6" stroke-opacity="0.7" stroke-width="2"/>
+      <text x="44" y="120" font-size="11" fill="#8fd3e6">Alveolus</text>
+      <text x="44" y="134" font-size="10" fill="#8b949e">(kantung udara)</text>
+      <!-- kapiler -->
+      <path d="M200 -10 Q216 190 200 390 L246 390 Q262 190 246 -10 Z" fill="rgba(200,60,80,0.13)"/>
+      <path d="M200 -10 Q216 190 200 390 M246 -10 Q262 190 246 390" fill="none" stroke="#e2344a" stroke-opacity="0.55" stroke-width="1.5"/>
+      <text x="252" y="26" font-size="10" fill="#8ea0e6">miskin</text>
+      <text x="252" y="38" font-size="10" fill="#8ea0e6">O₂</text>
+      <text x="252" y="352" font-size="10" fill="#ff7b8a">kaya</text>
+      <text x="252" y="364" font-size="10" fill="#ff7b8a">O₂</text>
+      <!-- sel darah merah: gelap di atas, merah terang setelah dapat oksigen -->
+      <g>
+        <g><use href="#rbc"/><animateMotion dur="6s" repeatCount="indefinite" rotate="auto" begin="0s"><mpath href="#capLine"/></animateMotion><animate attributeName="fill" dur="6s" repeatCount="indefinite" begin="0s" keyTimes="0;0.32;0.62;1" values="#6b2a4a;#6b2a4a;#e2344a;#e2344a"/></g>
+        <g><use href="#rbc"/><animateMotion dur="6s" repeatCount="indefinite" rotate="auto" begin="-0.75s"><mpath href="#capLine"/></animateMotion><animate attributeName="fill" dur="6s" repeatCount="indefinite" begin="-0.75s" keyTimes="0;0.32;0.62;1" values="#6b2a4a;#6b2a4a;#e2344a;#e2344a"/></g>
+        <g><use href="#rbc"/><animateMotion dur="6s" repeatCount="indefinite" rotate="auto" begin="-1.5s"><mpath href="#capLine"/></animateMotion><animate attributeName="fill" dur="6s" repeatCount="indefinite" begin="-1.5s" keyTimes="0;0.32;0.62;1" values="#6b2a4a;#6b2a4a;#e2344a;#e2344a"/></g>
+        <g><use href="#rbc"/><animateMotion dur="6s" repeatCount="indefinite" rotate="auto" begin="-2.25s"><mpath href="#capLine"/></animateMotion><animate attributeName="fill" dur="6s" repeatCount="indefinite" begin="-2.25s" keyTimes="0;0.32;0.62;1" values="#6b2a4a;#6b2a4a;#e2344a;#e2344a"/></g>
+        <g><use href="#rbc"/><animateMotion dur="6s" repeatCount="indefinite" rotate="auto" begin="-3s"><mpath href="#capLine"/></animateMotion><animate attributeName="fill" dur="6s" repeatCount="indefinite" begin="-3s" keyTimes="0;0.32;0.62;1" values="#6b2a4a;#6b2a4a;#e2344a;#e2344a"/></g>
+        <g><use href="#rbc"/><animateMotion dur="6s" repeatCount="indefinite" rotate="auto" begin="-3.75s"><mpath href="#capLine"/></animateMotion><animate attributeName="fill" dur="6s" repeatCount="indefinite" begin="-3.75s" keyTimes="0;0.32;0.62;1" values="#6b2a4a;#6b2a4a;#e2344a;#e2344a"/></g>
+        <g><use href="#rbc"/><animateMotion dur="6s" repeatCount="indefinite" rotate="auto" begin="-4.5s"><mpath href="#capLine"/></animateMotion><animate attributeName="fill" dur="6s" repeatCount="indefinite" begin="-4.5s" keyTimes="0;0.32;0.62;1" values="#6b2a4a;#6b2a4a;#e2344a;#e2344a"/></g>
+        <g><use href="#rbc"/><animateMotion dur="6s" repeatCount="indefinite" rotate="auto" begin="-5.25s"><mpath href="#capLine"/></animateMotion><animate attributeName="fill" dur="6s" repeatCount="indefinite" begin="-5.25s" keyTimes="0;0.32;0.62;1" values="#6b2a4a;#6b2a4a;#e2344a;#e2344a"/></g>
+      </g>
+      <!-- O2 masuk ke darah -->
+      <g fill="#bdf3ff">
+        <circle r="3"><animateMotion dur="2.4s" repeatCount="indefinite" path="M110 160 L218 172"/><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.15;0.8;1"/></circle>
+        <circle r="3"><animateMotion dur="2.4s" repeatCount="indefinite" begin="-0.8s" path="M90 200 L220 196"/><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" begin="-0.8s" values="0;1;1;0" keyTimes="0;0.15;0.8;1"/></circle>
+        <circle r="3"><animateMotion dur="2.4s" repeatCount="indefinite" begin="-1.6s" path="M120 226 L222 214"/><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" begin="-1.6s" values="0;1;1;0" keyTimes="0;0.15;0.8;1"/></circle>
+      </g>
+      <text x="150" y="156" font-size="12" font-weight="600" fill="#bdf3ff">O₂ →</text>
+      <!-- CO2 keluar dari darah -->
+      <g fill="#a3aab3">
+        <circle r="3"><animateMotion dur="2.6s" repeatCount="indefinite" path="M226 250 L120 262"/><animate attributeName="opacity" dur="2.6s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.15;0.8;1"/></circle>
+        <circle r="3"><animateMotion dur="2.6s" repeatCount="indefinite" begin="-1.3s" path="M224 132 L120 128"/><animate attributeName="opacity" dur="2.6s" repeatCount="indefinite" begin="-1.3s" values="0;1;1;0" keyTimes="0;0.15;0.8;1"/></circle>
+      </g>
+      <text x="140" y="290" font-size="12" font-weight="600" fill="#a3aab3">← CO₂</text>
+    </svg>
+    <div class="cap">
+      <span class="step">3 · DI DALAM ALVEOLUS</span>
+      <h3>Oksigen disaring masuk ke darah</h3>
+      <p>Oksigen pindah ke sel darah merah, jadi darahnya berubah merah terang. Karbon dioksida keluar dari darah lalu dibuang lewat napas.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="mockup" style="margin-top:1.5rem">
+  <div class="mockup-header">Di atlas: tombol aliran ada di sebelah tombol lapisan</div>
+  <div class="mockup-body">
+    <div class="chips">
+      <span class="chip">Kulit</span><span class="chip">Otot</span><span class="chip on">Tulang</span><span class="chip on">Organ</span><span class="chip">Saraf</span><span class="chip on">Pembuluh darah</span>
+      <span class="sep">|</span>
+      <span class="chip on">Aliran darah</span><span class="chip on">Napas</span><span class="chip">Kecepatan 1×</span><span class="chip">⏸ Jeda</span>
+    </div>
+  </div>
+</div>
+
+<p class="note">Panel 2 dan 3 adalah tampilan zoom. Alveolus aslinya mikroskopis dan nggak ada di data 3D mana pun, jadi bagian itu dibuat sebagai ilustrasi 3D tersendiri yang muncul saat kamu zoom ke paru-paru. Di atlas nanti semuanya 3D dan bisa diputar.</p>
+
+</body>
+</html>

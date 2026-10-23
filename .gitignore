@@ -1,0 +1,9 @@
+node_modules/
+dist/
+data/raw/
+data/work/
+pipeline/.venv/
+__pycache__/
+.pytest_cache/
+.superpowers/
+*.log
