@@ -1,0 +1,7763 @@
+{
+ "FMA10419": {
+  "id": "Saluran pankreas",
+  "la": "Ductus pancreaticus"
+ },
+ "FMA10446": {
+  "id": "Cakram intervertebralis"
+ },
+ "FMA10635": {
+  "la": "Arteria carotis externa"
+ },
+ "FMA10636": {
+  "la": "Truncus costocervicalis"
+ },
+ "FMA10645": {
+  "la": "Arteria musculophrenica"
+ },
+ "FMA10646": {
+  "la": "Arteria epigastrica superior"
+ },
+ "FMA10659": {
+  "la": "Arteria cervicalis profunda"
+ },
+ "FMA10662": {
+  "la": "arteria thyreoidea inferior"
+ },
+ "FMA10663": {
+  "la": "Arteria suprascapularis"
+ },
+ "FMA10664": {
+  "la": "Arteria transversa cervicis"
+ },
+ "FMA10951": {
+  "id": "Vena kava inferior",
+  "la": "vena cava inferior"
+ },
+ "FMA11350": {
+  "la": "Cavitas pericardiaca"
+ },
+ "FMA11361": {
+  "id": "Bidang sagital",
+  "la": "Planities sagittalis"
+ },
+ "FMA11948": {
+  "la": "Processus spinosus"
+ },
+ "FMA11949": {
+  "la": "Processus transversus"
+ },
+ "FMA11952": {
+  "la": "Processus articularis inferior vertebrae,"
+ },
+ "FMA12243": {
+  "id": "Ruang interkostal"
+ },
+ "FMA12246": {
+  "id": "Bidang koronal",
+  "la": "plana frontalia"
+ },
+ "FMA12266": {
+  "id": "Rongga abdominal",
+  "la": "cavitas abdominis"
+ },
+ "FMA12267": {
+  "la": "cavitas abdominopelvica"
+ },
+ "FMA12274": {
+  "id": "air kemih",
+  "la": "urina"
+ },
+ "FMA12275": {
+  "id": "keringat",
+  "la": "sudor"
+ },
+ "FMA12277": {
+  "id": "Cairan sinovial"
+ },
+ "FMA12278": {
+  "id": "hormon",
+  "la": "hormon"
+ },
+ "FMA12516": {
+  "id": "gigi",
+  "la": "dens"
+ },
+ "FMA12519": {
+  "id": "Tulang atlas",
+  "la": "Atlas, vertebra cervicalis I"
+ },
+ "FMA12520": {
+  "id": "Tulang aksis",
+  "la": "Axis, vertebra cervicalis II"
+ },
+ "FMA12823": {
+  "id": "gigi seri"
+ },
+ "FMA12845": {
+  "la": "Vena subcostalis"
+ },
+ "FMA12851": {
+  "la": "Plexus venosi vertebrales externi"
+ },
+ "FMA12858": {
+  "la": "Vena lumbalis ascendens"
+ },
+ "FMA13109": {
+  "id": "Otot pectoralis minor",
+  "la": "Musculus pectoralis minor"
+ },
+ "FMA13110": {
+  "la": "Vena jugularis externa"
+ },
+ "FMA13148": {
+  "id": "Sel goblet"
+ },
+ "FMA13295": {
+  "id": "Diafragma",
+  "la": "Diaphragma"
+ },
+ "FMA13303": {
+  "id": "Tulang lengan atas",
+  "la": "Humerus"
+ },
+ "FMA13305": {
+  "la": "Corpus humeri"
+ },
+ "FMA13315": {
+  "la": "Angulus inferior scapulae"
+ },
+ "FMA13318": {
+  "la": "Vena jugularis anterior"
+ },
+ "FMA13321": {
+  "id": "Tulang selangka",
+  "la": "Clavicula"
+ },
+ "FMA13324": {
+  "la": "Vena cephalica"
+ },
+ "FMA13329": {
+  "la": "vena axillaris"
+ },
+ "FMA13335": {
+  "la": "Musculus obliquus externus abdominis"
+ },
+ "FMA13341": {
+  "id": "Otot sternohyoideus",
+  "la": "Musculus sternohyoideus"
+ },
+ "FMA13342": {
+  "la": "Musculus omohyoideus"
+ },
+ "FMA13343": {
+  "la": "Musculus sternothyreoideus"
+ },
+ "FMA13344": {
+  "la": "Musculus thyreohyoideus"
+ },
+ "FMA13345": {
+  "la": "Musculus levator glandulae thyroideae"
+ },
+ "FMA13354": {
+  "la": "Musculi intercostales"
+ },
+ "FMA13357": {
+  "id": "Otot latissimus dorsi",
+  "la": "Musculus latissimus dorsi"
+ },
+ "FMA13370": {
+  "la": "Musculus longus colli"
+ },
+ "FMA13379": {
+  "id": "otot rhomboideus major",
+  "la": "musculus rhomboideus major"
+ },
+ "FMA13380": {
+  "id": "Otot rhomboideus minor",
+  "la": "Musculus rhomboideus minor"
+ },
+ "FMA13385": {
+  "la": "Musculus scalenus anterior"
+ },
+ "FMA13394": {
+  "id": "tulang belikat",
+  "la": "Scapula"
+ },
+ "FMA13397": {
+  "id": "Otot serratus anterior",
+  "la": "Musculus serratus anterior"
+ },
+ "FMA13401": {
+  "la": "Musculus serratus posterior superior"
+ },
+ "FMA13402": {
+  "la": "Musculus serratus posterior inferior"
+ },
+ "FMA13407": {
+  "id": "Otot sternokleidomastoid",
+  "la": "Musculus sternocleidomastoideus"
+ },
+ "FMA13410": {
+  "id": "Otot subclavius",
+  "la": "Musculus subclavius"
+ },
+ "FMA13413": {
+  "id": "Otot subscapularis",
+  "la": "Musculus subscapularis"
+ },
+ "FMA13421": {
+  "id": "Ligamentum arteriosum"
+ },
+ "FMA13425": {
+  "la": "ligamentum supraspinale"
+ },
+ "FMA13427": {
+  "la": "Ligamentum nuchae"
+ },
+ "FMA13455": {
+  "la": "Processus coracoideus"
+ },
+ "FMA13889": {
+  "id": "hipofisis",
+  "la": "glandula pituitaria"
+ },
+ "FMA13890": {
+  "id": "Kelenjar paratiroid",
+  "la": "Glandulae parathyroidae"
+ },
+ "FMA13891": {
+  "la": "Musculus obliquus internus abdominis"
+ },
+ "FMA14068": {
+  "id": "Otot jantung"
+ },
+ "FMA14070": {
+  "id": "otot polos",
+  "la": "Musculus levis"
+ },
+ "FMA14074": {
+  "id": "Sel mesotelial",
+  "la": "Mesothelium"
+ },
+ "FMA14181": {
+  "id": "punggung",
+  "la": "dorsum"
+ },
+ "FMA14318": {
+  "la": "Vena jugularis posterior"
+ },
+ "FMA14319": {
+  "la": "Vena suprascapularis"
+ },
+ "FMA14323": {
+  "la": "Vena thyreoidea superior"
+ },
+ "FMA14324": {
+  "la": "Vena laryngea superior"
+ },
+ "FMA14326": {
+  "la": "Vena lingualis"
+ },
+ "FMA14331": {
+  "la": "Vena lienalis"
+ },
+ "FMA14332": {
+  "la": "Vena mesenterica superior"
+ },
+ "FMA14333": {
+  "la": "Vena iliaca communis"
+ },
+ "FMA14334": {
+  "la": "Venae renales"
+ },
+ "FMA14337": {
+  "la": "Venae hepaticae"
+ },
+ "FMA14344": {
+  "la": "Vena testicularis"
+ },
+ "FMA14346": {
+  "la": "Vena ovarica sinistra vena ovarica dextra"
+ },
+ "FMA14348": {
+  "la": "Venae suprarenales"
+ },
+ "FMA14385": {
+  "la": "Nervus medianus"
+ },
+ "FMA14462": {
+  "id": "gugus subdivisi organ"
+ },
+ "FMA14515": {
+  "id": "Hepatosit",
+  "la": "Hepatocytus"
+ },
+ "FMA14539": {
+  "la": "Ductus cysticus"
+ },
+ "FMA14541": {
+  "id": "Usus buntu",
+  "la": "caecum"
+ },
+ "FMA14542": {
+  "id": "Umbai cacing",
+  "la": "Appendix vermiformis"
+ },
+ "FMA14543": {
+  "la": "Colon"
+ },
+ "FMA14544": {
+  "id": "rektum",
+  "la": "rectum"
+ },
+ "FMA14545": {
+  "la": "colon ascendens"
+ },
+ "FMA14546": {
+  "la": "colon transversum"
+ },
+ "FMA14547": {
+  "la": "colon descendens"
+ },
+ "FMA14548": {
+  "la": "colon sigmoideum"
+ },
+ "FMA14555": {
+  "id": "Colic flexures"
+ },
+ "FMA14573": {
+  "la": "incisura angularis"
+ },
+ "FMA14576": {
+  "la": "incisura cardialis"
+ },
+ "FMA14581": {
+  "la": "Pylorus"
+ },
+ "FMA14602": {
+  "id": "Kerempung"
+ },
+ "FMA14656": {
+  "id": "Sel Kupffer"
+ },
+ "FMA14667": {
+  "la": "Ductus choledochus"
+ },
+ "FMA14668": {
+  "la": "Ductus hepaticus communis"
+ },
+ "FMA14704": {
+  "la": "cavitas peritonealis"
+ },
+ "FMA14710": {
+  "la": "Recessus splenicus"
+ },
+ "FMA14728": {
+  "id": "Kantong rektouterina"
+ },
+ "FMA14734": {
+  "la": "Arteriae phrenicae inferiores"
+ },
+ "FMA14749": {
+  "id": "Arteri mesenterika superior",
+  "la": "Arteria mesenterica superior"
+ },
+ "FMA14750": {
+  "la": "Arteria mesenterica inferior"
+ },
+ "FMA14751": {
+  "id": "Arteri renalis",
+  "la": "Arteria renalis"
+ },
+ "FMA14754": {
+  "la": "Arteria suprarenalis media"
+ },
+ "FMA14757": {
+  "la": "Arteria sacralis mediana"
+ },
+ "FMA14758": {
+  "la": "Arteria testicularis"
+ },
+ "FMA14761": {
+  "la": "Arteria ovarica"
+ },
+ "FMA14764": {
+  "id": "Arteri iliaka komunis",
+  "la": "Arteria iliaca communis"
+ },
+ "FMA14768": {
+  "la": "Arteria gastrica sinistra"
+ },
+ "FMA14771": {
+  "la": "arteria hepatica communis"
+ },
+ "FMA14772": {
+  "la": "Arteria hepatica propria"
+ },
+ "FMA14773": {
+  "id": "Arteri splenika",
+  "la": "arteria splenica"
+ },
+ "FMA14775": {
+  "la": "Arteria gastroduodenalis"
+ },
+ "FMA14776": {
+  "la": "Arteria gastrica dextra"
+ },
+ "FMA14781": {
+  "la": "Arteria gastro-omentalis dextra"
+ },
+ "FMA14787": {
+  "la": "Arteria pancreatica dorsalis"
+ },
+ "FMA14792": {
+  "la": "Arteria pancreatica magna"
+ },
+ "FMA14796": {
+  "la": "Arteria gastroomentalis sinistra"
+ },
+ "FMA14805": {
+  "la": "Arteriae pancreaticoduodenales inferiores"
+ },
+ "FMA14810": {
+  "la": "Arteria colica media"
+ },
+ "FMA14811": {
+  "la": "Arteria colica dextra"
+ },
+ "FMA14815": {
+  "la": "Arteria ileocolica"
+ },
+ "FMA14816": {
+  "la": "Arteria caecalis anterior"
+ },
+ "FMA14817": {
+  "la": "Arteria caecalis posterior"
+ },
+ "FMA14818": {
+  "la": "Arteria appendicularis"
+ },
+ "FMA14819": {
+  "la": "Rami ilealis arteriae ileocolicae"
+ },
+ "FMA14820": {
+  "la": "Ramus colicus arteriae ileocolicae"
+ },
+ "FMA14824": {
+  "la": "Arteria marginalis coli"
+ },
+ "FMA14826": {
+  "la": "Arteria colica sinistra"
+ },
+ "FMA14830": {
+  "la": "Arteriae sigmoideae"
+ },
+ "FMA14832": {
+  "la": "Arteria rectalis superior"
+ },
+ "FMA14835": {
+  "la": "Arteria cystica"
+ },
+ "FMA14863": {
+  "la": "Arteria suprarenales superior"
+ },
+ "FMA15040": {
+  "la": "Appendix epiploica"
+ },
+ "FMA15072": {
+  "id": "vili intestinium"
+ },
+ "FMA15074": {
+  "id": "Major duodenal papilla"
+ },
+ "FMA15076": {
+  "id": "Ampulla Vater",
+  "la": "Ampulla hepatopancreatica"
+ },
+ "FMA15080": {
+  "la": "Spatium retroperitoneale"
+ },
+ "FMA15390": {
+  "la": "Vena gastroomentalis sinistra vena gastroepiploica sinistra"
+ },
+ "FMA15391": {
+  "la": "Vena mesenterica inferior"
+ },
+ "FMA15393": {
+  "la": "Vena rectalis superior"
+ },
+ "FMA15394": {
+  "la": "Vena colica sinistra"
+ },
+ "FMA15397": {
+  "la": "Vena gastroomentalis dextra"
+ },
+ "FMA15399": {
+  "la": "Vena gastrica sinistra"
+ },
+ "FMA15400": {
+  "la": "Vena gastrica dextra"
+ },
+ "FMA15403": {
+  "la": "Vena cystica"
+ },
+ "FMA15406": {
+  "la": "Vena colica media"
+ },
+ "FMA15407": {
+  "la": "Vena colica dextra"
+ },
+ "FMA15408": {
+  "la": "Vena ileocolica"
+ },
+ "FMA15410": {
+  "la": "Vena appendicularis"
+ },
+ "FMA15568": {
+  "la": "Musculus pyramidalis"
+ },
+ "FMA15569": {
+  "la": "Musculus quadratus lumborum"
+ },
+ "FMA15570": {
+  "la": "Musculus transversus abdominis"
+ },
+ "FMA15575": {
+  "id": "Renal pelvis"
+ },
+ "FMA15624": {
+  "id": "Glomerulus",
+  "la": "Glumerulum renale"
+ },
+ "FMA15626": {
+  "id": "Kapsula Bowman"
+ },
+ "FMA15647": {
+  "la": "Corpora paraaortica"
+ },
+ "FMA15703": {
+  "la": "canalis analis"
+ },
+ "FMA15710": {
+  "la": "Musculus sphincter ani internus"
+ },
+ "FMA15711": {
+  "id": "anus"
+ },
+ "FMA15720": {
+  "id": "Kelenjar anal",
+  "la": "glandula analis"
+ },
+ "FMA15839": {
+  "la": "facies renalis"
+ },
+ "FMA15900": {
+  "id": "Kandung kemih",
+  "la": "Vesica"
+ },
+ "FMA16016": {
+  "id": "Pulau Langerhans",
+  "la": "Insulae pancreaticae"
+ },
+ "FMA16202": {
+  "id": "Sakrum",
+  "la": "Os sacrum"
+ },
+ "FMA16203": {
+  "id": "tulang belakang lumbal"
+ },
+ "FMA16209": {
+  "id": "Sendi lumbosakral"
+ },
+ "FMA16482": {
+  "la": "Nervus iliohypogastricus"
+ },
+ "FMA16483": {
+  "la": "Nervus ilioinguinalis"
+ },
+ "FMA16484": {
+  "la": "\"Nervus genitofemoralis''"
+ },
+ "FMA16485": {
+  "la": "Nervus cutaneus femoris lateralis"
+ },
+ "FMA16486": {
+  "la": "Nervus femoralis"
+ },
+ "FMA16487": {
+  "la": "Nervus obturatorius"
+ },
+ "FMA16488": {
+  "la": "Nervus obturatorius accessorius"
+ },
+ "FMA16496": {
+  "la": "Ramus femoralis nervi genitofemoralis, nervus lumboinguinalis"
+ },
+ "FMA16509": {
+  "la": "Nervus musculi piriformis"
+ },
+ "FMA16510": {
+  "la": "Nervus gluteus superior"
+ },
+ "FMA16511": {
+  "la": "Nervus gluteus inferior"
+ },
+ "FMA16516": {
+  "id": "masukkan label"
+ },
+ "FMA16579": {
+  "id": "Asetabulum",
+  "la": "acetabulum"
+ },
+ "FMA16580": {
+  "id": "dean",
+  "la": "Os coxae"
+ },
+ "FMA16581": {
+  "la": "cingulum pelvicum"
+ },
+ "FMA16585": {
+  "id": "dean",
+  "la": "Os coxae"
+ },
+ "FMA16589": {
+  "id": "Ilium (tulang)",
+  "la": "Os ilium"
+ },
+ "FMA16592": {
+  "id": "Ischium",
+  "la": "Os ischii"
+ },
+ "FMA16595": {
+  "id": "Pubis (tulang)",
+  "la": "Os pubis"
+ },
+ "FMA16654": {
+  "id": "Nodus limfa iliaka internal"
+ },
+ "FMA16900": {
+  "la": "Tuberculum iliacum"
+ },
+ "FMA16902": {
+  "la": "Incisura ischiadica major"
+ },
+ "FMA16907": {
+  "la": "Eminentia iliopubica"
+ },
+ "FMA16908": {
+  "la": "Tuberositas iliaca"
+ },
+ "FMA16911": {
+  "la": "Incisura ischiadica minor"
+ },
+ "FMA16914": {
+  "la": "Crista iliaca"
+ },
+ "FMA16922": {
+  "la": "Linea glutaea anterior"
+ },
+ "FMA16925": {
+  "la": "Linea glutaea posterior"
+ },
+ "FMA16928": {
+  "la": "Linea glutaea inferior"
+ },
+ "FMA16944": {
+  "la": "Incisura acetabuli"
+ },
+ "FMA16950": {
+  "la": "Symphysis pubica"
+ },
+ "FMA16951": {
+  "la": "Arcus pubicus"
+ },
+ "FMA16952": {
+  "la": "Crista pubica"
+ },
+ "FMA16953": {
+  "la": "Tuberculum pubicum ossis pubis"
+ },
+ "FMA16976": {
+  "la": "Crista obturatoria"
+ },
+ "FMA16979": {
+  "la": "Linea pectinea ossis pubis,"
+ },
+ "FMA16987": {
+  "la": "Corpus ossis pubis"
+ },
+ "FMA16988": {
+  "la": "Ramus superior ossis pubis"
+ },
+ "FMA16989": {
+  "la": "Ramus inferior ossis pubis"
+ },
+ "FMA16999": {
+  "la": "Foramen obturatum"
+ },
+ "FMA17004": {
+  "la": "Corpus ossis ischii"
+ },
+ "FMA17007": {
+  "la": "Ramus ossis ischii"
+ },
+ "FMA17010": {
+  "la": "Tuber ischiadicum"
+ },
+ "FMA17028": {
+  "la": "Spina ischiadica"
+ },
+ "FMA17269": {
+  "la": "Fossa acetabuli"
+ },
+ "FMA17272": {
+  "la": "Apertura pelvis superior"
+ },
+ "FMA17273": {
+  "la": "Apertura pelvis inferior"
+ },
+ "FMA17558": {
+  "id": "Rahim",
+  "la": "Uterus"
+ },
+ "FMA17640": {
+  "id": "Nefron",
+  "la": "Nephron"
+ },
+ "FMA17698": {
+  "id": "Lengkung Henle"
+ },
+ "FMA17718": {
+  "id": "Lengkung Henle"
+ },
+ "FMA17740": {
+  "id": "serviks",
+  "la": "Cervix"
+ },
+ "FMA17742": {
+  "id": "Endometrium",
+  "la": "Endometrium"
+ },
+ "FMA17743": {
+  "id": "Miometrium"
+ },
+ "FMA18060": {
+  "la": "Musculus psoas major"
+ },
+ "FMA18086": {
+  "la": "Ligamentum suspensorium penis"
+ },
+ "FMA18088": {
+  "la": "Tunica dartos"
+ },
+ "FMA18104": {
+  "id": "Fasia gerota"
+ },
+ "FMA18245": {
+  "id": "Tuba fallopi",
+  "la": "Tuba uterina"
+ },
+ "FMA18247": {
+  "id": "Kepala penis",
+  "la": "Glans penis"
+ },
+ "FMA18250": {
+  "id": "Gonad"
+ },
+ "FMA18252": {
+  "id": "Skrotum",
+  "la": "Scrotum"
+ },
+ "FMA18255": {
+  "id": "epididimis",
+  "la": "Epidydimis"
+ },
+ "FMA18305": {
+  "la": "Ampulla tubae uterinae"
+ },
+ "FMA18619": {
+  "id": "Korpus luteum"
+ },
+ "FMA18620": {
+  "id": "Korpus albikans"
+ },
+ "FMA18640": {
+  "id": "Folikel indung telur"
+ },
+ "FMA18644": {
+  "id": "oosit"
+ },
+ "FMA18674": {
+  "la": "zona pellucida"
+ },
+ "FMA18691": {
+  "la": "epoophoron"
+ },
+ "FMA18805": {
+  "id": "Arteri iliaka eksterna",
+  "la": "Arteria iliaca externa"
+ },
+ "FMA18808": {
+  "la": "Arteria iliaca interna"
+ },
+ "FMA18820": {
+  "la": "Arteria umbilicalis"
+ },
+ "FMA18823": {
+  "la": "Arteria vesicalis inferior"
+ },
+ "FMA18826": {
+  "la": "Arteria rectalis media"
+ },
+ "FMA18829": {
+  "id": "Arteri uterina",
+  "la": "Arteria uterina"
+ },
+ "FMA18832": {
+  "id": "Arteri vaginalis",
+  "la": "Arteria vaginalis"
+ },
+ "FMA18835": {
+  "id": "Arteri pudendal internal",
+  "la": "Arteria pudenda interna"
+ },
+ "FMA18839": {
+  "la": "Arteriae vesicales superiores"
+ },
+ "FMA18845": {
+  "la": "Arteria iliolumbalis"
+ },
+ "FMA18849": {
+  "la": "Ramus lumbalis arteriae iliolumbalis"
+ },
+ "FMA18865": {
+  "la": "Arteria obturatoria"
+ },
+ "FMA18868": {
+  "la": "Arteria glutaea superior"
+ },
+ "FMA18871": {
+  "la": "Arteria glutaea inferior"
+ },
+ "FMA18877": {
+  "la": "Ramus tubarius arteriae uterinae"
+ },
+ "FMA18883": {
+  "la": "Vena iliaca externa"
+ },
+ "FMA18884": {
+  "la": "Vena iliaca interna"
+ },
+ "FMA18902": {
+  "la": "Vena iliolumbalis"
+ },
+ "FMA18917": {
+  "id": "Vena pudendal internal",
+  "la": "Vena pudenda interna"
+ },
+ "FMA18930": {
+  "la": "Arteria ductus deferentis"
+ },
+ "FMA18933": {
+  "la": "Plexus venosus rectalis"
+ },
+ "FMA18934": {
+  "la": "Plexus venosus vesicalis"
+ },
+ "FMA19034": {
+  "la": "Nervus ischiadicus"
+ },
+ "FMA19035": {
+  "id": "Saraf tibialis",
+  "la": "Nervus tibialis"
+ },
+ "FMA19037": {
+  "id": "Saraf pudendal",
+  "la": "Nervus pudendi"
+ },
+ "FMA19038": {
+  "la": "Nervus anococcygeus"
+ },
+ "FMA19039": {
+  "la": "nervus fibularis communis"
+ },
+ "FMA19040": {
+  "la": "Nervus cutaneus perforans"
+ },
+ "FMA19082": {
+  "la": "Musculus piriformis"
+ },
+ "FMA19087": {
+  "id": "Levator ani",
+  "la": "Musculus levator ani"
+ },
+ "FMA19088": {
+  "la": "Musculus coccygeus"
+ },
+ "FMA19090": {
+  "la": "Musculus pubococcygeus"
+ },
+ "FMA19091": {
+  "la": "Musculus puborectalis"
+ },
+ "FMA19092": {
+  "la": "Musculus iliococcygeus"
+ },
+ "FMA19113": {
+  "id": "Ligamen puboservikal"
+ },
+ "FMA19234": {
+  "id": "Vas deferens",
+  "la": "Vas deferens"
+ },
+ "FMA19386": {
+  "id": "Vesikula seminalis",
+  "la": "Vesicula seminalis"
+ },
+ "FMA19607": {
+  "la": "Plexus pampiniformis"
+ },
+ "FMA19617": {
+  "id": "bahas indonesia",
+  "la": "corpus spongiosum penis"
+ },
+ "FMA19618": {
+  "id": "Corpus cavernosum penis"
+ },
+ "FMA19627": {
+  "id": "Korona glans penis",
+  "la": "corona glandis penis"
+ },
+ "FMA19639": {
+  "id": "kulup",
+  "la": "Praeputium"
+ },
+ "FMA19647": {
+  "id": "Frenulum kulup",
+  "la": "Frenulum preputii penis"
+ },
+ "FMA19650": {
+  "id": "Meatus urinarius"
+ },
+ "FMA19656": {
+  "id": "Smegma",
+  "la": "Smegma"
+ },
+ "FMA19667": {
+  "id": "Uretra",
+  "la": "Urethra"
+ },
+ "FMA19702": {
+  "la": "Prostatic utricle"
+ },
+ "FMA19726": {
+  "id": "pelvic floor"
+ },
+ "FMA19729": {
+  "la": "Musculus bulbospongiosus"
+ },
+ "FMA19730": {
+  "la": "Musculus ischiocavernosus"
+ },
+ "FMA19733": {
+  "la": "Musculus sphincter urethrae externus urethrae masculinae"
+ },
+ "FMA19794": {
+  "la": "Arteria profunda penis"
+ },
+ "FMA19795": {
+  "la": "Arteria dorsalis penis"
+ },
+ "FMA19800": {
+  "la": "bursa omentalis"
+ },
+ "FMA19822": {
+  "id": "ligamen suspensori",
+  "la": "Ligamentum suspensorium ovarii"
+ },
+ "FMA19825": {
+  "la": "tubuli seminiferi contorti"
+ },
+ "FMA19855": {
+  "la": "Ligamentum inguinale"
+ },
+ "FMA19949": {
+  "id": "vagina",
+  "la": "Vagina"
+ },
+ "FMA19970": {
+  "id": "Vulval vestibulitis"
+ },
+ "FMA19985": {
+  "id": "forniks vagina"
+ },
+ "FMA20005": {
+  "id": "selaput dara"
+ },
+ "FMA20083": {
+  "id": "Kelenjar skene",
+  "la": "Glandulae vestibulares minores"
+ },
+ "FMA20110": {
+  "id": "jaringan adiposa"
+ },
+ "FMA20117": {
+  "id": "Jaringan adiposa putih"
+ },
+ "FMA20118": {
+  "id": "Jaringan adiposa cokelat"
+ },
+ "FMA20169": {
+  "id": "Tudung klitoris"
+ },
+ "FMA20175": {
+  "id": "Krura klitoris"
+ },
+ "FMA20199": {
+  "id": "Bulbus vestibuli"
+ },
+ "FMA20209": {
+  "id": "Lesung venus",
+  "la": "fossae lumbales laterales"
+ },
+ "FMA20218": {
+  "id": "Mons pubis"
+ },
+ "FMA20229": {
+  "id": "Tulang sulbi",
+  "la": "Os coccygis"
+ },
+ "FMA20234": {
+  "id": "Celah intergluteal"
+ },
+ "FMA20244": {
+  "id": "Raphe perineum",
+  "la": "Raphe penis"
+ },
+ "FMA20292": {
+  "id": "rongga mulut",
+  "la": "Cavum oris"
+ },
+ "FMA20348": {
+  "id": "Segitiga urogenital",
+  "la": "regio urogenitalis"
+ },
+ "FMA20367": {
+  "id": "Labia mayor"
+ },
+ "FMA20368": {
+  "id": "kelompok subdivisi bagian tubuh"
+ },
+ "FMA20374": {
+  "id": "labia majora",
+  "la": "labium minus pudendi"
+ },
+ "FMA20389": {
+  "id": "Epigastrium"
+ },
+ "FMA20394": {
+  "id": "tubuh manusia",
+  "la": "Corpus humanum"
+ },
+ "FMA20404": {
+  "id": "Frenulum labia minora"
+ },
+ "FMA20417": {
+  "la": "Frenulum clitoridis"
+ },
+ "FMA20419": {
+  "id": "fascia of colles"
+ },
+ "FMA20420": {
+  "id": "round ligament of uterus"
+ },
+ "FMA20462": {
+  "id": "vulva",
+  "la": "Vulva"
+ },
+ "FMA20463": {
+  "id": "kemaluan wanita"
+ },
+ "FMA20509": {
+  "id": "Ligamen Treitz",
+  "la": "Musculus suspensorius duodeni"
+ },
+ "FMA20560": {
+  "la": "Ramus genitalis nervi genitofemoralis"
+ },
+ "FMA20686": {
+  "la": "Arteria epigastrica inferior"
+ },
+ "FMA20687": {
+  "la": "Arteria circumflexa ilium profunda"
+ },
+ "FMA20734": {
+  "la": "Arteria epigastrica superficialis"
+ },
+ "FMA20737": {
+  "la": "Arteria circumflexa iliaca superficialis"
+ },
+ "FMA20738": {
+  "la": "Arteria pudenda externa superficialis"
+ },
+ "FMA20739": {
+  "la": "Arteria pudenda externa profunda"
+ },
+ "FMA20741": {
+  "la": "Arteria profunda femoris"
+ },
+ "FMA20798": {
+  "la": "Arteria circumflexa femoris lateralis"
+ },
+ "FMA20799": {
+  "la": "Arteria circumflexa femoris medialis"
+ },
+ "FMA20804": {
+  "la": "Ramus ascendens arteriae circumflexae femoris lateralis"
+ },
+ "FMA20805": {
+  "la": "Ramus descendens arteriae circumflexae femoris lateralis"
+ },
+ "FMA20806": {
+  "la": "Ramus transversus arteriae circumflexae femoris lateralis"
+ },
+ "FMA20810": {
+  "la": "Ramus superficialis arteriae circumflexae femoris medialis"
+ },
+ "FMA20811": {
+  "la": "Ramus ascendens arteriae circumflexae femoris medialis"
+ },
+ "FMA20813": {
+  "la": "Ramus acetabularis arteriae circumflexae femoris medialis"
+ },
+ "FMA20824": {
+  "la": "Arteria rectalis inferior"
+ },
+ "FMA20836": {
+  "la": "Arteria perinealis"
+ },
+ "FMA20864": {
+  "la": "Arteria bulbi penis"
+ },
+ "FMA20867": {
+  "la": "Arteria dorsalis clitoridis"
+ },
+ "FMA20870": {
+  "la": "Arteria profunda clitoridis"
+ },
+ "FMA20900": {
+  "la": "Arteria bulbi vestibuli"
+ },
+ "FMA20903": {
+  "la": "Arteria urethralis"
+ },
+ "FMA21162": {
+  "la": "Vena epigastrica inferior"
+ },
+ "FMA21182": {
+  "la": "Vena circumflexa ilium profunda"
+ },
+ "FMA21185": {
+  "id": "Vena femoralis",
+  "la": "Vena femoralis"
+ },
+ "FMA21246": {
+  "la": "Venae fibulares"
+ },
+ "FMA21376": {
+  "la": "Vena saphena magna"
+ },
+ "FMA21479": {
+  "la": "Ligamentum sacrotuberale"
+ },
+ "FMA21531": {
+  "la": "Musculus cremaster"
+ },
+ "FMA21536": {
+  "la": "Plexus rectalis superior"
+ },
+ "FMA21540": {
+  "la": "Plexus pancreaticus"
+ },
+ "FMA21847": {
+  "la": "Rami perineales nervi cutanei femoris posterioris"
+ },
+ "FMA21866": {
+  "la": "Nervi perineales"
+ },
+ "FMA21867": {
+  "la": "Nervi scrotales posteriores"
+ },
+ "FMA21868": {
+  "la": "Nervi labiales posteriores"
+ },
+ "FMA21869": {
+  "la": "Nervus dorsalis penis"
+ },
+ "FMA21870": {
+  "la": "nervus dorsalis clitoridis"
+ },
+ "FMA21930": {
+  "la": "Musculus sphincter ani externus"
+ },
+ "FMA22071": {
+  "id": "Kanal Alcock"
+ },
+ "FMA22298": {
+  "la": "Musculus obturatorius internus"
+ },
+ "FMA22299": {
+  "la": "Musculus obturatorius externus"
+ },
+ "FMA22310": {
+  "la": "Musculus iliacus"
+ },
+ "FMA22314": {
+  "id": "Gluteus maximus",
+  "la": "Musculus glutaeus maximus"
+ },
+ "FMA22315": {
+  "id": "Gluteus medius",
+  "la": "Musculus glutaeus medius"
+ },
+ "FMA22317": {
+  "la": "Musculus glutaeus minimus"
+ },
+ "FMA22318": {
+  "la": "Musculus gemellus superior"
+ },
+ "FMA22320": {
+  "la": "Musculus gemellus inferior"
+ },
+ "FMA22321": {
+  "la": "Musculus quadratus femoris"
+ },
+ "FMA223291": {
+  "id": "Apeks jantung"
+ },
+ "FMA22350": {
+  "la": "Musculus psoas minor"
+ },
+ "FMA22353": {
+  "la": "Musculus sartorius"
+ },
+ "FMA22356": {
+  "la": "Musculus biceps femoris"
+ },
+ "FMA22357": {
+  "la": "Musculus semitendinosus"
+ },
+ "FMA22362": {
+  "la": "Ramus iliacus arteriae iliolumbalis"
+ },
+ "FMA22417": {
+  "la": "Ramus profundus arteriae circumflexae femoris medialis"
+ },
+ "FMA22423": {
+  "id": "Otot tensor fasciae latae",
+  "la": "Musculus tensor fasciae latae"
+ },
+ "FMA22428": {
+  "la": "Musculus quadriceps femoris"
+ },
+ "FMA22430": {
+  "id": "musculus quadriceps femoris",
+  "la": "Musculus rectus femoris"
+ },
+ "FMA22431": {
+  "id": "Otot vastus lateralis",
+  "la": "Musculus vastus lateralis"
+ },
+ "FMA22432": {
+  "id": "Otot vastus medialis",
+  "la": "Musculus vastus medialis"
+ },
+ "FMA22433": {
+  "id": "Otot vastus intermedius",
+  "la": "Musculus vastus intermedius"
+ },
+ "FMA22437": {
+  "la": "Musculus articularis genus"
+ },
+ "FMA22438": {
+  "la": "Musculus semimembranosus"
+ },
+ "FMA22440": {
+  "la": "Musculus pectineus"
+ },
+ "FMA22441": {
+  "la": "Musculus adductor longus"
+ },
+ "FMA22442": {
+  "la": "Musculus adductor brevis"
+ },
+ "FMA22443": {
+  "la": "Musculus adductor magnus"
+ },
+ "FMA22474": {
+  "id": "Betis",
+  "la": "Sura"
+ },
+ "FMA224787": {
+  "id": "Kanal Havers"
+ },
+ "FMA224850": {
+  "id": "Korteks prefrontal",
+  "la": "Os praefrontale"
+ },
+ "FMA224854": {
+  "la": "Cortex motorius primus"
+ },
+ "FMA22506": {
+  "la": "Arteria descendens genus"
+ },
+ "FMA22510": {
+  "la": "Ramus saphenus arteriae descendentis genus"
+ },
+ "FMA22511": {
+  "la": "Rami articulares arteriae descendentis genicularis"
+ },
+ "FMA22525": {
+  "la": "Fossa poplitea"
+ },
+ "FMA22532": {
+  "la": "Musculus tibialis anterior"
+ },
+ "FMA22533": {
+  "la": "Musculus extensor hallucis longus"
+ },
+ "FMA22534": {
+  "la": "Musculus extensor digitorum longus"
+ },
+ "FMA22535": {
+  "la": "Arteriae genus superiores"
+ },
+ "FMA22536": {
+  "la": "Arteria media genus"
+ },
+ "FMA22537": {
+  "la": "Arteriae genus inferiores"
+ },
+ "FMA22538": {
+  "la": "Musculus fibularis tertius"
+ },
+ "FMA22539": {
+  "la": "Musculus fibularis longus"
+ },
+ "FMA22540": {
+  "la": "Musculus fibularis brevis"
+ },
+ "FMA22541": {
+  "id": "Otot gastrocnemius",
+  "la": "Musculus gastrocnemius"
+ },
+ "FMA22542": {
+  "la": "Musculus soleus"
+ },
+ "FMA22543": {
+  "la": "Musculus plantaris"
+ },
+ "FMA22570": {
+  "la": "Arteriae surales"
+ },
+ "FMA22584": {
+  "la": "Arteria superior medialis genus"
+ },
+ "FMA22585": {
+  "la": "Arteria superior lateralis genus"
+ },
+ "FMA22590": {
+  "la": "Musculus popliteus"
+ },
+ "FMA22593": {
+  "la": "Musculus flexor hallucis longus"
+ },
+ "FMA226221": {
+  "la": "cortex auditivus"
+ },
+ "FMA22653": {
+  "la": "Musculus splenius capitis"
+ },
+ "FMA22654": {
+  "la": "arteria axillaris"
+ },
+ "FMA22668": {
+  "la": "Arteria thoracica superior"
+ },
+ "FMA22671": {
+  "la": "Arteria thoracoacromialis"
+ },
+ "FMA22674": {
+  "la": "Arteria thoracalis lateralis"
+ },
+ "FMA22677": {
+  "la": "Arteria subscapularis"
+ },
+ "FMA22680": {
+  "la": "Arteria circumflexa humeri anterior"
+ },
+ "FMA22681": {
+  "la": "Musculus splenius cervicis"
+ },
+ "FMA22684": {
+  "la": "Arteria circumflexa humeri posterior"
+ },
+ "FMA22689": {
+  "la": "Arteria brachialis"
+ },
+ "FMA22695": {
+  "la": "Arteria profunda brachii"
+ },
+ "FMA22702": {
+  "la": "iliocostalis lumborum"
+ },
+ "FMA22703": {
+  "la": "iliocostalis thoracis"
+ },
+ "FMA22704": {
+  "la": "iliocostalis cervicis"
+ },
+ "FMA22706": {
+  "la": "Arteria collateralis ulnaris superior"
+ },
+ "FMA22709": {
+  "la": "longissimus thoracis"
+ },
+ "FMA22710": {
+  "la": "Arteria collateralis ulnaris inferior"
+ },
+ "FMA22730": {
+  "la": "Arteria radialis"
+ },
+ "FMA22748": {
+  "la": "Arteria recurrens radialis"
+ },
+ "FMA22752": {
+  "la": "Ramus palmaris superficialis arteriae radialis"
+ },
+ "FMA22755": {
+  "la": "Ramus carpalis dorsalis arteriae radialis"
+ },
+ "FMA22762": {
+  "la": "Arteria princeps pollicis"
+ },
+ "FMA22763": {
+  "la": "Arteria radialis indicis"
+ },
+ "FMA22765": {
+  "la": "spinalis thoracis"
+ },
+ "FMA22796": {
+  "la": "Arteria Ulnaris"
+ },
+ "FMA22800": {
+  "la": "Ramus anterior arteriae recurrentis ulnaris"
+ },
+ "FMA22803": {
+  "la": "Ramus posterior arteriae recurrentis ulnaris"
+ },
+ "FMA22806": {
+  "la": "Arteria interossea communis"
+ },
+ "FMA22810": {
+  "la": "Arteria interossea anterior"
+ },
+ "FMA22811": {
+  "la": "Arteria interossea posterior"
+ },
+ "FMA22817": {
+  "la": "Ramus carpalis palmaris arteriae ulnaris"
+ },
+ "FMA22820": {
+  "la": "Ramus carpalis dorsalis arteriae ulnaris"
+ },
+ "FMA22823": {
+  "la": "Musculus semispinalis"
+ },
+ "FMA22824": {
+  "la": "Ramus palmaris profundus arteriae ulnaris"
+ },
+ "FMA22827": {
+  "la": "Musculus multifidus"
+ },
+ "FMA22828": {
+  "la": "Musculus semispinalis thoracis"
+ },
+ "FMA22829": {
+  "la": "Musculus semispinalis cervicis"
+ },
+ "FMA22830": {
+  "la": "Musculus semispinalis capitis"
+ },
+ "FMA22831": {
+  "la": "musculus multifidus lumborum"
+ },
+ "FMA22834": {
+  "la": "Arcus palmaris superficialis"
+ },
+ "FMA22838": {
+  "la": "Arcus palmaris profundus"
+ },
+ "FMA22841": {
+  "la": "Musculi interspinales"
+ },
+ "FMA22848": {
+  "la": "Musculi intertransversarii"
+ },
+ "FMA22852": {
+  "la": "Arteriae digitales palmares communes arteriae digitales volares communes"
+ },
+ "FMA228738": {
+  "id": "Tenggorok",
+  "la": "Gula"
+ },
+ "FMA228775": {
+  "id": "Pinggang"
+ },
+ "FMA22908": {
+  "la": "Vena basilica"
+ },
+ "FMA22911": {
+  "la": "Arcus venosus palmaris profundus"
+ },
+ "FMA22914": {
+  "la": "Arcus venosus palmaris superficialis"
+ },
+ "FMA22931": {
+  "la": "Vena scapularis dorsalis"
+ },
+ "FMA22934": {
+  "la": "Venae brachiales"
+ },
+ "FMA22963": {
+  "la": "Vena mediana cubiti"
+ },
+ "FMA22967": {
+  "la": "Vena mediana antebrachii"
+ },
+ "FMA22970": {
+  "la": "Vena cephalica accessoria"
+ },
+ "FMA23067": {
+  "la": "Ramus deltoideus arteriae thoracoacromialis"
+ },
+ "FMA23081": {
+  "la": "Musculi rotatores"
+ },
+ "FMA23119": {
+  "la": "Arteria collateralis media"
+ },
+ "FMA23120": {
+  "la": "Arteria collateralis radialis"
+ },
+ "FMA231515": {
+  "la": "Leptomeninx"
+ },
+ "FMA231572": {
+  "id": "Meninges",
+  "la": "Meninges"
+ },
+ "FMA23179": {
+  "la": "Arteria circumflexa scapulae"
+ },
+ "FMA23217": {
+  "id": "Gelang bahu",
+  "la": "Cingulum membri superiores"
+ },
+ "FMA23249": {
+  "la": "Angulus lateralis scapulae"
+ },
+ "FMA23254": {
+  "la": "Collum scapulae"
+ },
+ "FMA23257": {
+  "la": "Angulus acromialis"
+ },
+ "FMA23260": {
+  "id": "Acromion",
+  "la": "Acromion"
+ },
+ "FMA23266": {
+  "la": "Tuberculum infraglenoidale"
+ },
+ "FMA23272": {
+  "la": "Fossa infraspinata"
+ },
+ "FMA23275": {
+  "la": "Cavitas glenoidalis, fossa glenoidalis"
+ },
+ "FMA23278": {
+  "la": "Tuberculum deltoideum (spinae scapulae)"
+ },
+ "FMA23356": {
+  "la": "Collum anatomicum humeri"
+ },
+ "FMA23359": {
+  "la": "collum chirurgicum humeri"
+ },
+ "FMA23373": {
+  "la": "Capitulum humeri"
+ },
+ "FMA23377": {
+  "la": "Condylus humeri"
+ },
+ "FMA23390": {
+  "la": "Tuberculum majus humeri"
+ },
+ "FMA23393": {
+  "la": "Tuberculum minus humeri"
+ },
+ "FMA23396": {
+  "la": "Sulcus intertubercularis humeri"
+ },
+ "FMA23418": {
+  "la": "Tuberositas deltoidea humeri"
+ },
+ "FMA23441": {
+  "la": "Epicondylus medialis humeri"
+ },
+ "FMA23442": {
+  "la": "Epicondylus lateralis humeri"
+ },
+ "FMA23450": {
+  "la": "Fossa olecrani"
+ },
+ "FMA23451": {
+  "la": "Fossa coronoidea humeri"
+ },
+ "FMA23452": {
+  "la": "Fossa radialis humeri"
+ },
+ "FMA23463": {
+  "id": "Tulang pengumpil",
+  "la": "Radius"
+ },
+ "FMA23466": {
+  "id": "tulang hasta",
+  "la": "Ulna"
+ },
+ "FMA23616": {
+  "la": "Processus coronoideus ulnae"
+ },
+ "FMA23706": {
+  "la": "membrana interossea antebrachii"
+ },
+ "FMA23709": {
+  "la": "Os scaphoideum"
+ },
+ "FMA23712": {
+  "la": "Os lunatum"
+ },
+ "FMA23715": {
+  "la": "os triquetrum"
+ },
+ "FMA23718": {
+  "la": "Os pisiforme"
+ },
+ "FMA23721": {
+  "la": "Os trapezium"
+ },
+ "FMA23724": {
+  "la": "os trapezoideum"
+ },
+ "FMA23727": {
+  "la": "Os capitatum"
+ },
+ "FMA23730": {
+  "la": "Os hamatum"
+ },
+ "FMA23881": {
+  "id": "Kerangka manusia",
+  "la": "Ossa humanum"
+ },
+ "FMA23889": {
+  "id": "Karpus",
+  "la": "Carpus"
+ },
+ "FMA23899": {
+  "la": "Os metacarpale I"
+ },
+ "FMA23900": {
+  "id": "Jari telunjuk kaki"
+ },
+ "FMA23902": {
+  "la": "Os metacarpale IV"
+ },
+ "FMA23903": {
+  "la": "Os metacarpale V"
+ },
+ "FMA24018": {
+  "id": "Tulang kortikal"
+ },
+ "FMA24019": {
+  "id": "Tulang spongiosa",
+  "la": "Istota gąbczasta"
+ },
+ "FMA24040": {
+  "id": "Selangkangan"
+ },
+ "FMA24041": {
+  "id": "Periosteum"
+ },
+ "FMA241981": {
+  "id": "Kemokin"
+ },
+ "FMA242000": {
+  "id": "Sistem Limbik",
+  "la": "Systema limbicum"
+ },
+ "FMA242003": {
+  "id": "Korteks orbitofrontal"
+ },
+ "FMA242176": {
+  "id": "Area Broca"
+ },
+ "FMA242178": {
+  "id": "Area Wernicke"
+ },
+ "FMA242644": {
+  "id": "Korteks visual"
+ },
+ "FMA24476": {
+  "id": "Tulang kering",
+  "la": "Tibia"
+ },
+ "FMA24479": {
+  "id": "Fibula",
+  "la": "Fibula"
+ },
+ "FMA24485": {
+  "id": "Tulang lutut",
+  "la": "Patella"
+ },
+ "FMA24491": {
+  "id": "Tarsus (rangka)",
+  "la": "Tarsus"
+ },
+ "FMA24496": {
+  "la": "Calcaneus"
+ },
+ "FMA24499": {
+  "la": "Os naviculare"
+ },
+ "FMA24502": {
+  "la": "Os metatarsale I"
+ },
+ "FMA24505": {
+  "la": "Os metatarsale IV"
+ },
+ "FMA24506": {
+  "la": "Os metatarsale V"
+ },
+ "FMA24518": {
+  "la": "Cuneiforme mediale"
+ },
+ "FMA24519": {
+  "la": "Cuneiforme intermedium"
+ },
+ "FMA24520": {
+  "la": "Cuneiforme laterale"
+ },
+ "FMA24527": {
+  "la": "Os cuboideum"
+ },
+ "FMA24728": {
+  "id": "wajah",
+  "la": "facies"
+ },
+ "FMA24864": {
+  "id": "Ketiak",
+  "la": "Axilla"
+ },
+ "FMA24875": {
+  "id": "tungkai bebas"
+ },
+ "FMA24878": {
+  "id": "tungkai atas bebas",
+  "la": "brachium humanum"
+ },
+ "FMA24879": {
+  "id": "tungkai",
+  "la": "crus"
+ },
+ "FMA24890": {
+  "id": "lengan",
+  "la": "brachium"
+ },
+ "FMA24901": {
+  "id": "Siku",
+  "la": "Cubitus"
+ },
+ "FMA24922": {
+  "id": "Pergelangan tangan",
+  "la": "Articulatio radiocarpea"
+ },
+ "FMA24938": {
+  "id": "Ibu jari",
+  "la": "pollex"
+ },
+ "FMA24946": {
+  "id": "Jari telunjuk",
+  "la": "Index (anatomia)"
+ },
+ "FMA24947": {
+  "id": "jari tengah",
+  "la": "Digitus medius"
+ },
+ "FMA24948": {
+  "id": "Jari manis",
+  "la": "Anularius"
+ },
+ "FMA24949": {
+  "id": "jari kelingking",
+  "la": "Digitus minimus"
+ },
+ "FMA24964": {
+  "id": "panggul",
+  "la": "coxa"
+ },
+ "FMA24967": {
+  "id": "paha",
+  "la": "femur"
+ },
+ "FMA24974": {
+  "id": "lutut",
+  "la": "genu"
+ },
+ "FMA24979": {
+  "la": "Crus"
+ },
+ "FMA24994": {
+  "id": "Tumit",
+  "la": "Talus"
+ },
+ "FMA25000": {
+  "id": "Telapak kaki",
+  "la": "Subtel"
+ },
+ "FMA25046": {
+  "id": "Jari kaki",
+  "la": "Digitus"
+ },
+ "FMA25047": {
+  "id": "Ibu jari kaki",
+  "la": "Hallux"
+ },
+ "FMA25202": {
+  "id": "bahu",
+  "la": "umerus"
+ },
+ "FMA25511": {
+  "la": "symphysis intervertebralis"
+ },
+ "FMA256135": {
+  "id": "tubuh",
+  "la": "corpus"
+ },
+ "FMA259104": {
+  "id": "Subdivisi bagian belakang bagasi"
+ },
+ "FMA260714": {
+  "la": "Fasciculus arcuatus"
+ },
+ "FMA260761": {
+  "la": "Cingulum (cerebrum)"
+ },
+ "FMA26428": {
+  "id": "Tuberculum Chassaignac"
+ },
+ "FMA265130": {
+  "id": "Saluran napas",
+  "la": "Apparatus respiratorius"
+ },
+ "FMA265239": {
+  "la": "Tubulus renalis colligens"
+ },
+ "FMA265580": {
+  "id": "tractus corticospinalis"
+ },
+ "FMA272214": {
+  "la": "Arteriola glomerularis efferens capsulae renalis"
+ },
+ "FMA273565": {
+  "id": "Sel penyaji antigen"
+ },
+ "FMA275020": {
+  "id": "Hipokampus",
+  "la": "Hippocampus (cerebrum)"
+ },
+ "FMA284558": {
+  "id": "Renal calyx",
+  "la": "calix renalis"
+ },
+ "FMA292885": {
+  "la": "Ramus superficialis nervi radialis"
+ },
+ "FMA293071": {
+  "id": "lapisan tubuh hewan"
+ },
+ "FMA29711": {
+  "la": "Plexus venosus prostaticus"
+ },
+ "FMA29713": {
+  "id": "Pleksus vena vaginalis",
+  "la": "Plexus venosus vaginalis"
+ },
+ "FMA30315": {
+  "id": "Pembuluh limfa"
+ },
+ "FMA30316": {
+  "id": "Otot",
+  "la": "Musculus"
+ },
+ "FMA30319": {
+  "id": "Ligamen",
+  "la": "ligamentum"
+ },
+ "FMA30326": {
+  "la": "proximale"
+ },
+ "FMA30327": {
+  "id": "Distal",
+  "la": "distale"
+ },
+ "FMA30332": {
+  "la": "lateralis"
+ },
+ "FMA311256": {
+  "la": "Pes anserinus"
+ },
+ "FMA31722": {
+  "la": "Basis ossis sacri"
+ },
+ "FMA321612": {
+  "id": "Gigi bungsu"
+ },
+ "FMA321641": {
+  "la": "Venae intercostales"
+ },
+ "FMA321896": {
+  "id": "vena cava",
+  "la": "venae cavae"
+ },
+ "FMA323134": {
+  "id": "Jeli Wharton"
+ },
+ "FMA32519": {
+  "id": "Otot levator scapulae",
+  "la": "Musculus levator scapulae"
+ },
+ "FMA32521": {
+  "id": "Otot deltoideus",
+  "la": "Musculus deltoideus"
+ },
+ "FMA32525": {
+  "la": "Musculus rectus capitis posterior major"
+ },
+ "FMA32526": {
+  "la": "Musculus rectus capitis posterior minor"
+ },
+ "FMA32527": {
+  "la": "Musculus obliquus capitis superior"
+ },
+ "FMA32528": {
+  "la": "Musculus obliquus capitis inferior"
+ },
+ "FMA32546": {
+  "id": "Otot infraspinatus",
+  "la": "Musculus infraspinatus"
+ },
+ "FMA32549": {
+  "id": "Otot teres major",
+  "la": "Musculus teres major"
+ },
+ "FMA32550": {
+  "id": "Otot teres minor",
+  "la": "Musculus teres minor"
+ },
+ "FMA32672": {
+  "id": "Tulang sesamoid"
+ },
+ "FMA32826": {
+  "la": "Extremitas distalis humeri"
+ },
+ "FMA32844": {
+  "la": "Extremitas distalis ossis femoris"
+ },
+ "FMA32847": {
+  "la": "Corpus femoris"
+ },
+ "FMA32851": {
+  "la": "Caput femoris"
+ },
+ "FMA32852": {
+  "la": "Trochanter major"
+ },
+ "FMA32853": {
+  "la": "Trochanter minor"
+ },
+ "FMA32858": {
+  "la": "Condylus medialis femoris"
+ },
+ "FMA32859": {
+  "la": "Condylus lateralis femoris"
+ },
+ "FMA32864": {
+  "la": "Epicondylus medialis femoris"
+ },
+ "FMA32867": {
+  "la": "Epicondylus lateralis femoris"
+ },
+ "FMA32870": {
+  "la": "Tuberculum adductorium femoris"
+ },
+ "FMA33116": {
+  "la": "Extremitas distalis tibiae"
+ },
+ "FMA33125": {
+  "la": "Corpus tibiae"
+ },
+ "FMA33751": {
+  "la": "Caput ulnae"
+ },
+ "FMA33754": {
+  "la": "Extremitas distalis ulnae"
+ },
+ "FMA33760": {
+  "la": "Corpus ulnae"
+ },
+ "FMA33773": {
+  "la": "Caput radii"
+ },
+ "FMA34725": {
+  "la": "Trochlea fibularis"
+ },
+ "FMA34836": {
+  "id": "Kapsul sendi"
+ },
+ "FMA35138": {
+  "la": "Sinus tarsi"
+ },
+ "FMA35175": {
+  "la": "Articulatio genus"
+ },
+ "FMA35178": {
+  "la": "Articulatio coxae"
+ },
+ "FMA35187": {
+  "la": "Membrana interossea cruris"
+ },
+ "FMA35195": {
+  "la": "Articulatio talocruralis"
+ },
+ "FMA35222": {
+  "la": "iunctum metatarsophalangeale"
+ },
+ "FMA35246": {
+  "id": "Sendi metakarpofalanks"
+ },
+ "FMA35445": {
+  "la": "Condylus medialis tibiae"
+ },
+ "FMA35448": {
+  "la": "Condylus lateralis tibiae"
+ },
+ "FMA35463": {
+  "la": "tuberositas tibiae"
+ },
+ "FMA35502": {
+  "id": "Mata kaki",
+  "la": "Malleoli"
+ },
+ "FMA36325": {
+  "id": "lempeng epifisis distal tulang metakarpal pertama"
+ },
+ "FMA37018": {
+  "id": "Manset rotator"
+ },
+ "FMA37025": {
+  "la": "Nervus suprascapularis"
+ },
+ "FMA37064": {
+  "la": "Nervus musculocutaneus"
+ },
+ "FMA37069": {
+  "la": "Nervus radialis"
+ },
+ "FMA37072": {
+  "la": "Nervus axillaris"
+ },
+ "FMA3726": {
+  "id": "Anastomosis"
+ },
+ "FMA3734": {
+  "id": "aorta",
+  "la": "Aorta arteria maxima"
+ },
+ "FMA3736": {
+  "id": "Aorta asendens",
+  "la": "Aorta ascendens"
+ },
+ "FMA37373": {
+  "la": "Musculus abductor pollicis brevis"
+ },
+ "FMA37378": {
+  "la": "Musculus flexor pollicis brevis"
+ },
+ "FMA37379": {
+  "la": "Musculus opponens pollicis"
+ },
+ "FMA37380": {
+  "la": "Musculus adductor pollicis"
+ },
+ "FMA37381": {
+  "la": "Musculus palmaris brevis"
+ },
+ "FMA37382": {
+  "la": "Musculus abductor digiti minimi manus"
+ },
+ "FMA37383": {
+  "la": "Musculus flexor digiti minimi brevis manus"
+ },
+ "FMA37384": {
+  "la": "Musculus opponens digiti minimi manus"
+ },
+ "FMA37385": {
+  "la": "Musculi lumbricales manus"
+ },
+ "FMA37418": {
+  "la": "Musculi interossei dorsales manus"
+ },
+ "FMA37419": {
+  "la": "Musculi interossei palmares"
+ },
+ "FMA37448": {
+  "la": "Musculus abductor hallucis"
+ },
+ "FMA37449": {
+  "la": "Musculus flexor hallucis brevis"
+ },
+ "FMA3745": {
+  "id": "Sinus aorta"
+ },
+ "FMA37450": {
+  "la": "Musculus flexor digitorum brevis"
+ },
+ "FMA37451": {
+  "la": "Musculus abductor digiti minimi pedis"
+ },
+ "FMA37452": {
+  "la": "Musculus quadratus plantae"
+ },
+ "FMA37453": {
+  "la": "musculus lumbricalis pedis"
+ },
+ "FMA37454": {
+  "la": "Musculus adductor hallucis"
+ },
+ "FMA37455": {
+  "la": "Musculus flexor digiti minimi brevis pedis"
+ },
+ "FMA37457": {
+  "la": "Musculi interossei dorsales pedis"
+ },
+ "FMA37458": {
+  "la": "Musculi interossei plantares"
+ },
+ "FMA37664": {
+  "id": "Otot coracobrachialis",
+  "la": "Musculus coracobrachialis"
+ },
+ "FMA37667": {
+  "id": "Otot brakialis",
+  "la": "Musculus brachialis"
+ },
+ "FMA3768": {
+  "id": "Arkus aorta",
+  "la": "Arcus aortae"
+ },
+ "FMA37682": {
+  "la": "caput breve biceps brachii"
+ },
+ "FMA37683": {
+  "la": "caput longum biceps brachii"
+ },
+ "FMA37688": {
+  "id": "Otot triceps brachii",
+  "la": "Musculus triceps brachii"
+ },
+ "FMA37701": {
+  "la": "Musculus articularis cubiti."
+ },
+ "FMA37704": {
+  "id": "Otot anconeus",
+  "la": "Musculus anconeus"
+ },
+ "FMA37784": {
+  "la": "Fascia brachii"
+ },
+ "FMA3784": {
+  "id": "Aorta desendens",
+  "la": "Aorta descendens"
+ },
+ "FMA3786": {
+  "la": "aorta thoracalis"
+ },
+ "FMA37886": {
+  "la": "Septum intermusculare brachii mediale"
+ },
+ "FMA37888": {
+  "la": "Septum intermusculare brachii laterale"
+ },
+ "FMA3789": {
+  "id": "Aorta abdominalis",
+  "la": "Aorta abdominalis"
+ },
+ "FMA3795": {
+  "id": "Bifurkasio aorta",
+  "la": "Bifurcatio aortae"
+ },
+ "FMA3818": {
+  "la": "Ramus marginalis dexter arteriae coronariae dextrae"
+ },
+ "FMA3823": {
+  "la": "Ramus nodi sinuatrialis arteriae coronariae dextrae"
+ },
+ "FMA3840": {
+  "la": "Ramus interventricularis posterior arteriae coronariae dextrae"
+ },
+ "FMA38450": {
+  "id": "Otot pronator teres",
+  "la": "Musculus pronator teres"
+ },
+ "FMA38453": {
+  "id": "pronator quadratus",
+  "la": "Musculus pronator quadratus"
+ },
+ "FMA38459": {
+  "la": "Musculus flexor carpi radialis"
+ },
+ "FMA38462": {
+  "la": "Musculus palmaris longus"
+ },
+ "FMA38465": {
+  "id": "Otot flexor carpi ulnaris",
+  "la": "Musculus flexor carpi ulnaris"
+ },
+ "FMA38469": {
+  "id": "Otot flexor digitorum superficialis",
+  "la": "Musculus flexor digitorum superficialis"
+ },
+ "FMA38478": {
+  "la": "Musculus flexor digitorum profundus"
+ },
+ "FMA38481": {
+  "id": "Otot flexor pollicis longus",
+  "la": "Musculus flexor pollicis longus"
+ },
+ "FMA38485": {
+  "la": "Musculus brachioradialis"
+ },
+ "FMA38494": {
+  "id": "Otot extensor carpi radialis longus",
+  "la": "Musculus extensor carpi radialis longus"
+ },
+ "FMA38497": {
+  "id": "Otot extensor carpi radialis brevis",
+  "la": "Musculus extensor carpi radialis brevis"
+ },
+ "FMA38500": {
+  "la": "Musculus extensor digitorum"
+ },
+ "FMA38503": {
+  "id": "Otot extensor digiti minimi",
+  "la": "Musculus extensor digiti minimi"
+ },
+ "FMA38506": {
+  "id": "Otot extensor carpi ulnaris",
+  "la": "Musculus extensor carpi ulnaris"
+ },
+ "FMA3851": {
+  "la": "Ramus nodi atrioventricularis"
+ },
+ "FMA38512": {
+  "la": "Musculus supinator"
+ },
+ "FMA38515": {
+  "la": "Musculus abductor pollicis longus"
+ },
+ "FMA38518": {
+  "la": "Musculus extensor pollicis brevis"
+ },
+ "FMA38521": {
+  "la": "Musculus extensor pollicis longus"
+ },
+ "FMA38524": {
+  "la": "Musculus extensor indicis"
+ },
+ "FMA3862": {
+  "la": "Ramus interventricularis anterior arteriae coronariae sinistrae"
+ },
+ "FMA3895": {
+  "la": "Ramus circumflexus arteriae coronariae sinistrae"
+ },
+ "FMA3902": {
+  "la": "Ramus marginalis sinister arteriae coronariae sinistrae"
+ },
+ "FMA39079": {
+  "la": "N Cutaneus antibrachii medialis"
+ },
+ "FMA39080": {
+  "la": "Nervus cutaneus antebrachii lateralis"
+ },
+ "FMA39145": {
+  "la": "Nervus cutaneus antebrachii posterior, nervus cutaneus antibrachii dorsalis"
+ },
+ "FMA3932": {
+  "la": "Truncus brachiocephalicus"
+ },
+ "FMA3936": {
+  "id": "Arteri tiroid ima",
+  "la": "Arteria thyreoidea ima"
+ },
+ "FMA3939": {
+  "id": "Arteri karotis komunis",
+  "la": "Arteria carotis communis"
+ },
+ "FMA3947": {
+  "la": "Arteria carotis interna"
+ },
+ "FMA39484": {
+  "la": "chorda obliqua membranae interosseae antebrachii"
+ },
+ "FMA3951": {
+  "id": "Arteri subklavia",
+  "la": "Arteria subclavia"
+ },
+ "FMA3956": {
+  "id": "Arteri vertebralis",
+  "la": "arteria vertebralis"
+ },
+ "FMA3960": {
+  "la": "Arteria thoracica interna"
+ },
+ "FMA3964": {
+  "la": "Arteria pericardiacophrenica"
+ },
+ "FMA39795": {
+  "la": "Olecranon"
+ },
+ "FMA3990": {
+  "la": "truncus thyrocervicalis"
+ },
+ "FMA39987": {
+  "la": "retinaculum musculorum extensorum manus"
+ },
+ "FMA39988": {
+  "la": "retinaculum musculorum flexorum manus"
+ },
+ "FMA40001": {
+  "la": "Ligamentum radiocarpeum dorsale"
+ },
+ "FMA40004": {
+  "la": "ligagment ulnocarpale palmare"
+ },
+ "FMA4149": {
+  "la": "Arteriae oesophageae"
+ },
+ "FMA42329": {
+  "la": "Foveola radialis"
+ },
+ "FMA42352": {
+  "la": "Canalis carpi"
+ },
+ "FMA42385": {
+  "la": "Collum femoris"
+ },
+ "FMA42435": {
+  "la": "aponeurosis palmaris"
+ },
+ "FMA43533": {
+  "la": "Ramus ischiopubicus"
+ },
+ "FMA43581": {
+  "la": "Bursa subcutanea trochanterica"
+ },
+ "FMA43709": {
+  "la": "Tuberculum quadratum"
+ },
+ "FMA43724": {
+  "la": "Linea pectinea"
+ },
+ "FMA43882": {
+  "la": "Musculus gracilis"
+ },
+ "FMA43885": {
+  "la": "Musculus adductor minimus"
+ },
+ "FMA43888": {
+  "la": "Arteria inferior lateralis genus"
+ },
+ "FMA43889": {
+  "la": "Arteria inferior medialis genus"
+ },
+ "FMA43894": {
+  "la": "Arteria tibialis anterior"
+ },
+ "FMA43895": {
+  "la": "Arteria tibialis posterior"
+ },
+ "FMA43902": {
+  "la": "Arteria recurrens tibialis anterior"
+ },
+ "FMA43903": {
+  "la": "Arteria recurrens tibialis posterior"
+ },
+ "FMA43904": {
+  "la": "Arteria malleolaris anterior lateralis"
+ },
+ "FMA43905": {
+  "la": "Arteria malleolaris anterior medialis"
+ },
+ "FMA43915": {
+  "la": "Arteria dorsalis pedis"
+ },
+ "FMA43918": {
+  "la": "Ramus circumflexus fibularis arteriae tibialis posterioris"
+ },
+ "FMA43921": {
+  "la": "Arteria fibularis arteria peronaea"
+ },
+ "FMA43925": {
+  "la": "Arteria plantaris medialis"
+ },
+ "FMA43926": {
+  "la": "Arteria plantaris lateralis"
+ },
+ "FMA43942": {
+  "la": "Arcus plantaris profundus"
+ },
+ "FMA44083": {
+  "la": "ligamentum talofibulare anterius"
+ },
+ "FMA44089": {
+  "la": "ligamentum calcaneofibulare"
+ },
+ "FMA44226": {
+  "id": "Nodus limfa inguinal"
+ },
+ "FMA44234": {
+  "la": "ligamentum calcaneocuboideum"
+ },
+ "FMA44318": {
+  "la": "Vena epigastrica superficialis"
+ },
+ "FMA44320": {
+  "la": "Vena saphena magna accessoria anterior"
+ },
+ "FMA44327": {
+  "id": "Vena popliteal",
+  "la": "Vena poplitea"
+ },
+ "FMA44331": {
+  "la": "Vena tibialis anterior (singular)"
+ },
+ "FMA44332": {
+  "la": "Venae tibiales posteriores"
+ },
+ "FMA44333": {
+  "la": "Vena saphena parva"
+ },
+ "FMA44356": {
+  "la": "Arcus venosus dorsalis pedis"
+ },
+ "FMA44359": {
+  "la": "Vena marginalis lateralis pedis"
+ },
+ "FMA44420": {
+  "la": "Vena marginalis medialis pedis"
+ },
+ "FMA44489": {
+  "la": "Arcus venosus plantaris"
+ },
+ "FMA44490": {
+  "la": "ligamentum metatarsale transversum"
+ },
+ "FMA44581": {
+  "la": "Ligamentum patellae"
+ },
+ "FMA44594": {
+  "la": "Arteria arcuata pedis"
+ },
+ "FMA44595": {
+  "la": "Arteria tarsalis lateralis"
+ },
+ "FMA44614": {
+  "id": "Ligamen krusiat anterior",
+  "la": "Ligamentum cruciatum anterius"
+ },
+ "FMA44617": {
+  "la": "Ligamentum decussatum posterius"
+ },
+ "FMA44647": {
+  "la": "Arteria dorsalis hallucis"
+ },
+ "FMA44677": {
+  "la": "Rete patellare anastomosis patellaris rete articulare genus"
+ },
+ "FMA44687": {
+  "la": "Nervus cutaneus surae medialis"
+ },
+ "FMA44688": {
+  "la": "Nervus suralis"
+ },
+ "FMA44694": {
+  "la": "Nervus cutaneus dorsalis lateralis"
+ },
+ "FMA44695": {
+  "la": "Rami calcanei laterales nervi suralis"
+ },
+ "FMA44697": {
+  "la": "Nervus cutaneus surae lateralis"
+ },
+ "FMA44699": {
+  "la": "\"Nervus fibularis superficialis,"
+ },
+ "FMA44710": {
+  "la": "Rami calcanei mediales nervi tibialis"
+ },
+ "FMA44716": {
+  "id": "Saraf plantar medial",
+  "la": "Nervus plantaris medialis"
+ },
+ "FMA44724": {
+  "la": "Nervus plantaris lateralis"
+ },
+ "FMA44763": {
+  "la": "Ramus superficialis nervi plantaris lateralis"
+ },
+ "FMA44764": {
+  "la": "Ramus profundus nervi plantaris lateralis"
+ },
+ "FMA44771": {
+  "la": "Nervus fibularis profundus"
+ },
+ "FMA44809": {
+  "la": "Nervus cutaneus dorsalis medialis"
+ },
+ "FMA44810": {
+  "la": "Nervus cutaneus dorsalis intermedius"
+ },
+ "FMA44822": {
+  "la": "Nervus interosseus antebrachii anterior"
+ },
+ "FMA44836": {
+  "la": "Ramus palmaris nervi mediani"
+ },
+ "FMA44840": {
+  "la": "Nervi digitales palmares communes nervi mediani"
+ },
+ "FMA44874": {
+  "la": "Rami musculares nervi ulnaris"
+ },
+ "FMA44875": {
+  "la": "Ramus dorsalis nervi ulnaris"
+ },
+ "FMA44876": {
+  "la": "Ramus superficialis nervi ulnaris"
+ },
+ "FMA44877": {
+  "la": "Ramus profundus nervi ulnaris"
+ },
+ "FMA44878": {
+  "la": "Ramus palmaris nervi ulnaris"
+ },
+ "FMA44948": {
+  "la": "Nervus cutaneus brachii posterior"
+ },
+ "FMA44949": {
+  "la": "Nervus cutaneus brachii lateralis inferior"
+ },
+ "FMA44954": {
+  "la": "Rami musculares nervi radialis"
+ },
+ "FMA45063": {
+  "la": "Bursa trochanterica musculi glutei maximi"
+ },
+ "FMA45066": {
+  "la": "Bursa trochanterica musculi glutei minimi"
+ },
+ "FMA45072": {
+  "la": "Bursa trochanterica musculi glutei medii"
+ },
+ "FMA45163": {
+  "la": "Compartimentum cruris anterius"
+ },
+ "FMA45235": {
+  "la": "Fasciculus lateralis plexus brachialis"
+ },
+ "FMA45236": {
+  "la": "Fasciculus medialis plexus brachialis"
+ },
+ "FMA45237": {
+  "la": "Fasciculus posterior plexus brachialis"
+ },
+ "FMA45250": {
+  "la": "Rami cutanei anteriores nervi femoralis"
+ },
+ "FMA45262": {
+  "la": "Nervus saphenus"
+ },
+ "FMA45306": {
+  "la": "Ramus anterior nervi obturatorii"
+ },
+ "FMA45307": {
+  "la": "Ramus posterior nervi obturatorii"
+ },
+ "FMA45312": {
+  "la": "Ramus cutaneus nervi obturatorii"
+ },
+ "FMA45325": {
+  "la": "Ramus infrapatellaris nervi sapheni"
+ },
+ "FMA45328": {
+  "la": "Rami cutanei cruris mediales nervi sapheni"
+ },
+ "FMA45331": {
+  "la": "Ramus cutaneus nervi obturatorii"
+ },
+ "FMA45337": {
+  "la": "Nervus cutaneus femoris posterior"
+ },
+ "FMA45356": {
+  "la": "Plexus coccygeus"
+ },
+ "FMA45567": {
+  "la": "Epithelium simplex columnare"
+ },
+ "FMA45618": {
+  "id": "Usus belakang"
+ },
+ "FMA45661": {
+  "id": "Sistem pernapasan atas"
+ },
+ "FMA45663": {
+  "id": "sistem reproduksi perempuan"
+ },
+ "FMA45664": {
+  "id": "sistem reproduksi laki-laki"
+ },
+ "FMA45732": {
+  "id": "Parenkim",
+  "la": "Parenchyma"
+ },
+ "FMA45738": {
+  "id": "Otot platisma",
+  "la": "Platysma"
+ },
+ "FMA45769": {
+  "la": "Musculus sphincter urethrae internus"
+ },
+ "FMA45887": {
+  "la": "caput longum biceps femoris"
+ },
+ "FMA45890": {
+  "la": "caput breve biceps femoris"
+ },
+ "FMA45956": {
+  "la": "caput mediale musculi gastrocnemii"
+ },
+ "FMA45959": {
+  "la": "caput laterale musculi gastrocnemii"
+ },
+ "FMA4613": {
+  "la": "Arteria subcostalis"
+ },
+ "FMA46291": {
+  "la": "Musculus digastricus"
+ },
+ "FMA46308": {
+  "la": "Musculus longus capitis"
+ },
+ "FMA46312": {
+  "la": "Musculus rectus capitis anterior"
+ },
+ "FMA46316": {
+  "la": "Musculus rectus capitis lateralis"
+ },
+ "FMA46320": {
+  "la": "Musculus mylohyoideus"
+ },
+ "FMA46325": {
+  "la": "Musculus geniohyoideus"
+ },
+ "FMA46417": {
+  "la": "Musculus cricothyreoideus"
+ },
+ "FMA46450": {
+  "id": "pelipis",
+  "la": "Tempora"
+ },
+ "FMA46472": {
+  "la": "Nasus humanum"
+ },
+ "FMA46476": {
+  "id": "pipi",
+  "la": "mala"
+ },
+ "FMA46484": {
+  "la": "Vertex"
+ },
+ "FMA46494": {
+  "id": "Kulit kepala"
+ },
+ "FMA46495": {
+  "id": "Dagu",
+  "la": "Mentum"
+ },
+ "FMA46576": {
+  "la": "Musculus cricoarytaenoideus posterior"
+ },
+ "FMA46579": {
+  "la": "Musculus cricoarytaenoideus lateralis"
+ },
+ "FMA46582": {
+  "la": "Musculus arytenoideus"
+ },
+ "FMA46583": {
+  "la": "Musculus arytenoideus obliquus"
+ },
+ "FMA46588": {
+  "la": "Musculus thyroarytenoideus"
+ },
+ "FMA46591": {
+  "la": "Musculus vocalis"
+ },
+ "FMA46594": {
+  "la": "Pars thyreoepiglottica musculi thyreoarytaenoidei"
+ },
+ "FMA46602": {
+  "la": "Musculus aryepiglotticus"
+ },
+ "FMA46621": {
+  "la": "Musculus constrictor pharyngis superior"
+ },
+ "FMA46622": {
+  "la": "Musculus constrictor pharyngis medius"
+ },
+ "FMA46623": {
+  "la": "Musculus constrictor pharyngis inferior"
+ },
+ "FMA46664": {
+  "la": "Musculus stylopharyngeus"
+ },
+ "FMA46665": {
+  "la": "Musculus salpingopharyngeus"
+ },
+ "FMA46666": {
+  "la": "Musculus palatopharyngeus"
+ },
+ "FMA46688": {
+  "id": "faring",
+  "la": "pharynx"
+ },
+ "FMA46690": {
+  "la": "Musculus genioglossus"
+ },
+ "FMA46691": {
+  "la": "Musculus hyoglossus"
+ },
+ "FMA46692": {
+  "la": "Musculus styloglossus"
+ },
+ "FMA46693": {
+  "la": "Musculus longitudinalis superior linguae"
+ },
+ "FMA46694": {
+  "la": "Musculus longitudinalis inferior linguae"
+ },
+ "FMA46695": {
+  "la": "Musculus transversus linguae"
+ },
+ "FMA46696": {
+  "la": "Musculus verticalis linguae"
+ },
+ "FMA46697": {
+  "la": "Musculus palatoglossus"
+ },
+ "FMA46700": {
+  "la": "Musculus chondroglossus"
+ },
+ "FMA46727": {
+  "la": "Musculus levator veli palatini"
+ },
+ "FMA46730": {
+  "la": "Musculus tensor veli palatini"
+ },
+ "FMA46753": {
+  "la": "Musculus temporoparietalis"
+ },
+ "FMA46757": {
+  "la": "Venter frontalis musculi occipitofrontalis"
+ },
+ "FMA46758": {
+  "la": "venter occipitalis Musculi occipitofrontalis"
+ },
+ "FMA46769": {
+  "la": "Musculus procerus"
+ },
+ "FMA46770": {
+  "la": "Musculus nasalis"
+ },
+ "FMA46777": {
+  "la": "Musculus depressor septi nasi"
+ },
+ "FMA46779": {
+  "la": "Musculus orbicularis oculi"
+ },
+ "FMA46787": {
+  "id": "Saraf olfaktori",
+  "la": "Nervus olfactorius"
+ },
+ "FMA46794": {
+  "la": "Musculus corrugator supercilii"
+ },
+ "FMA46798": {
+  "la": "Musculus depressor supercilii"
+ },
+ "FMA46802": {
+  "la": "Musculus levator labii superioris alaequae nasi"
+ },
+ "FMA46805": {
+  "la": "Musculus levator labii superioris"
+ },
+ "FMA46810": {
+  "id": "Otot zigomatik mayor",
+  "la": "Musculus zygomaticus major"
+ },
+ "FMA46811": {
+  "la": "Musculus zygomaticus minor"
+ },
+ "FMA46816": {
+  "la": "Musculus depressor labii inferioris"
+ },
+ "FMA46822": {
+  "la": "Musculus levator anguli oris"
+ },
+ "FMA46825": {
+  "id": "mentalis",
+  "la": "Musculus mentalis"
+ },
+ "FMA46828": {
+  "la": "Musculus depressor anguli oris"
+ },
+ "FMA46834": {
+  "la": "Musculus buccinator"
+ },
+ "FMA46838": {
+  "la": "Musculus risorius"
+ },
+ "FMA46841": {
+  "la": "Musculus orbicularis oris"
+ },
+ "FMA46850": {
+  "la": "musculus incisivus inferior"
+ },
+ "FMA46855": {
+  "la": "Musculus auricularis superior"
+ },
+ "FMA46856": {
+  "la": "Musculus auricularis anterior"
+ },
+ "FMA46857": {
+  "la": "Musculus auricularis posterior"
+ },
+ "FMA4706": {
+  "la": "Sinus coronarius"
+ },
+ "FMA4707": {
+  "la": "Vena cordis magna"
+ },
+ "FMA4708": {
+  "la": "Vena marginalis sinistra"
+ },
+ "FMA4712": {
+  "la": "Vena ventriculi sinistri posterior"
+ },
+ "FMA4713": {
+  "la": "Vena cardiaca media"
+ },
+ "FMA4714": {
+  "la": "Vena cardiaca parva"
+ },
+ "FMA4715": {
+  "la": "Vena obliqua atrii sinistri"
+ },
+ "FMA4716": {
+  "la": "Vena marginalis dextra"
+ },
+ "FMA4720": {
+  "la": "vena cava superior"
+ },
+ "FMA4723": {
+  "la": "Vena brachiocephalica vena anonyma"
+ },
+ "FMA4724": {
+  "la": "Vena jugularis interna"
+ },
+ "FMA4725": {
+  "la": "Vena subclavia"
+ },
+ "FMA4727": {
+  "la": "Vena vertebralis"
+ },
+ "FMA4728": {
+  "la": "Venae thyreoideae inferiores"
+ },
+ "FMA4729": {
+  "la": "Vena thoracica interna"
+ },
+ "FMA4744": {
+  "la": "Vena intercostalis suprema"
+ },
+ "FMA4746": {
+  "la": "Vena cervicalis profunda"
+ },
+ "FMA4767": {
+  "la": "plexus venosus"
+ },
+ "FMA4838": {
+  "la": "Vena azygos"
+ },
+ "FMA4881": {
+  "la": "Plexus venosi vertebrales interni"
+ },
+ "FMA48968": {
+  "la": "Musculus helicis major"
+ },
+ "FMA48971": {
+  "la": "Musculus helicis minor"
+ },
+ "FMA48974": {
+  "la": "Musculus tragicus"
+ },
+ "FMA48980": {
+  "la": "Musculus antitragicus"
+ },
+ "FMA48983": {
+  "la": "Musculus transversus auriculae"
+ },
+ "FMA48986": {
+  "la": "Musculus obliquus auriculae"
+ },
+ "FMA48996": {
+  "id": "Otot maseter",
+  "la": "Musculus masseter"
+ },
+ "FMA49006": {
+  "id": "Otot temporalis",
+  "la": "Musculus temporalis"
+ },
+ "FMA49011": {
+  "la": "Musculus pterygoideus medialis"
+ },
+ "FMA49015": {
+  "la": "Musculus pterygoideus lateralis"
+ },
+ "FMA49027": {
+  "id": "Otot stapedius",
+  "la": "Musculus stapedius"
+ },
+ "FMA49028": {
+  "la": "Musculus tensor tympani"
+ },
+ "FMA49033": {
+  "la": "Musculi externi bulbi oculi"
+ },
+ "FMA49034": {
+  "la": "Musculus orbitalis"
+ },
+ "FMA49035": {
+  "la": "Musculus rectus superior bulbi"
+ },
+ "FMA49036": {
+  "la": "Musculus rectus inferior bulbi"
+ },
+ "FMA49037": {
+  "la": "Musculus rectus medialis bulbi"
+ },
+ "FMA49038": {
+  "la": "Musculus pterygoideus externus\""
+ },
+ "FMA49039": {
+  "la": "Musculus obliquus superior bulbi"
+ },
+ "FMA49040": {
+  "la": "Musculus obliquus inferior bulbi"
+ },
+ "FMA49041": {
+  "la": "Musculus levator palpebrae superioris"
+ },
+ "FMA49058": {
+  "la": "Musculus tarsalis superior"
+ },
+ "FMA49080": {
+  "la": "Musculus transversus menti"
+ },
+ "FMA49151": {
+  "id": "Otot siliaris",
+  "la": "Musculus ciliaris"
+ },
+ "FMA49157": {
+  "la": "Musculus sphincter pupillae"
+ },
+ "FMA49158": {
+  "la": "Musculus dilatator pupillae"
+ },
+ "FMA49182": {
+  "la": "Cavum oris proprium"
+ },
+ "FMA49183": {
+  "la": "vestibulum oralis"
+ },
+ "FMA49184": {
+  "id": "mulut",
+  "la": "os"
+ },
+ "FMA49187": {
+  "la": "occiput"
+ },
+ "FMA49372": {
+  "la": "retinaculum musculorum flexorum"
+ },
+ "FMA49381": {
+  "id": "Extensor retinaculum of foot",
+  "la": "extensor retinaculum"
+ },
+ "FMA49384": {
+  "la": "retinaculum superius musculorum extensorum"
+ },
+ "FMA49385": {
+  "la": "Retinaculum extensorum inferius pedis"
+ },
+ "FMA4944": {
+  "la": "Vena hemiazygos"
+ },
+ "FMA49443": {
+  "id": "kluster anatomi yang terhubung"
+ },
+ "FMA49465": {
+  "la": "Spina iliaca anterior superior"
+ },
+ "FMA49468": {
+  "la": "Spina iliaca posterior superior"
+ },
+ "FMA49472": {
+  "la": "Arteria thyreoidea superior"
+ },
+ "FMA49497": {
+  "la": "Arteria pharyngea ascendens"
+ },
+ "FMA49503": {
+  "la": "Arteria meningea posterior"
+ },
+ "FMA49506": {
+  "la": "Arteria tympanica inferior"
+ },
+ "FMA49526": {
+  "la": "Arteria lingualis"
+ },
+ "FMA49549": {
+  "la": "Arteria facialis"
+ },
+ "FMA49555": {
+  "la": "Arteria palatina ascendens"
+ },
+ "FMA49558": {
+  "la": "Ramus tonsillaris arteriae facialis"
+ },
+ "FMA49561": {
+  "la": "Arteria submentalis"
+ },
+ "FMA49567": {
+  "la": "Ramus labialis inferior arteriae facialis arteria labialis inferior"
+ },
+ "FMA49570": {
+  "la": "Ramus labialis superior arteriae facialis arteria labialis superior"
+ },
+ "FMA49580": {
+  "la": "Ramus lateralis nasi arteriae facialis"
+ },
+ "FMA49583": {
+  "la": "Arteria angularis"
+ },
+ "FMA49586": {
+  "la": "Arteria occipitalis"
+ },
+ "FMA49590": {
+  "la": "Rami sternocleidomastoidei arteriae occipitalis"
+ },
+ "FMA49602": {
+  "la": "Ramus auricularis arteriae occipitalis"
+ },
+ "FMA49605": {
+  "la": "Rami occipitales arteriae occipitalis"
+ },
+ "FMA49608": {
+  "la": "Ramus descendens arteriae occipitalis"
+ },
+ "FMA49618": {
+  "la": "Ramus meningeus arteriae occipitalis"
+ },
+ "FMA49624": {
+  "la": "Arteria auricularis posterior"
+ },
+ "FMA49628": {
+  "la": "Arteria stylomastoidea"
+ },
+ "FMA49638": {
+  "la": "Ramus stapedius arteriae auricularis posterioris"
+ },
+ "FMA49641": {
+  "la": "Ramus auricularis arteriae auricularis posterioris"
+ },
+ "FMA49644": {
+  "la": "Ramus occipitalis arteriae auricularis posterioris"
+ },
+ "FMA49650": {
+  "la": "Arteria temporalis superficialis"
+ },
+ "FMA49657": {
+  "la": "Arteria transversa faciei"
+ },
+ "FMA49663": {
+  "la": "Arteria zygomaticoorbitalis"
+ },
+ "FMA49666": {
+  "la": "Arteria temporalis media"
+ },
+ "FMA49669": {
+  "la": "Ramus frontalis arteriae temporalis superficialis"
+ },
+ "FMA49670": {
+  "la": "Ramus parietalis arteriae temporalis superficialis"
+ },
+ "FMA49675": {
+  "la": "Arteria maxillaris"
+ },
+ "FMA49689": {
+  "la": "Arteria auricularis profunda"
+ },
+ "FMA49692": {
+  "la": "Arteria tympanica anterior"
+ },
+ "FMA49695": {
+  "la": "Arteria alveolaris inferior"
+ },
+ "FMA49701": {
+  "la": "Ramus mentalis arteriae alveolaris inferioris"
+ },
+ "FMA49702": {
+  "la": "Ramus mylohyoideus arteriae alveolaris inferioris"
+ },
+ "FMA49711": {
+  "la": "Arteria meningea media"
+ },
+ "FMA49715": {
+  "la": "Ramus accessorius arteriae meningeae mediae"
+ },
+ "FMA49720": {
+  "la": "Arteria tympanica superior"
+ },
+ "FMA49739": {
+  "la": "Arteria masseterica"
+ },
+ "FMA49742": {
+  "la": "Arteria temporalis profunda anterior arteria temporalis profunda posterior"
+ },
+ "FMA49754": {
+  "la": "arteria buccalis"
+ },
+ "FMA49757": {
+  "la": "Arteria alveolaris superior posterior"
+ },
+ "FMA49767": {
+  "la": "Arteria infraorbitalis"
+ },
+ "FMA49791": {
+  "la": "Arteria palatina descendens"
+ },
+ "FMA49795": {
+  "la": "Arteria palatina major"
+ },
+ "FMA49804": {
+  "la": "Arteria sphenopalatina"
+ },
+ "FMA49815": {
+  "la": "Pars cervicalis arteriae carotidis internae"
+ },
+ "FMA49816": {
+  "la": "Pars petrosa arteriae carotidis internae"
+ },
+ "FMA49846": {
+  "la": "Arteria hypophysialis inferior"
+ },
+ "FMA49849": {
+  "la": "Arteria hypophysialis superior arteria hypophyseos superior"
+ },
+ "FMA49868": {
+  "la": "Arteria ophthalmica"
+ },
+ "FMA49879": {
+  "la": "Arteria centralis retinae"
+ },
+ "FMA49893": {
+  "id": "Arteri koroner",
+  "la": "Arteriae coronariae"
+ },
+ "FMA49927": {
+  "la": "Arteria lacrimalis"
+ },
+ "FMA49962": {
+  "la": "Arteriae ciliares anteriores"
+ },
+ "FMA49973": {
+  "la": "Arteria supraorbitalis"
+ },
+ "FMA49986": {
+  "la": "arteria ethmoidalis anterior"
+ },
+ "FMA49989": {
+  "la": "Arteria ethmoidalis posterior"
+ },
+ "FMA50000": {
+  "la": "Arteria dorsalis nasi"
+ },
+ "FMA50025": {
+  "la": "Arteria supratrochlearis arteria frontalis"
+ },
+ "FMA50028": {
+  "la": "Arteria cerebri anterior"
+ },
+ "FMA50039": {
+  "la": "arteria coronaria dextra"
+ },
+ "FMA50040": {
+  "la": "arteria coronaria sinistra"
+ },
+ "FMA50079": {
+  "la": "Arteria cerebri media"
+ },
+ "FMA50084": {
+  "la": "Arteria cerebri communicans posterior"
+ },
+ "FMA50087": {
+  "la": "Arteria chorioidea anterior"
+ },
+ "FMA5011": {
+  "la": "Vena hemiazygos accessoria"
+ },
+ "FMA50169": {
+  "la": "Arteria communicans anterior"
+ },
+ "FMA5018": {
+  "id": "Tulang",
+  "la": "os"
+ },
+ "FMA5022": {
+  "id": "Otot",
+  "la": "Musculus"
+ },
+ "FMA5031": {
+  "la": "Ductus thoracicus"
+ },
+ "FMA5034": {
+  "id": "nodus limfa",
+  "la": "nodus lymphaticus"
+ },
+ "FMA50454": {
+  "la": "Circulus arteriosus cerebri"
+ },
+ "FMA50518": {
+  "la": "Arteria cerebelli inferior posterior"
+ },
+ "FMA50522": {
+  "la": "Arteria spinalis posterior"
+ },
+ "FMA50531": {
+  "la": "Arteria spinalis anterior"
+ },
+ "FMA50542": {
+  "la": "arteria basilaris"
+ },
+ "FMA50544": {
+  "la": "Arteria cerebelli inferior anterior"
+ },
+ "FMA50548": {
+  "la": "Arteria labyrinthi arteria auditiva interna"
+ },
+ "FMA50573": {
+  "la": "Arteria cerebelli superior"
+ },
+ "FMA50583": {
+  "la": "Arteria cerebri posterior"
+ },
+ "FMA50596": {
+  "id": "titik",
+  "la": "punctum"
+ },
+ "FMA50629": {
+  "la": "Arteria thalamogeniculata"
+ },
+ "FMA50720": {
+  "id": "Pembuluh nadi",
+  "la": "arteria"
+ },
+ "FMA50723": {
+  "id": "Pembuluh balik",
+  "la": "Vena"
+ },
+ "FMA50735": {
+  "la": "vena portae hepatis"
+ },
+ "FMA50737": {
+  "id": "Arteri seliaka",
+  "la": "truncus coeliacus"
+ },
+ "FMA50763": {
+  "la": "Sinus transversus durae matris"
+ },
+ "FMA50767": {
+  "la": "Sinus sagittalis superior"
+ },
+ "FMA50768": {
+  "la": "Sinus sagittalis inferior"
+ },
+ "FMA50769": {
+  "la": "Sinus rectus"
+ },
+ "FMA50770": {
+  "la": "Sinus petrosus inferior"
+ },
+ "FMA50771": {
+  "la": "Sinus petrosus superior"
+ },
+ "FMA50772": {
+  "la": "Sinus cavernosus"
+ },
+ "FMA50773": {
+  "la": "Sini intercavernosi"
+ },
+ "FMA50776": {
+  "la": "Sinus sphenoparietalis"
+ },
+ "FMA50777": {
+  "la": "Sinus petrosquamosus"
+ },
+ "FMA50781": {
+  "la": "Sinus occipitalis"
+ },
+ "FMA50782": {
+  "la": "Sinus sigmoideus"
+ },
+ "FMA50783": {
+  "la": "Plexus basilaris"
+ },
+ "FMA50784": {
+  "la": "Confluens sinuum torcula herophili"
+ },
+ "FMA50785": {
+  "la": "Venae diploicae"
+ },
+ "FMA50790": {
+  "la": "Vena emissaria"
+ },
+ "FMA50793": {
+  "la": "Vena emissaria condylaris"
+ },
+ "FMA50794": {
+  "la": "Vena emissaria occipitalis"
+ },
+ "FMA50800": {
+  "la": "Vena laryngea inferior"
+ },
+ "FMA50801": {
+  "id": "otak manusia",
+  "la": "Encephalon humanum"
+ },
+ "FMA50802": {
+  "la": "Venae encephali occipitales"
+ },
+ "FMA50803": {
+  "la": "Plexus venosus suboccipitalis"
+ },
+ "FMA50822": {
+  "la": "Plexus pharyngeus"
+ },
+ "FMA50830": {
+  "la": "Vena profunda linguae"
+ },
+ "FMA50836": {
+  "la": "Vena sublingualis"
+ },
+ "FMA50851": {
+  "la": "Vena auricularis posterior"
+ },
+ "FMA50855": {
+  "la": "Arcus venosus jugularis"
+ },
+ "FMA50863": {
+  "id": "Saraf optik",
+  "la": "Nervus opticus"
+ },
+ "FMA50864": {
+  "id": "Saraf okulomotor",
+  "la": "Nervus oculomotorius"
+ },
+ "FMA50865": {
+  "id": "Saraf troklearis",
+  "la": "Nervus trochlearis"
+ },
+ "FMA50866": {
+  "id": "Saraf trigeminus",
+  "la": "Nervus trigeminus"
+ },
+ "FMA50867": {
+  "id": "Saraf abdusen",
+  "la": "Nervus abducens"
+ },
+ "FMA50868": {
+  "id": "Saraf fasialis",
+  "la": "Nervus facialis"
+ },
+ "FMA50869": {
+  "id": "Saraf vestibulokoklearis",
+  "la": "Nervus vestibulocochlearis"
+ },
+ "FMA50870": {
+  "id": "saraf glosofaringeal",
+  "la": "nervus glossopharyngeus"
+ },
+ "FMA50871": {
+  "id": "Saraf hipoglossus",
+  "la": "Nervus hypoglossus"
+ },
+ "FMA50872": {
+  "la": "Arteria pulmonalis dextra"
+ },
+ "FMA50873": {
+  "la": "Arteria pulmonalis sinistra"
+ },
+ "FMA50874": {
+  "la": "Vena facialis anterior"
+ },
+ "FMA50893": {
+  "la": "Vena angularis"
+ },
+ "FMA50904": {
+  "la": "Vena supraorbitalis"
+ },
+ "FMA50916": {
+  "la": "Vena profunda faciei"
+ },
+ "FMA50928": {
+  "la": "Vena retromandibularis"
+ },
+ "FMA50944": {
+  "la": "Plexus venosus pterygoideus"
+ },
+ "FMA50978": {
+  "la": "Venae cerebri superiores"
+ },
+ "FMA50983": {
+  "la": "Vena media superficialis cerebri"
+ },
+ "FMA50990": {
+  "la": "Vena basalis"
+ },
+ "FMA50993": {
+  "la": "Vena magna cerebri"
+ },
+ "FMA50997": {
+  "la": "Vena thalamostriata superior"
+ },
+ "FMA51041": {
+  "la": "vena profunda femoris"
+ },
+ "FMA51048": {
+  "la": "Tractus iliotibialis"
+ },
+ "FMA51061": {
+  "id": "Tendon Achilles"
+ },
+ "FMA51062": {
+  "la": "Musculus triceps surae"
+ },
+ "FMA51071": {
+  "la": "Musculus flexor digitorum longus"
+ },
+ "FMA51099": {
+  "la": "Musculus tibialis posterior"
+ },
+ "FMA51118": {
+  "la": "Retinaculum fibulare inferius"
+ },
+ "FMA51140": {
+  "la": "Musculus extensor digitorum brevis pedis"
+ },
+ "FMA51141": {
+  "la": "Musculus extensor hallucis brevis"
+ },
+ "FMA51235": {
+  "id": "sinus"
+ },
+ "FMA51246": {
+  "la": "Vena ophthalmica superior"
+ },
+ "FMA51247": {
+  "la": "Vena ophthalmica inferior"
+ },
+ "FMA51309": {
+  "la": "Vena media profunda cerebri"
+ },
+ "FMA51729": {
+  "la": "Vena nasofrontalis"
+ },
+ "FMA51799": {
+  "la": "Vena centralis retinae"
+ },
+ "FMA52386": {
+  "la": "Venae labyrinthi"
+ },
+ "FMA52538": {
+  "la": "Vena labialis superior"
+ },
+ "FMA52578": {
+  "la": "Ramus parasympathica ganglii ciliaris"
+ },
+ "FMA52618": {
+  "la": "ganglion trigeminale"
+ },
+ "FMA52621": {
+  "la": "N Ophthalmicus"
+ },
+ "FMA52628": {
+  "la": "Nervus lacrimalis"
+ },
+ "FMA52638": {
+  "la": "Nervus frontalis"
+ },
+ "FMA52642": {
+  "la": "Nervus supratrochlearis"
+ },
+ "FMA52655": {
+  "la": "Nervus supraorbitalis"
+ },
+ "FMA52668": {
+  "la": "Nervus nasociliaris"
+ },
+ "FMA52672": {
+  "la": "Ramus sensoria ganglii ciliaris"
+ },
+ "FMA52675": {
+  "la": "Nervus ethmoidalis anterior"
+ },
+ "FMA52688": {
+  "la": "Rami nasales externi nervi infraorbitalis"
+ },
+ "FMA52691": {
+  "la": "Nervi ciliares longi"
+ },
+ "FMA52693": {
+  "la": "Nervus infratrochlearis"
+ },
+ "FMA52714": {
+  "la": "Nervus ethmoidalis posterior"
+ },
+ "FMA52724": {
+  "id": "Saraf maksilaris",
+  "la": "Nervus maxillaris"
+ },
+ "FMA52728": {
+  "la": "Nervus meningeus medius"
+ },
+ "FMA52731": {
+  "la": "Nervi pterygopalatini, nervi sphenopalatini"
+ },
+ "FMA52734": {
+  "id": "Tulang frontal",
+  "la": "Os frontale"
+ },
+ "FMA52735": {
+  "id": "Tulang kepala belakang",
+  "la": "Os occipitale"
+ },
+ "FMA52736": {
+  "id": "Tulang sfenoid",
+  "la": "Os sphenoidale"
+ },
+ "FMA52737": {
+  "id": "Tulang temporal",
+  "la": "Ossa temporalia"
+ },
+ "FMA52740": {
+  "id": "Tulang tapis",
+  "la": "Os ethmoidale"
+ },
+ "FMA52741": {
+  "id": "Tulang lakrimal",
+  "la": "Os lacrimale"
+ },
+ "FMA52745": {
+  "id": "Tulang hidung",
+  "la": "Os nasale"
+ },
+ "FMA52746": {
+  "id": "Tulang Palatine",
+  "la": "Os palatinum"
+ },
+ "FMA52747": {
+  "id": "Tulang zigomatik",
+  "la": "os zygomaticum"
+ },
+ "FMA52748": {
+  "la": "Mandibula"
+ },
+ "FMA52749": {
+  "id": "Tulang hyoid",
+  "la": "Os hyoideum"
+ },
+ "FMA52750": {
+  "id": "Osikel",
+  "la": "Ossicula auditus,"
+ },
+ "FMA52751": {
+  "id": "Tulang sanggurdi",
+  "la": "Stapes"
+ },
+ "FMA52752": {
+  "id": "tulang landasan",
+  "la": "Incus"
+ },
+ "FMA52753": {
+  "id": "tulang martil",
+  "la": "Malleus"
+ },
+ "FMA52780": {
+  "id": "telinga",
+  "la": "auris"
+ },
+ "FMA52781": {
+  "la": "Musculi auriculares"
+ },
+ "FMA52797": {
+  "la": "Nervus nasopalatinus"
+ },
+ "FMA52800": {
+  "id": "kalvaria",
+  "la": "Calvaria"
+ },
+ "FMA52801": {
+  "la": "Basis cranii"
+ },
+ "FMA52802": {
+  "la": "Nervus palatinus major, nervus palatinus anterior"
+ },
+ "FMA52805": {
+  "la": "Nervi palatini minores"
+ },
+ "FMA52823": {
+  "la": "Rami nasales posteriores inferiores nervi palatini majoris"
+ },
+ "FMA52827": {
+  "la": "Corpus mandibulae"
+ },
+ "FMA52833": {
+  "la": "Processus coronoideus mandibulae"
+ },
+ "FMA52836": {
+  "la": "Processus condylaris mandibulae"
+ },
+ "FMA52846": {
+  "la": "Corpus maxillae"
+ },
+ "FMA52848": {
+  "la": "Squama frontalis"
+ },
+ "FMA52850": {
+  "id": "Tonjolan alis"
+ },
+ "FMA52851": {
+  "la": "Glabella"
+ },
+ "FMA52852": {
+  "la": "T frontale, e frontalis"
+ },
+ "FMA52858": {
+  "la": "Pars basilaris ossis occipitalis"
+ },
+ "FMA52859": {
+  "la": "Pars lateralis ossis occipitalis"
+ },
+ "FMA52867": {
+  "la": "Corpus ossis sphenoidalis"
+ },
+ "FMA52868": {
+  "la": "Ala major ossis sphenoidalis"
+ },
+ "FMA52869": {
+  "la": "Ala minor ossis sphenoidalis,"
+ },
+ "FMA52871": {
+  "la": "Pars petrosa ossis temporalis"
+ },
+ "FMA52872": {
+  "la": "Processus mastoideus ossis temporalis"
+ },
+ "FMA52883": {
+  "la": "Squama temporalis"
+ },
+ "FMA52886": {
+  "la": "processus zygomaticus ossis temporalis"
+ },
+ "FMA52890": {
+  "la": "Lamina cribrosa ossis ethmoidalis"
+ },
+ "FMA52891": {
+  "la": "Lamina perpendicularis ossis ethmoidalis"
+ },
+ "FMA52894": {
+  "la": "Processus frontalis maxillae"
+ },
+ "FMA52896": {
+  "la": "Processus palatinus maxillae"
+ },
+ "FMA52897": {
+  "la": "processus alveolaris"
+ },
+ "FMA52899": {
+  "la": "Lamina perpendicularis ossis palatini,"
+ },
+ "FMA52900": {
+  "la": "Processus pyramidalis ossis palatini"
+ },
+ "FMA52901": {
+  "la": "Pars horizontalis"
+ },
+ "FMA52928": {
+  "la": "sutura coronalis"
+ },
+ "FMA52932": {
+  "la": "Ramus alveolaris superior medius nervi maxillaris"
+ },
+ "FMA52933": {
+  "la": "Sutura lambdoidea"
+ },
+ "FMA52935": {
+  "la": "Rami alveolares superiores anteriores nervi maxillaris, ramus alveolaris superior anteriores"
+ },
+ "FMA52945": {
+  "la": "Sutura sphenoparietalis"
+ },
+ "FMA52967": {
+  "la": "Nervus zygomaticus"
+ },
+ "FMA52972": {
+  "la": "Ramus zygomaticotemporalis nervi zygomatici"
+ },
+ "FMA52973": {
+  "la": "Ramus zygomaticofacialis nervi zygomatici"
+ },
+ "FMA52978": {
+  "la": "Nervus infraorbitalis"
+ },
+ "FMA52983": {
+  "la": "Rami palpebrales inferiores nervi infraorbitalis"
+ },
+ "FMA52985": {
+  "la": "Rami nasales interni nervi infraorbitalis"
+ },
+ "FMA52986": {
+  "la": "Rami labiales superiores nervi infraorbitalis"
+ },
+ "FMA52989": {
+  "la": "Sutura frontalis"
+ },
+ "FMA52996": {
+  "id": "Saraf mandibular",
+  "la": "Nervus mandibularis"
+ },
+ "FMA53000": {
+  "la": "Nervus auriculotemporalis"
+ },
+ "FMA53047": {
+  "la": "Ramus meningeus nervi mandibularis"
+ },
+ "FMA53056": {
+  "la": "\"n Pterygoideus internus"
+ },
+ "FMA53066": {
+  "la": "Nervus buccalis"
+ },
+ "FMA53074": {
+  "id": "Orbita",
+  "la": "Orbita"
+ },
+ "FMA53075": {
+  "la": "Nervus musculi tensoris veli palatini"
+ },
+ "FMA53103": {
+  "la": "Nervus massetericus"
+ },
+ "FMA53106": {
+  "la": "linea nuchalis suprema"
+ },
+ "FMA53107": {
+  "la": "\"n Pterygoideus externus"
+ },
+ "FMA53108": {
+  "la": "linea nuchalis superior"
+ },
+ "FMA53119": {
+  "la": "Linea mylohyoidea mandibulae"
+ },
+ "FMA53120": {
+  "id": "Lengkung zigomatik"
+ },
+ "FMA53135": {
+  "la": "Foramen ethmoidale anterius"
+ },
+ "FMA53136": {
+  "la": "Foramen ethmoidale posterius"
+ },
+ "FMA53145": {
+  "la": "Foramen parietale"
+ },
+ "FMA53146": {
+  "id": "Nasal meatus"
+ },
+ "FMA53154": {
+  "la": "Foramen rotundum ossis sphenoidalis"
+ },
+ "FMA53155": {
+  "la": "Foramen ovale ossis sphenoidalis"
+ },
+ "FMA53156": {
+  "id": "Foramen spinosum",
+  "la": "Foramen spinosum"
+ },
+ "FMA53159": {
+  "la": "Foramen mastoideum"
+ },
+ "FMA53163": {
+  "la": "Meatus acusticus internus"
+ },
+ "FMA53171": {
+  "la": "Foramen mentale"
+ },
+ "FMA53172": {
+  "la": "Foramen mandibulae"
+ },
+ "FMA53187": {
+  "la": "Nervi temporales profundi"
+ },
+ "FMA53218": {
+  "la": "Nervus lingualis"
+ },
+ "FMA53228": {
+  "la": "Chorda tympani"
+ },
+ "FMA53243": {
+  "la": "Nervus alveolaris inferior"
+ },
+ "FMA53247": {
+  "la": "Nervus mylohyoideus"
+ },
+ "FMA53250": {
+  "la": "Nervus mentalis"
+ },
+ "FMA53263": {
+  "la": "Plexus dentalis inferior"
+ },
+ "FMA53275": {
+  "la": "Nervus stapedius"
+ },
+ "FMA53278": {
+  "la": "N Auricularis posterior"
+ },
+ "FMA53288": {
+  "la": "Ramus digastricus nervi facialis"
+ },
+ "FMA53291": {
+  "la": "Rami temporales nervi facialis"
+ },
+ "FMA53298": {
+  "la": "Ramus stylohyoideus nervi facialis"
+ },
+ "FMA53307": {
+  "la": "Rami zygomatici nervi facialis"
+ },
+ "FMA53310": {
+  "la": "Rami buccales nervi facialis"
+ },
+ "FMA53365": {
+  "la": "Ramus marginalis mandibularis nervi facialis"
+ },
+ "FMA53396": {
+  "la": "Ramus colli nervi facialis"
+ },
+ "FMA53401": {
+  "la": "Nervus vestibularis"
+ },
+ "FMA53414": {
+  "la": "Frenulum labii inferioris"
+ },
+ "FMA53417": {
+  "la": "Nervus petrosus major"
+ },
+ "FMA53431": {
+  "la": "Nervus cochlearis"
+ },
+ "FMA53435": {
+  "la": "\"ganglion vestibulare"
+ },
+ "FMA53467": {
+  "la": "Nervus saccularis"
+ },
+ "FMA53474": {
+  "la": "Ganglion superius nervi glossopharyngei"
+ },
+ "FMA53475": {
+  "la": "Ganglion inferius nervi glossopharyngei, ganglion petrosum"
+ },
+ "FMA53480": {
+  "la": "Nervus tympanicus"
+ },
+ "FMA53486": {
+  "la": "Rami pharyngei nervi glossopharyngei"
+ },
+ "FMA53487": {
+  "la": "Ramus musculi stylopharyngei nervi glossopharyngei"
+ },
+ "FMA53488": {
+  "la": "Ramus sinus carotici nervi glossopharyngei"
+ },
+ "FMA53489": {
+  "la": "Rami tonsillares nervi glossopharyngei"
+ },
+ "FMA53490": {
+  "la": "Rami linguales nervi glossopharyngei"
+ },
+ "FMA53491": {
+  "la": "Nervus petrosus minor"
+ },
+ "FMA53667": {
+  "id": "rambut",
+  "la": "pilus"
+ },
+ "FMA53669": {
+  "id": "bulu mata",
+  "la": "ciliae"
+ },
+ "FMA53672": {
+  "id": "Neurokranium",
+  "la": "Neurocranium"
+ },
+ "FMA54237": {
+  "id": "alis",
+  "la": "supercilium"
+ },
+ "FMA54240": {
+  "id": "janggut",
+  "la": "barbam"
+ },
+ "FMA54319": {
+  "id": "Rambut kemaluan"
+ },
+ "FMA54326": {
+  "id": "Kuku",
+  "la": "unguis"
+ },
+ "FMA54327": {
+  "la": "unguis manus"
+ },
+ "FMA54328": {
+  "la": "unguis pedis"
+ },
+ "FMA54370": {
+  "la": "Canalis nasolacrimalis"
+ },
+ "FMA54375": {
+  "id": "Septum nasal",
+  "la": "Septum nasi"
+ },
+ "FMA54376": {
+  "la": "Clivus"
+ },
+ "FMA54378": {
+  "id": "Rongga hidung",
+  "la": "cavum nasi"
+ },
+ "FMA54389": {
+  "la": "processus zygomaticus ossis frontalis"
+ },
+ "FMA54390": {
+  "la": "Fossa sacci lacrimalis"
+ },
+ "FMA54437": {
+  "id": "kelopak mata",
+  "la": "palpebra"
+ },
+ "FMA54448": {
+  "id": "mata manusia",
+  "la": "oculus humanum"
+ },
+ "FMA54527": {
+  "id": "Sel saraf",
+  "la": "Neuronum"
+ },
+ "FMA54536": {
+  "id": "Neuroglia",
+  "la": "Cellula glialis"
+ },
+ "FMA54537": {
+  "id": "Astrosit",
+  "la": "Astrocytus"
+ },
+ "FMA54539": {
+  "id": "Mikroglia",
+  "la": "Cellula microglialis"
+ },
+ "FMA54540": {
+  "id": "Oligodendrosit",
+  "la": "Oligodendrocytus"
+ },
+ "FMA54541": {
+  "id": "Neuroglia",
+  "la": "Cellula glialis"
+ },
+ "FMA54549": {
+  "id": "lelangit",
+  "la": "Palatum"
+ },
+ "FMA54565": {
+  "la": "Nucleus spinalis nervi trigemini"
+ },
+ "FMA54621": {
+  "la": "nucleus cochlearis anterior"
+ },
+ "FMA54640": {
+  "id": "Lidah",
+  "la": "Lingua"
+ },
+ "FMA54659": {
+  "la": "Frenulum linguae"
+ },
+ "FMA54682": {
+  "la": "Processus pterygoideus ossis sphenoidalis"
+ },
+ "FMA54687": {
+  "la": "Lamina lateralis processus pterygoidei"
+ },
+ "FMA54690": {
+  "la": "Lamina medialis processus pterygoidei"
+ },
+ "FMA54693": {
+  "la": "Processus clinoideus anterior"
+ },
+ "FMA54696": {
+  "la": "Processus clinoideus posterior"
+ },
+ "FMA54700": {
+  "la": "Processus clinoideus medius"
+ },
+ "FMA54709": {
+  "la": "Sella turcica"
+ },
+ "FMA54718": {
+  "la": "Dorsum sellae, dorsum sella turcica"
+ },
+ "FMA54722": {
+  "la": "Hamulus pterygoideus"
+ },
+ "FMA54736": {
+  "la": "Concha nasalis inferior"
+ },
+ "FMA54741": {
+  "la": "Processus maxillaris conchae nasalis inferioris"
+ },
+ "FMA54753": {
+  "la": "Sulcus caroticus ossis sphenoidalis"
+ },
+ "FMA54774": {
+  "la": "Canalis opticus, foramen opticum ossis sphenoidalis"
+ },
+ "FMA54793": {
+  "la": "Crista infratemporalis"
+ },
+ "FMA54819": {
+  "id": "Papila lidah"
+ },
+ "FMA54825": {
+  "id": "Kuncup pengecap",
+  "la": "Caliculus gustatorius"
+ },
+ "FMA54832": {
+  "id": "temporomandibular joint"
+ },
+ "FMA54839": {
+  "la": "Membrana interossea"
+ },
+ "FMA54878": {
+  "la": "Pars nasalis pharyngis"
+ },
+ "FMA54879": {
+  "la": "Pars oralis pharyngis"
+ },
+ "FMA54880": {
+  "la": "pars laryngea pharyngis"
+ },
+ "FMA54964": {
+  "id": "tengkorak",
+  "la": "Calva"
+ },
+ "FMA54970": {
+  "id": "Anedoid"
+ },
+ "FMA55006": {
+  "la": "Isthmus faucium"
+ },
+ "FMA55021": {
+  "id": "tekak",
+  "la": "palatum molle"
+ },
+ "FMA55022": {
+  "id": "uvula"
+ },
+ "FMA55023": {
+  "id": "Lelangit keras",
+  "la": "palatum durum"
+ },
+ "FMA55093": {
+  "la": "Glandula submandibularis"
+ },
+ "FMA55097": {
+  "id": "laring",
+  "la": "larynx"
+ },
+ "FMA55109": {
+  "la": "Cartilagines arytaenoideae"
+ },
+ "FMA55130": {
+  "id": "Epiglotis",
+  "la": "Epiglottis"
+ },
+ "FMA55142": {
+  "la": "Ansa cervicalis, ansa hypoglossi"
+ },
+ "FMA55145": {
+  "la": "Radix superior ansae cervicalis, descendens hypoglossi"
+ },
+ "FMA55146": {
+  "la": "Radix inferior ansae cervicalis, descendens cervicalis"
+ },
+ "FMA55264": {
+  "la": "sulcus intermammarius"
+ },
+ "FMA55304": {
+  "id": "Jakun",
+  "la": "prominentia laryngea"
+ },
+ "FMA55406": {
+  "la": "vestibulum laryngis"
+ },
+ "FMA55414": {
+  "id": "celah suara",
+  "la": "Glottis"
+ },
+ "FMA55416": {
+  "la": "Tuberculum articulare ossis temporalis"
+ },
+ "FMA55457": {
+  "id": "lipatan vokal",
+  "la": "Plica vocalis"
+ },
+ "FMA55463": {
+  "la": "Fissura petrotympanica"
+ },
+ "FMA55466": {
+  "la": "Fissura petrosquamosa"
+ },
+ "FMA55589": {
+  "id": "Tunika intima"
+ },
+ "FMA55590": {
+  "id": "Tunika media"
+ },
+ "FMA55605": {
+  "id": "Aparatus lakrimal"
+ },
+ "FMA55623": {
+  "id": "Mahkota gigi"
+ },
+ "FMA55628": {
+  "id": "dentin"
+ },
+ "FMA55629": {
+  "id": "Warna Gigi"
+ },
+ "FMA55631": {
+  "id": "pulpa"
+ },
+ "FMA55636": {
+  "id": "gigi taring"
+ },
+ "FMA55637": {
+  "id": "Geraham kecil"
+ },
+ "FMA55638": {
+  "id": "Gigi geraham"
+ },
+ "FMA55661": {
+  "la": "organum parenchymatum"
+ },
+ "FMA55662": {
+  "la": "organum lobulare"
+ },
+ "FMA55670": {
+  "la": "organum solidum"
+ },
+ "FMA55675": {
+  "id": "sistem saraf pusat",
+  "la": "Systema nervosum centrale"
+ },
+ "FMA55711": {
+  "la": "Antrum mastoideum"
+ },
+ "FMA55805": {
+  "la": "Canalis caroticus"
+ },
+ "FMA56088": {
+  "la": "Pars mastoidea ossis temporalis"
+ },
+ "FMA56429": {
+  "la": "Fossa jugularis ossis temporalis"
+ },
+ "FMA56445": {
+  "la": "Hiatus canalis nervi petrosi majoris,"
+ },
+ "FMA56454": {
+  "la": "aquaeductus cochleae"
+ },
+ "FMA56459": {
+  "la": "Canaliculus mastoideus"
+ },
+ "FMA56460": {
+  "la": "Canaliculus tympanicus"
+ },
+ "FMA56481": {
+  "id": "Bonjol (anatomi)"
+ },
+ "FMA56513": {
+  "id": "Telinga tengah"
+ },
+ "FMA56580": {
+  "id": "Daun telinga"
+ },
+ "FMA56665": {
+  "la": "fibra periodontalis"
+ },
+ "FMA56762": {
+  "la": "Fossa canina"
+ },
+ "FMA56797": {
+  "la": "aditus antri mastoidei"
+ },
+ "FMA56913": {
+  "id": "Tingkap oval"
+ },
+ "FMA56932": {
+  "id": "Tingkap bulat",
+  "la": "fenestra cochleae"
+ },
+ "FMA57080": {
+  "la": "Tuber parietale, eminentia parietalis"
+ },
+ "FMA57100": {
+  "la": "Sulcus sinus sigmoidei ossis parietalis"
+ },
+ "FMA57122": {
+  "la": "Sulcus sinus sigmoidei ossis parietalis"
+ },
+ "FMA5731": {
+  "id": "Saraf vagus",
+  "la": "Nervus vagus"
+ },
+ "FMA57388": {
+  "la": "Incisura ethmoidalis ossis frontalis"
+ },
+ "FMA57396": {
+  "la": "Fossa glandulae lacrimalis"
+ },
+ "FMA57415": {
+  "la": "Crista frontalis"
+ },
+ "FMA57442": {
+  "la": "Crista galli"
+ },
+ "FMA57443": {
+  "la": "Foramen caecum ossis frontalis"
+ },
+ "FMA57448": {
+  "la": "Labyrinthus ethmoidalis"
+ },
+ "FMA57456": {
+  "la": "concha nasalis"
+ },
+ "FMA57457": {
+  "la": "Concha nasi suprema"
+ },
+ "FMA57459": {
+  "la": "Concha media"
+ },
+ "FMA57609": {
+  "la": "Crista lacrimalis posterior"
+ },
+ "FMA57613": {
+  "la": "Sulcus lacrimalis maxillae"
+ },
+ "FMA57718": {
+  "id": "Foramen infraorbital",
+  "la": "Foramen infraorbitale"
+ },
+ "FMA57731": {
+  "la": "Tuber maxillae"
+ },
+ "FMA57737": {
+  "la": "Fossa incisiva"
+ },
+ "FMA57743": {
+  "la": "Canales alveolares maxillae"
+ },
+ "FMA57746": {
+  "la": "Sulcus infraorbitalis maxillae"
+ },
+ "FMA57777": {
+  "la": "Regio cervicalis anterior"
+ },
+ "FMA57793": {
+  "la": "Ligamentum suspensorium glandulae thyroideae"
+ },
+ "FMA57875": {
+  "la": "Fissura"
+ },
+ "FMA58090": {
+  "id": "Kelenjar Montgomery"
+ },
+ "FMA58103": {
+  "la": "Uvea (oculus)"
+ },
+ "FMA58235": {
+  "id": "Selaput pelangi",
+  "la": "Iris (anatomia)"
+ },
+ "FMA58238": {
+  "id": "kornea",
+  "la": "Cornea"
+ },
+ "FMA58241": {
+  "id": "Lensa mata",
+  "la": "lens"
+ },
+ "FMA58252": {
+  "id": "Pupil",
+  "la": "pupilla"
+ },
+ "FMA58269": {
+  "id": "Sklera",
+  "la": "sclirotica"
+ },
+ "FMA58273": {
+  "id": "Membrana Bowman"
+ },
+ "FMA58295": {
+  "id": "Badan siliaris",
+  "la": "corpus ciliare"
+ },
+ "FMA58298": {
+  "id": "Koroid",
+  "la": "choroidea"
+ },
+ "FMA58301": {
+  "id": "Retina",
+  "la": "Retina"
+ },
+ "FMA5858": {
+  "id": "Saraf tulang belakang",
+  "la": "Nervus spinalis"
+ },
+ "FMA5861": {
+  "la": "Nervi lumbales"
+ },
+ "FMA58637": {
+  "id": "makula",
+  "la": "macula lutea"
+ },
+ "FMA5865": {
+  "id": "Saraf kranial",
+  "la": "Nervi craniales"
+ },
+ "FMA58658": {
+  "id": "fovea",
+  "la": "fovea centralis"
+ },
+ "FMA5867": {
+  "id": "Saraf motorik",
+  "la": "Nervus motorius"
+ },
+ "FMA5868": {
+  "id": "Saraf sensorik",
+  "la": "Nervus sensorius"
+ },
+ "FMA5874": {
+  "la": "Ramus communicans nervorum spinalium"
+ },
+ "FMA58819": {
+  "id": "Beranda depan"
+ },
+ "FMA58827": {
+  "id": "Badan bening",
+  "la": "Corpus vitreum"
+ },
+ "FMA58838": {
+  "id": "Zonular"
+ },
+ "FMA5884": {
+  "id": "Ganglion"
+ },
+ "FMA5889": {
+  "la": "Ganglion autonomicum"
+ },
+ "FMA5890": {
+  "id": "Ganglion simpatis"
+ },
+ "FMA5891": {
+  "la": "Ganglia trunci sympathici"
+ },
+ "FMA5901": {
+  "la": "plexus nervosus"
+ },
+ "FMA59011": {
+  "id": "konjungtiva"
+ },
+ "FMA5904": {
+  "la": "Plexus cervicalis"
+ },
+ "FMA59045": {
+  "id": "Plica semilunaris dari konjungtiva"
+ },
+ "FMA5906": {
+  "id": "Plexus brachialis",
+  "la": "Plexus brachialis"
+ },
+ "FMA5907": {
+  "la": "Plexus lumbosacralis"
+ },
+ "FMA5908": {
+  "la": "\"Plexus lumbalis''"
+ },
+ "FMA59086": {
+  "la": "tarsus"
+ },
+ "FMA5909": {
+  "la": "Plexus sacralis"
+ },
+ "FMA59101": {
+  "id": "Kelenjar Air Mata"
+ },
+ "FMA59107": {
+  "la": "Canales incisivi"
+ },
+ "FMA59143": {
+  "la": "Processus orbitalis"
+ },
+ "FMA59152": {
+  "id": "Kelenjar keringat",
+  "la": "Glandula sudorifera"
+ },
+ "FMA59160": {
+  "id": "Kelenjar minyak"
+ },
+ "FMA59201": {
+  "id": "torus palatinus"
+ },
+ "FMA59226": {
+  "la": "Facies orbitalis ossis zygomatici"
+ },
+ "FMA59370": {
+  "id": "Lipatan epikantus"
+ },
+ "FMA59448": {
+  "la": "Sulcus mylohyoideus mandibulae"
+ },
+ "FMA59459": {
+  "la": "angulus mandibulae"
+ },
+ "FMA59473": {
+  "la": "Canalis mandibulae"
+ },
+ "FMA59478": {
+  "la": "Fovea pterygoidea"
+ },
+ "FMA59481": {
+  "la": "Incisura mandibulae"
+ },
+ "FMA59487": {
+  "la": "processus alveolaris"
+ },
+ "FMA59495": {
+  "la": "Corpus ossis hyoidei"
+ },
+ "FMA59496": {
+  "la": "cornu maius"
+ },
+ "FMA59499": {
+  "la": "cornu minus"
+ },
+ "FMA59518": {
+  "la": "apex nasi"
+ },
+ "FMA59519": {
+  "la": "ala nasi"
+ },
+ "FMA59652": {
+  "id": "kumis",
+  "la": "Barba labri superioris"
+ },
+ "FMA59679": {
+  "id": "Sinus paranasal"
+ },
+ "FMA59725": {
+  "id": "pangkal hidung"
+ },
+ "FMA59762": {
+  "id": "gusi",
+  "la": "gingiva"
+ },
+ "FMA59766": {
+  "la": "Agger nasi"
+ },
+ "FMA59790": {
+  "la": "Glandula parotidea"
+ },
+ "FMA59791": {
+  "la": "Glandula sublingualis"
+ },
+ "FMA59816": {
+  "id": "bibir",
+  "la": "labrum"
+ },
+ "FMA59818": {
+  "la": "Labium Inferius Oris"
+ },
+ "FMA59819": {
+  "id": "Filtrum",
+  "la": "Philtrum"
+ },
+ "FMA5982": {
+  "la": "Ramus anterior nervi spinalis"
+ },
+ "FMA5983": {
+  "la": "Ramus posterior nervi spinalis"
+ },
+ "FMA59862": {
+  "id": "air liur",
+  "la": "Saliva"
+ },
+ "FMA60088": {
+  "id": "Kelenjar Susu"
+ },
+ "FMA60183": {
+  "la": "vestibulum labyrinthi"
+ },
+ "FMA60186": {
+  "id": "Canalis semisirkularis"
+ },
+ "FMA60201": {
+  "id": "Koklea",
+  "la": "Cochlea"
+ },
+ "FMA6037": {
+  "la": "Nervus thoracalis 1 (homo)"
+ },
+ "FMA60908": {
+  "id": "Perilimfe"
+ },
+ "FMA60909": {
+  "id": "Telinga dalam"
+ },
+ "FMA60984": {
+  "la": "lobulus auriculae"
+ },
+ "FMA60995": {
+  "la": "Anthelix auriculae"
+ },
+ "FMA61109": {
+  "id": "Korteks (anatomi)"
+ },
+ "FMA61112": {
+  "id": "Endolimfe"
+ },
+ "FMA61116": {
+  "id": "Sacculus dan utriculus"
+ },
+ "FMA61119": {
+  "la": "ductus cochlearis"
+ },
+ "FMA61269": {
+  "la": "scala vestibuli"
+ },
+ "FMA61520": {
+  "la": "Eminentia thenaris"
+ },
+ "FMA61523": {
+  "la": "Eminentia hypothenaris"
+ },
+ "FMA61584": {
+  "id": "pusar",
+  "la": "Umbilicus"
+ },
+ "FMA61598": {
+  "id": "Segitiga karotis"
+ },
+ "FMA6167": {
+  "la": "Nervus thoracalis 12 (homo)"
+ },
+ "FMA61681": {
+  "id": "daerah pinggang",
+  "la": "Lumbus"
+ },
+ "FMA6169": {
+  "la": "Nervus thoracalis 2 (homo)"
+ },
+ "FMA6171": {
+  "la": "Nervus thoracalis 3 (homo)"
+ },
+ "FMA6172": {
+  "la": "Nervus lumbalis 1 (homo)"
+ },
+ "FMA6176": {
+  "la": "Nervus lumbalis 2 (homo)"
+ },
+ "FMA61789": {
+  "id": "Asetilkolin",
+  "la": "acetylcholinum"
+ },
+ "FMA61791": {
+  "id": "Katekolamin",
+  "la": "Catecholaminum"
+ },
+ "FMA61799": {
+  "id": "noradrenalin",
+  "la": "Noradrenalinum"
+ },
+ "FMA61803": {
+  "id": "Sambungan neuromuskular"
+ },
+ "FMA61811": {
+  "id": "Reseptor dopamin"
+ },
+ "FMA61814": {
+  "id": "Neurita"
+ },
+ "FMA61817": {
+  "id": "hemisfer"
+ },
+ "FMA61824": {
+  "id": "Lobus frontal",
+  "la": "Lobus frontalis"
+ },
+ "FMA61825": {
+  "id": "lobus temporalis"
+ },
+ "FMA61826": {
+  "id": "Lobus parietal"
+ },
+ "FMA61830": {
+  "id": "korteks otak besar",
+  "la": "Cortex cerebri"
+ },
+ "FMA61833": {
+  "la": "Nucleus caudatus"
+ },
+ "FMA61834": {
+  "id": "Putamen"
+ },
+ "FMA61841": {
+  "id": "Amigdala",
+  "la": "Corpus amygdaloideum"
+ },
+ "FMA61879": {
+  "la": "Nucleus septalis medialis"
+ },
+ "FMA61887": {
+  "la": "Nucleus basalis telencephali"
+ },
+ "FMA61889": {
+  "la": "Nucleus accumbens"
+ },
+ "FMA61897": {
+  "id": "Gyrus supramarginalis"
+ },
+ "FMA6191": {
+  "la": "Nervus phrenicus"
+ },
+ "FMA61973": {
+  "la": "Stria diagonalis"
+ },
+ "FMA61974": {
+  "la": "Stria terminalis"
+ },
+ "FMA61992": {
+  "la": "Prosencephalon"
+ },
+ "FMA61993": {
+  "id": "otak tengah",
+  "la": "Mesencephalon"
+ },
+ "FMA62000": {
+  "id": "Cerebrum",
+  "la": "Telencephalon"
+ },
+ "FMA62001": {
+  "la": "Diencephalon"
+ },
+ "FMA62004": {
+  "id": "Medula oblongata"
+ },
+ "FMA62007": {
+  "id": "Talamus",
+  "la": "Thalamus"
+ },
+ "FMA62008": {
+  "id": "Hipotalamus",
+  "la": "Hypothalamus"
+ },
+ "FMA62009": {
+  "la": "Epithalamus"
+ },
+ "FMA62021": {
+  "la": "Nuclei intralaminares thalami"
+ },
+ "FMA62032": {
+  "la": "Habenula"
+ },
+ "FMA62033": {
+  "id": "kelenjar pineal",
+  "la": "Glandula pinealis"
+ },
+ "FMA62035": {
+  "la": "nucleus subthalamicus"
+ },
+ "FMA62100": {
+  "id": "susu",
+  "la": "lac"
+ },
+ "FMA62101": {
+  "id": "kolostrum"
+ },
+ "FMA62121": {
+  "id": "Sel Schwann",
+  "la": "Cellula Schwannia"
+ },
+ "FMA62153": {
+  "la": "Nucleus reuniens"
+ },
+ "FMA62156": {
+  "la": "Nucleus mediodorsalis thalami"
+ },
+ "FMA62165": {
+  "la": "Nucleus centromedianus"
+ },
+ "FMA62228": {
+  "id": "Dinein"
+ },
+ "FMA6225": {
+  "la": "Plexus oesophageus"
+ },
+ "FMA6226": {
+  "la": "Truncus vagalis anterior"
+ },
+ "FMA6227": {
+  "la": "Truncus vagalis posterior"
+ },
+ "FMA6229": {
+  "la": "Ganglion superius nervi vagi, ganglion jugulare"
+ },
+ "FMA62293": {
+  "id": "hemoglobin",
+  "la": "Haemoglobinum"
+ },
+ "FMA62295": {
+  "id": "Melanin"
+ },
+ "FMA6230": {
+  "la": "\"Ganglion nodosum,"
+ },
+ "FMA6231": {
+  "la": "Ramus meningeus nervi vagi"
+ },
+ "FMA62313": {
+  "la": "Area preoptica"
+ },
+ "FMA62317": {
+  "la": "Nucleus supraopticus"
+ },
+ "FMA6232": {
+  "la": "Ramus auricularis nervi vagi"
+ },
+ "FMA62320": {
+  "la": "Nucleus paraventricularis"
+ },
+ "FMA62329": {
+  "la": "Nucleus arcuatus"
+ },
+ "FMA62332": {
+  "la": "Nucleus ventromedialis hypothalami"
+ },
+ "FMA62335": {
+  "la": "Nucleus tuberomammillaris"
+ },
+ "FMA6234": {
+  "la": "Ramus pharyngeus nervi vagi"
+ },
+ "FMA6236": {
+  "la": "Plexus pharyngeus nervi vagi"
+ },
+ "FMA6239": {
+  "la": "Nervus laryngeus superior"
+ },
+ "FMA6240": {
+  "la": "Ramus internus nervi laryngei superioris"
+ },
+ "FMA62407": {
+  "la": "nucleus ruber"
+ },
+ "FMA62429": {
+  "id": "neokorteks",
+  "la": "neocortex"
+ },
+ "FMA6243": {
+  "la": "Ramus externus nervi laryngei superioris"
+ },
+ "FMA6244": {
+  "la": "Rami cardiaci cervicales superiores nervi vagi"
+ },
+ "FMA6245": {
+  "la": "Rami cardiaci cervicales inferiores nervi vagi"
+ },
+ "FMA6246": {
+  "id": "Saraf laring rekuren",
+  "la": "Nervus laryngeus recurrens"
+ },
+ "FMA62484": {
+  "la": "Cortex piriformis"
+ },
+ "FMA62517": {
+  "la": "Lamina propria"
+ },
+ "FMA6258": {
+  "la": "Truncus sympathicus"
+ },
+ "FMA62819": {
+  "id": "Jaringan MAL"
+ },
+ "FMA62844": {
+  "id": "Sel darah"
+ },
+ "FMA62845": {
+  "id": "Sel darah merah",
+  "la": "Erythrocytus"
+ },
+ "FMA62848": {
+  "id": "Hemoglobin A"
+ },
+ "FMA62851": {
+  "id": "keping darah",
+  "la": "Thrombocytus"
+ },
+ "FMA62852": {
+  "id": "Sel darah putih",
+  "la": "Leucocytus"
+ },
+ "FMA62854": {
+  "id": "Granulosit"
+ },
+ "FMA62855": {
+  "id": "Agranulosit"
+ },
+ "FMA62860": {
+  "id": "Neutrofil"
+ },
+ "FMA62861": {
+  "id": "Eosinofil"
+ },
+ "FMA62862": {
+  "id": "Basofil"
+ },
+ "FMA62863": {
+  "id": "Limfosit",
+  "la": "Lymphocytus"
+ },
+ "FMA62864": {
+  "id": "Monosit",
+  "la": "Monocytus"
+ },
+ "FMA62869": {
+  "id": "Sel B",
+  "la": "Lymphocytus B"
+ },
+ "FMA6287": {
+  "la": "Nervi splanchnici lumbales"
+ },
+ "FMA62870": {
+  "id": "Sel T",
+  "la": "Lymphocytus T"
+ },
+ "FMA62871": {
+  "la": "immuniglobulinum"
+ },
+ "FMA62872": {
+  "id": "Antibodi G",
+  "la": "Immunoglobulinum G"
+ },
+ "FMA62873": {
+  "id": "Antibodi M"
+ },
+ "FMA62874": {
+  "id": "Antibodi A"
+ },
+ "FMA62875": {
+  "id": "Antibodi E"
+ },
+ "FMA62876": {
+  "id": "Antibodi D"
+ },
+ "FMA62879": {
+  "id": "Keratinosit"
+ },
+ "FMA6288": {
+  "la": "Nervi splanchnici sacrales"
+ },
+ "FMA62888": {
+  "id": "Kelenjar mukosa"
+ },
+ "FMA6290": {
+  "la": "Nervus thoracalis 4 (homo)"
+ },
+ "FMA62901": {
+  "id": "Sel parietal"
+ },
+ "FMA62902": {
+  "id": "Sel utama lambung"
+ },
+ "FMA62918": {
+  "la": "Lamina basalis"
+ },
+ "FMA62925": {
+  "id": "Glikoprotein",
+  "la": "glycoproteinum"
+ },
+ "FMA62929": {
+  "id": "Sel M"
+ },
+ "FMA6293": {
+  "la": "Nervus thoracalis 5 (homo)"
+ },
+ "FMA62934": {
+  "id": "Sel enterokromafin"
+ },
+ "FMA62935": {
+  "id": "Sel delta"
+ },
+ "FMA62955": {
+  "la": "entitas anatomica"
+ },
+ "FMA6296": {
+  "la": "Nervus thoracalis 6 (homo)"
+ },
+ "FMA62967": {
+  "id": "semen",
+  "la": "Eiaculatum"
+ },
+ "FMA62970": {
+  "id": "Plasma darah",
+  "la": "Plasma sanguineum"
+ },
+ "FMA62973": {
+  "la": "Sucus pancreaticus"
+ },
+ "FMA62977": {
+  "id": "mielin",
+  "la": "Myelinum"
+ },
+ "FMA62983": {
+  "id": "selubung mielin"
+ },
+ "FMA6299": {
+  "la": "Nervus thoracalis 7 (homo)"
+ },
+ "FMA62999": {
+  "id": "Odontoblas",
+  "la": "Odontoblastus"
+ },
+ "FMA63011": {
+  "id": "Glikosaminoglikan"
+ },
+ "FMA63014": {
+  "id": "Asam hialuronat",
+  "la": "acidum hyaluronicum"
+ },
+ "FMA63015": {
+  "id": "Proteoglikan"
+ },
+ "FMA6302": {
+  "la": "Nervus thoracalis 8 (homo)"
+ },
+ "FMA6306": {
+  "la": "Nervus thoracalis 9 (homo)"
+ },
+ "FMA63072": {
+  "id": "Sel Langerhans"
+ },
+ "FMA63083": {
+  "id": "serum darah"
+ },
+ "FMA6309": {
+  "la": "Nervus thoracalis 10 (homo)"
+ },
+ "FMA6312": {
+  "la": "Nervus thoracalis 11 (homo)"
+ },
+ "FMA63131": {
+  "id": "Sinusoid"
+ },
+ "FMA63147": {
+  "id": "Sel NK"
+ },
+ "FMA63148": {
+  "id": "Pori nukleus"
+ },
+ "FMA63169": {
+  "id": "Lipoprotein"
+ },
+ "FMA63182": {
+  "id": "Arteriola",
+  "la": "Arteriola"
+ },
+ "FMA63183": {
+  "id": "pembuluh darah",
+  "la": "vas sanguineum"
+ },
+ "FMA63194": {
+  "id": "Pembuluh darah kapiler",
+  "la": "Capillare"
+ },
+ "FMA63261": {
+  "id": "Makrofaga",
+  "la": "macrophagus"
+ },
+ "FMA63368": {
+  "id": "Sel punca",
+  "la": "Cellula praecursoria"
+ },
+ "FMA63568": {
+  "la": "Facies articularis clavicularis"
+ },
+ "FMA63614": {
+  "la": "Spina iliaca anterior inferior"
+ },
+ "FMA63615": {
+  "la": "Spina iliaca posterior inferior"
+ },
+ "FMA63832": {
+  "id": "Organel",
+  "la": "Organellum"
+ },
+ "FMA63834": {
+  "id": "Sitoskeleton",
+  "la": "Cytosceletus"
+ },
+ "FMA63835": {
+  "id": "mitokondria",
+  "la": "Mitochondrium"
+ },
+ "FMA63836": {
+  "id": "Lisosom",
+  "la": "Lysosoma"
+ },
+ "FMA63837": {
+  "id": "sentrosom"
+ },
+ "FMA63839": {
+  "id": "Sentriol",
+  "la": "centriolum"
+ },
+ "FMA63840": {
+  "id": "Inti sel",
+  "la": "nucleus cellulae"
+ },
+ "FMA63841": {
+  "id": "membran sel",
+  "la": "Membrana cellulae"
+ },
+ "FMA63842": {
+  "id": "Retikulum endoplasma",
+  "la": "reticulum endoplasmaticum"
+ },
+ "FMA63843": {
+  "id": "badan Golgi",
+  "la": "apparatus Golgianus"
+ },
+ "FMA63845": {
+  "id": "Peroksisom"
+ },
+ "FMA63849": {
+  "id": "Mikrotubulus",
+  "la": "Microtubulus"
+ },
+ "FMA63850": {
+  "id": "Mikrofilamen"
+ },
+ "FMA63851": {
+  "id": "Filamen intermediat"
+ },
+ "FMA63864": {
+  "id": "Dahi",
+  "la": "sinciput"
+ },
+ "FMA63872": {
+  "id": "Membran basal"
+ },
+ "FMA63877": {
+  "id": "Fibroblas",
+  "la": "Fibroblastus"
+ },
+ "FMA63880": {
+  "id": "Adiposit"
+ },
+ "FMA63887": {
+  "la": "macromoleculum biologicum"
+ },
+ "FMA63888": {
+  "id": "membran inti"
+ },
+ "FMA63891": {
+  "id": "Kolagen",
+  "la": "Collagenum"
+ },
+ "FMA63916": {
+  "id": "endotelium",
+  "la": "Endothelium"
+ },
+ "FMA63919": {
+  "id": "janin",
+  "la": "fetus humanus"
+ },
+ "FMA6414": {
+  "la": "Nervus lumbalis 3 (homo)"
+ },
+ "FMA64183": {
+  "id": "Tinja",
+  "la": "faeces"
+ },
+ "FMA6440": {
+  "la": "Nervus cervicalis 1 (homo)"
+ },
+ "FMA6443": {
+  "la": "Nervus cervicalis 2 (homo)"
+ },
+ "FMA6444": {
+  "la": "Nervus cervicalis 3 (homo)"
+ },
+ "FMA6445": {
+  "la": "Nervus cervicalis 4 (homo)"
+ },
+ "FMA6446": {
+  "la": "Nervus cervicalis 5 (homo)"
+ },
+ "FMA6447": {
+  "la": "Nervus cervicalis 6 (homo)"
+ },
+ "FMA6448": {
+  "la": "Nervus cervicalis 7 (homo)"
+ },
+ "FMA6449": {
+  "la": "Nervus cervicalis 8 (homo)"
+ },
+ "FMA6467": {
+  "la": "Ganglion cervicale superius"
+ },
+ "FMA6468": {
+  "la": "Ganglion cervicale medium"
+ },
+ "FMA6469": {
+  "la": "Ganglion cervicothoracicum, ganglion stellatum"
+ },
+ "FMA64783": {
+  "id": "Tulang rawan hialin"
+ },
+ "FMA64784": {
+  "id": "Tulang rawan fibrosa"
+ },
+ "FMA64827": {
+  "la": "Musculus scalenus minimus"
+ },
+ "FMA64829": {
+  "la": "Musculi scaleni"
+ },
+ "FMA64918": {
+  "id": "Otot iliopsoas",
+  "la": "Musculus iliopsoas"
+ },
+ "FMA65132": {
+  "id": "Saraf",
+  "la": "Nervus"
+ },
+ "FMA65216": {
+  "la": "Truncus superior plexus brachialis"
+ },
+ "FMA65243": {
+  "la": "Radix medialis nervi mediani"
+ },
+ "FMA65244": {
+  "la": "Radix lateralis nervi mediani"
+ },
+ "FMA65246": {
+  "la": "Nervus cutaneus brachii medialis"
+ },
+ "FMA65275": {
+  "id": "Nervus thoracicus longus",
+  "la": "Nervus thoracicus longus"
+ },
+ "FMA65279": {
+  "la": "Nervus dorsalis scapulae"
+ },
+ "FMA65280": {
+  "la": "Nervus subclavius"
+ },
+ "FMA65290": {
+  "la": "Nervus thoracodorsalis"
+ },
+ "FMA65293": {
+  "la": "Nervus pectoralis medialis"
+ },
+ "FMA65296": {
+  "la": "N Pectoralis lateralis"
+ },
+ "FMA65303": {
+  "la": "Nervus cutaneus brachii lateralis superior"
+ },
+ "FMA65304": {
+  "la": "Nervus subscapularis superior"
+ },
+ "FMA65414": {
+  "la": "Nervi supraclaviculares"
+ },
+ "FMA65443": {
+  "la": "Nervus occipitalis major"
+ },
+ "FMA65515": {
+  "la": "Rami bronchiales nervi vagi"
+ },
+ "FMA65535": {
+  "la": "Truncus lumbosacralis"
+ },
+ "FMA65567": {
+  "la": "Nervus subcostalis"
+ },
+ "FMA65608": {
+  "la": "Nervus occipitalis tertius"
+ },
+ "FMA66204": {
+  "la": "Area intercondylaris"
+ },
+ "FMA6628": {
+  "la": "Plexus cardiacus"
+ },
+ "FMA6629": {
+  "la": "Plexus pulmonalis"
+ },
+ "FMA6630": {
+  "la": "Plexus coeliacus"
+ },
+ "FMA6632": {
+  "la": "Plexus hepaticus"
+ },
+ "FMA66320": {
+  "la": "Arteria thoracodorsalis"
+ },
+ "FMA66326": {
+  "id": "Arteri pulmonalis",
+  "la": "Truncus pulmonalis arteria pulmonalis"
+ },
+ "FMA6634": {
+  "la": "Plexus splenicus"
+ },
+ "FMA6635": {
+  "la": "Plexus suprarenalis"
+ },
+ "FMA6636": {
+  "la": "Plexus renalis"
+ },
+ "FMA6637": {
+  "la": "Plexus testicularis, plexus spermaticus"
+ },
+ "FMA6638": {
+  "la": "Plexus ovaricus"
+ },
+ "FMA6639": {
+  "la": "Plexus mesentericus superior"
+ },
+ "FMA6640": {
+  "la": "Plexus aorticus abdominalis"
+ },
+ "FMA6641": {
+  "la": "Plexus mesentericus inferior"
+ },
+ "FMA6642": {
+  "la": "Plexus hypogastricus superior, nervus presacralis"
+ },
+ "FMA6643": {
+  "la": "Plexus hypogastricus inferior"
+ },
+ "FMA6645": {
+  "la": "Plexus rectalis medius"
+ },
+ "FMA6646": {
+  "la": "Plexus vesicalis"
+ },
+ "FMA6647": {
+  "la": "Plexus prostaticus"
+ },
+ "FMA6648": {
+  "la": "Plexus uterovaginalis"
+ },
+ "FMA66643": {
+  "la": "Venae pulmonales"
+ },
+ "FMA6666": {
+  "la": "Rami hepatici trunci vagalis anterioris"
+ },
+ "FMA6670": {
+  "la": "Rami renales nervi vagi"
+ },
+ "FMA66762": {
+  "id": "Membran sinovial",
+  "la": "Membrana synovialis"
+ },
+ "FMA66779": {
+  "id": "Osteosit"
+ },
+ "FMA66780": {
+  "id": "Osteoblas"
+ },
+ "FMA66781": {
+  "id": "Osteoklas",
+  "la": "osteoclastus"
+ },
+ "FMA66782": {
+  "id": "Kondrosit"
+ },
+ "FMA66784": {
+  "id": "Mastosit"
+ },
+ "FMA66785": {
+  "id": "Retikulosit"
+ },
+ "FMA66835": {
+  "id": "sitoplasma",
+  "la": "Cytoplasma"
+ },
+ "FMA66836": {
+  "id": "sitosol"
+ },
+ "FMA66848": {
+  "id": "Nukleolus",
+  "la": "Nucleolus"
+ },
+ "FMA66866": {
+  "la": "organellum cytoplasmaticum immembranosum"
+ },
+ "FMA66867": {
+  "id": "ribosom",
+  "la": "ribosoma"
+ },
+ "FMA66938": {
+  "id": "Lendir",
+  "la": "Mucus"
+ },
+ "FMA66971": {
+  "id": "Krista"
+ },
+ "FMA67093": {
+  "id": "kromosom",
+  "la": "chromosoma"
+ },
+ "FMA67095": {
+  "id": "Asam ribonukleat",
+  "la": "acidum ribonucleicum"
+ },
+ "FMA67125": {
+  "la": "Synapsis chemica"
+ },
+ "FMA67169": {
+  "la": "Musculi pharyngis"
+ },
+ "FMA6718": {
+  "la": "Rami gastrici anteriores trunci vagalis anterioris"
+ },
+ "FMA67181": {
+  "id": "Silia"
+ },
+ "FMA67184": {
+  "la": "Receptorium neurotransmissoris"
+ },
+ "FMA6719": {
+  "la": "Rami gastrici posteriores trunci vagalis posterioris"
+ },
+ "FMA6720": {
+  "id": "Saraf aksesorius",
+  "la": "Nervus accessorius"
+ },
+ "FMA67238": {
+  "id": "Dopamin",
+  "la": "dopaminum"
+ },
+ "FMA67241": {
+  "id": "Soma (biologi)",
+  "la": "Perikaryon"
+ },
+ "FMA67243": {
+  "id": "Adrenalin",
+  "la": "adrenalinum"
+ },
+ "FMA67253": {
+  "la": "Receptorium adrenergicum"
+ },
+ "FMA67257": {
+  "id": "protein",
+  "la": "proteinum"
+ },
+ "FMA67261": {
+  "id": "Protoplasma"
+ },
+ "FMA67302": {
+  "id": "Keratin",
+  "la": "Ceratinum"
+ },
+ "FMA67303": {
+  "id": "Elastin"
+ },
+ "FMA67308": {
+  "id": "Akson",
+  "la": "axon"
+ },
+ "FMA67313": {
+  "id": "Interneuron"
+ },
+ "FMA67314": {
+  "id": "Dendrit",
+  "la": "Dendritum"
+ },
+ "FMA67325": {
+  "id": "lobus oksipitalis",
+  "la": "Lobus occipitalis"
+ },
+ "FMA67328": {
+  "id": "Sel otot",
+  "la": "Myocytus"
+ },
+ "FMA67329": {
+  "id": "Korteks insular",
+  "la": "insula"
+ },
+ "FMA67343": {
+  "id": "sel telur",
+  "la": "Ovum"
+ },
+ "FMA67372": {
+  "id": "Reseptor serotonin",
+  "la": "Receptorium serotonini"
+ },
+ "FMA67388": {
+  "id": "Badan bening",
+  "la": "Corpus vitreum"
+ },
+ "FMA67394": {
+  "id": "Sambungan sel"
+ },
+ "FMA67396": {
+  "id": "diskus artikular simfisis"
+ },
+ "FMA67397": {
+  "id": "Sambungan ketat",
+  "la": "Zonula occludens"
+ },
+ "FMA67400": {
+  "la": "zonula adherens"
+ },
+ "FMA67408": {
+  "id": "sinapsis"
+ },
+ "FMA67412": {
+  "id": "Desmosom",
+  "la": "Macula adherens"
+ },
+ "FMA67423": {
+  "id": "Sambungan celah",
+  "la": "macula communicans"
+ },
+ "FMA67440": {
+  "la": "Claustrum"
+ },
+ "FMA67472": {
+  "id": "Flagelum",
+  "la": "Flagellum"
+ },
+ "FMA67498": {
+  "id": "organ",
+  "la": "viscus"
+ },
+ "FMA67504": {
+  "la": "subdivisio partis corporis cardinalis"
+ },
+ "FMA67526": {
+  "id": "Kromatin"
+ },
+ "FMA67528": {
+  "id": "Nukleosom"
+ },
+ "FMA67533": {
+  "la": "Plexus caroticus internus"
+ },
+ "FMA67548": {
+  "la": "Ramus sympathetica ganglii ciliaris"
+ },
+ "FMA67549": {
+  "la": "Nervus petrosus profundus"
+ },
+ "FMA67562": {
+  "la": "Nervi caroticotympanici"
+ },
+ "FMA67563": {
+  "la": "Plexus cavernosus"
+ },
+ "FMA67584": {
+  "la": "N Canalis pterygoidei"
+ },
+ "FMA67609": {
+  "id": "Sel G"
+ },
+ "FMA67611": {
+  "la": "Valva (conchae)"
+ },
+ "FMA67747": {
+  "id": "sel batang"
+ },
+ "FMA67748": {
+  "id": "reseptor warna"
+ },
+ "FMA67771": {
+  "id": "Puting susu",
+  "la": "Mamilla"
+ },
+ "FMA67790": {
+  "id": "Rhodopsin"
+ },
+ "FMA67796": {
+  "id": "Areola"
+ },
+ "FMA67883": {
+  "la": "Nucleus suprachiasmaticus"
+ },
+ "FMA67944": {
+  "id": "cerebellum",
+  "la": "cerebellum"
+ },
+ "FMA67947": {
+  "la": "Substantia nigra"
+ },
+ "FMA67969": {
+  "id": "Sel Purkinye"
+ },
+ "FMA67977": {
+  "la": "Rete venosum dorsale manus"
+ },
+ "FMA68018": {
+  "la": "Musculus detrusor vesicae urinariae"
+ },
+ "FMA68068": {
+  "la": "Venae phrenicae inferiores"
+ },
+ "FMA68109": {
+  "la": "Arteriae bronchiales"
+ },
+ "FMA68596": {
+  "id": "Area Brodmann"
+ },
+ "FMA68600": {
+  "la": "Area Brodmanniana 4"
+ },
+ "FMA686465": {
+  "id": "Sel",
+  "la": "cellula"
+ },
+ "FMA68650": {
+  "id": "Korneosit"
+ },
+ "FMA6871": {
+  "la": "Nervus occipitalis minor"
+ },
+ "FMA6872": {
+  "la": "Nervus auricularis magnus"
+ },
+ "FMA6873": {
+  "la": "Nervus transversus colli"
+ },
+ "FMA68782": {
+  "id": "Tirosit"
+ },
+ "FMA69070": {
+  "id": "Ektoderm"
+ },
+ "FMA69071": {
+  "id": "Endoderm"
+ },
+ "FMA69072": {
+  "id": "Mesoderm"
+ },
+ "FMA69264": {
+  "la": "Arteria suprarenalis inferior"
+ },
+ "FMA69460": {
+  "la": "Arteriae perforantes"
+ },
+ "FMA69513": {
+  "la": "Arteria plantaris profunda"
+ },
+ "FMA6961": {
+  "la": "Ganglion cervicale inferius"
+ },
+ "FMA6964": {
+  "la": "Ganglion ciliare"
+ },
+ "FMA6965": {
+  "la": "Ganglion pterygopalatinum"
+ },
+ "FMA6966": {
+  "la": "Ganglion submandibulare"
+ },
+ "FMA6967": {
+  "la": "Ganglion oticum"
+ },
+ "FMA70108": {
+  "la": "Ramus ovaricus arteriae uterinae"
+ },
+ "FMA70192": {
+  "la": "Arteria cremasterica"
+ },
+ "FMA70195": {
+  "la": "Arteria ligamenti teretis uteri"
+ },
+ "FMA70248": {
+  "id": "Arteri femoralis",
+  "la": "Arteria femoralis"
+ },
+ "FMA70303": {
+  "id": "sinus venosus"
+ },
+ "FMA70317": {
+  "la": "Vena umbilicalis"
+ },
+ "FMA70323": {
+  "id": "dermis",
+  "la": "Dermis"
+ },
+ "FMA70431": {
+  "la": "Rami oesophageales arteriae gastricae sinistrae"
+ },
+ "FMA70437": {
+  "la": "Arteria pancreaticoduodenalis superior"
+ },
+ "FMA70438": {
+  "la": "Arteria supraduodenalis"
+ },
+ "FMA70494": {
+  "la": "Arteriae renis"
+ },
+ "FMA70496": {
+  "la": "Arteriae interlobares renis"
+ },
+ "FMA70497": {
+  "la": "Arteriae arcuatae renis"
+ },
+ "FMA70498": {
+  "la": "Arteriae interlobulares renis"
+ },
+ "FMA7054": {
+  "la": "Nervus suboccipitalis"
+ },
+ "FMA70545": {
+  "id": "Melanosit"
+ },
+ "FMA70550": {
+  "la": "Cellula ependymalis"
+ },
+ "FMA70563": {
+  "la": "Neuroblastus"
+ },
+ "FMA70572": {
+  "id": "Sel T pembantu"
+ },
+ "FMA70573": {
+  "id": "Sel T CD8"
+ },
+ "FMA70574": {
+  "id": "Sel plasma"
+ },
+ "FMA70596": {
+  "id": "Kulit Ari",
+  "la": "Epidermis"
+ },
+ "FMA70660": {
+  "id": "Folikel rambut",
+  "la": "folliculus pili"
+ },
+ "FMA70667": {
+  "id": "Lanugo"
+ },
+ "FMA70730": {
+  "id": "Akar rambut"
+ },
+ "FMA70754": {
+  "id": "Rambut kemaluan"
+ },
+ "FMA70756": {
+  "id": "Rambut ketiak"
+ },
+ "FMA70773": {
+  "id": "Ligamen",
+  "la": "ligamentum"
+ },
+ "FMA70777": {
+  "la": "Arteriae ciliares posteriores breves"
+ },
+ "FMA70778": {
+  "la": "Arteriae ciliares posteriores longae"
+ },
+ "FMA70781": {
+  "la": "Arteriae palpebrales laterales"
+ },
+ "FMA70782": {
+  "la": "Arteriae ciliares anteriores"
+ },
+ "FMA70785": {
+  "la": "Arteriae palpebrales mediales"
+ },
+ "FMA70796": {
+  "la": "arteriae ad pontem"
+ },
+ "FMA70800": {
+  "la": "Arteriae metacarpales dorsales"
+ },
+ "FMA70801": {
+  "la": "Arteriae digitales dorsales pedis"
+ },
+ "FMA70802": {
+  "la": "Arteriae metacarpales palmares"
+ },
+ "FMA70804": {
+  "la": "Arteriae digitales palmares propriae"
+ },
+ "FMA70805": {
+  "la": "Arteria phrenica superior"
+ },
+ "FMA70807": {
+  "la": "Arteriae lumbares''Arteriae lumbales"
+ },
+ "FMA70808": {
+  "la": "Arteriae gastricae breves"
+ },
+ "FMA70809": {
+  "la": "Arteriae jejunales"
+ },
+ "FMA70810": {
+  "la": "Arteriae ileales"
+ },
+ "FMA70812": {
+  "la": "Arteriae sacrales laterales"
+ },
+ "FMA70818": {
+  "la": "Arteriae tarsales mediales"
+ },
+ "FMA70819": {
+  "la": "Arteriae metatarsales dorsales"
+ },
+ "FMA70820": {
+  "la": "Arteriae metatarsales plantares"
+ },
+ "FMA70821": {
+  "la": "Arteriae digitales plantares communes"
+ },
+ "FMA70828": {
+  "la": "Venae thymicae"
+ },
+ "FMA70830": {
+  "la": "Venae pericardiacophrenicae"
+ },
+ "FMA70832": {
+  "la": "Venae bronchiales"
+ },
+ "FMA70834": {
+  "la": "Venae oesophageales"
+ },
+ "FMA70836": {
+  "la": "Venae epigastricae superiores"
+ },
+ "FMA70839": {
+  "la": "Venae intercostales anteriores"
+ },
+ "FMA70840": {
+  "la": "Venae pharyngeae"
+ },
+ "FMA70842": {
+  "la": "Venae dorsales linguae"
+ },
+ "FMA70843": {
+  "la": "Vena thyreoidea media"
+ },
+ "FMA70848": {
+  "la": "Venae labiales inferiores"
+ },
+ "FMA70849": {
+  "la": "Venae temporales superficiales"
+ },
+ "FMA7085": {
+  "la": "Viscera"
+ },
+ "FMA70850": {
+  "la": "Venae maxillares"
+ },
+ "FMA70853": {
+  "la": "Venae auriculares anteriores"
+ },
+ "FMA70856": {
+  "la": "Venae transversae cervicis"
+ },
+ "FMA70858": {
+  "la": "Venae diploicae"
+ },
+ "FMA70861": {
+  "la": "Venae encephali venae cerebri"
+ },
+ "FMA70862": {
+  "la": "Venae superficiales cerebri"
+ },
+ "FMA70863": {
+  "la": "Venae cerebri superiores"
+ },
+ "FMA70865": {
+  "la": "Venae frontales"
+ },
+ "FMA70869": {
+  "la": "Venae inferiores cerebri"
+ },
+ "FMA70871": {
+  "la": "Venae profundae cerebri"
+ },
+ "FMA70876": {
+  "la": "Venae internae cerebri"
+ },
+ "FMA70879": {
+  "la": "Venae cerebelli"
+ },
+ "FMA7088": {
+  "la": "cor humanus"
+ },
+ "FMA70880": {
+  "la": "Venae vorticosae"
+ },
+ "FMA70881": {
+  "la": "Venae ethmoidales"
+ },
+ "FMA70888": {
+  "la": "Vena phrenica superior"
+ },
+ "FMA70889": {
+  "la": "Venae lumbales"
+ },
+ "FMA70890": {
+  "la": "Venae intercostales posteriores"
+ },
+ "FMA70891": {
+  "la": "Venae basivertebrales"
+ },
+ "FMA70892": {
+  "la": "Venae spinales anteriores"
+ },
+ "FMA70893": {
+  "la": "Venae spinales posteriores"
+ },
+ "FMA70895": {
+  "la": "Venae digitales palmares"
+ },
+ "FMA70897": {
+  "la": "Vena ulnaris"
+ },
+ "FMA70898": {
+  "la": "Venae radiales"
+ },
+ "FMA70903": {
+  "la": "Venae metacarpales palmares"
+ },
+ "FMA70907": {
+  "la": "Venae glutaeae superiores"
+ },
+ "FMA70908": {
+  "la": "Venae glutaeae inferiores"
+ },
+ "FMA70909": {
+  "la": "Venae obturatoriae"
+ },
+ "FMA70910": {
+  "la": "Venae sacrales laterales"
+ },
+ "FMA70911": {
+  "la": "Venae vesicales"
+ },
+ "FMA70912": {
+  "la": "Venae rectales mediae"
+ },
+ "FMA70913": {
+  "la": "Venae rectales inferiores"
+ },
+ "FMA70915": {
+  "la": "Venae pudendae externae"
+ },
+ "FMA70916": {
+  "la": "Venae metatarsales dorsales"
+ },
+ "FMA70917": {
+  "la": "Venae digitales dorsales pedis"
+ },
+ "FMA70918": {
+  "la": "Venae metatarsales plantares"
+ },
+ "FMA70919": {
+  "la": "Venae digitales plantares"
+ },
+ "FMA70922": {
+  "la": "Vena perforans"
+ },
+ "FMA70925": {
+  "la": "Vena tibialis anterior (singular)"
+ },
+ "FMA70927": {
+  "la": "Venae jejunales"
+ },
+ "FMA70928": {
+  "la": "Venae ileales"
+ },
+ "FMA70929": {
+  "la": "Venae pancreaticae"
+ },
+ "FMA70930": {
+  "la": "Venae pancreaticoduodenales"
+ },
+ "FMA70931": {
+  "la": "Venae gastricae breves"
+ },
+ "FMA70940": {
+  "la": "Venae metacarpales dorsales"
+ },
+ "FMA7095": {
+  "la": "Cavitates cordis"
+ },
+ "FMA70967": {
+  "id": "podosit",
+  "la": "podocytus"
+ },
+ "FMA7097": {
+  "id": "atrium sinistrum"
+ },
+ "FMA70989": {
+  "id": "Pemintal kromosom"
+ },
+ "FMA7099": {
+  "id": "Atrium (anatomi)",
+  "la": "Atria cordis"
+ },
+ "FMA7100": {
+  "id": "Ventrikel",
+  "la": "ventriculus cordis"
+ },
+ "FMA71013": {
+  "la": "crista cutis"
+ },
+ "FMA7110": {
+  "id": "Katup jantung",
+  "la": "Valvae cordis"
+ },
+ "FMA71210": {
+  "la": "Vena thoracica lateralis"
+ },
+ "FMA71222": {
+  "id": "Rangka anggota gerak"
+ },
+ "FMA71248": {
+  "la": "Nuclei trigemini"
+ },
+ "FMA71288": {
+  "la": "Musculi faciei"
+ },
+ "FMA71298": {
+  "la": "Musculi infrahyoidei"
+ },
+ "FMA71301": {
+  "la": "Musculi suprahyoidei"
+ },
+ "FMA71302": {
+  "la": "Musculus erector spinae"
+ },
+ "FMA71304": {
+  "la": "Musculi transversospinales"
+ },
+ "FMA71306": {
+  "la": "Musculi interspinales"
+ },
+ "FMA7131": {
+  "id": "Kerongkongan",
+  "la": "Oesophagus"
+ },
+ "FMA71312": {
+  "la": "Musculi levatores costarum"
+ },
+ "FMA71315": {
+  "la": "Musculus subcostalis"
+ },
+ "FMA7133": {
+  "la": "Septum interventriculare"
+ },
+ "FMA71340": {
+  "id": "Metatarsus",
+  "la": "Metatarsus"
+ },
+ "FMA71356": {
+  "la": "iunctum metatarsophalangeale"
+ },
+ "FMA71439": {
+  "la": "Musculi suboccipitales"
+ },
+ "FMA7144": {
+  "id": "Mesenterium",
+  "la": "Mesenterium"
+ },
+ "FMA71440": {
+  "la": "transversus nuchae"
+ },
+ "FMA71478": {
+  "la": "Arteriae centrales anterolaterales"
+ },
+ "FMA7148": {
+  "id": "lambung",
+  "la": "stomachus"
+ },
+ "FMA7149": {
+  "id": "sistem organ"
+ },
+ "FMA71506": {
+  "la": "Rami meningei arteriae vertebralis"
+ },
+ "FMA71514": {
+  "la": "Rami thymici arteriae thoracicae internae"
+ },
+ "FMA71519": {
+  "la": "Rami perforantes arteria thoracicae internae"
+ },
+ "FMA7152": {
+  "id": "sistem pencernaan",
+  "la": "Apparatus digestorius humanum"
+ },
+ "FMA7153": {
+  "id": "area anatomis"
+ },
+ "FMA71536": {
+  "la": "Arteriae bronchiales"
+ },
+ "FMA71537": {
+  "la": "Rami oesophageales partis thoracicae aortae"
+ },
+ "FMA71539": {
+  "la": "Rami mediastinales partis thoracicae aortae"
+ },
+ "FMA7154": {
+  "id": "kepala",
+  "la": "caput"
+ },
+ "FMA7155": {
+  "id": "leher",
+  "la": "collum"
+ },
+ "FMA71551": {
+  "la": "Rami pancreatici arteriae splenicae"
+ },
+ "FMA71556": {
+  "la": "Rami ureterici arteriae renalis"
+ },
+ "FMA71564": {
+  "la": "Arteriae digitales plantares propriae"
+ },
+ "FMA71567": {
+  "la": "Venae cardiacae anteriores"
+ },
+ "FMA71568": {
+  "la": "Venae cardiacae minimae"
+ },
+ "FMA7157": {
+  "id": "sistem saraf",
+  "la": "systema nervosum"
+ },
+ "FMA7158": {
+  "id": "Sistem pernapasan",
+  "la": "Systema respiratorium"
+ },
+ "FMA71583": {
+  "la": "Venae intercapitulares manus"
+ },
+ "FMA7159": {
+  "id": "Sistem urin",
+  "la": "Systema urinarium"
+ },
+ "FMA71591": {
+  "la": "Venae paraumbilicales"
+ },
+ "FMA7160": {
+  "id": "sistem reproduksi manusia",
+  "la": "Systemata genitalia"
+ },
+ "FMA7161": {
+  "id": "sistem kardiovaskular",
+  "la": "systema cardiovasculare"
+ },
+ "FMA7162": {
+  "id": "sistem limfatik",
+  "la": "systema lymphoideum"
+ },
+ "FMA71622": {
+  "id": "Kelenjar Brunner"
+ },
+ "FMA71629": {
+  "la": "Venae centrales hepatis"
+ },
+ "FMA7163": {
+  "id": "Kulit manusia",
+  "la": "Cutis humanum"
+ },
+ "FMA71631": {
+  "la": "Venae interlobares renis"
+ },
+ "FMA71632": {
+  "la": "Venae arcuatae renis"
+ },
+ "FMA71633": {
+  "la": "Venae interlobulares renis"
+ },
+ "FMA71635": {
+  "la": "Venae stellatae renis"
+ },
+ "FMA71668": {
+  "la": "Rami atriales arteriae coronariae dextrae"
+ },
+ "FMA71675": {
+  "la": "Rami glandulares arteriae facialis"
+ },
+ "FMA71679": {
+  "la": "Rami auriculares anteriores arteriae temporalis superficialis"
+ },
+ "FMA71685": {
+  "la": "Arteriae alveolares superiores anteriores"
+ },
+ "FMA71688": {
+  "la": "Arteriae palatinae minores"
+ },
+ "FMA71689": {
+  "la": "Arteriae nasales posteriores laterales"
+ },
+ "FMA71690": {
+  "la": "Rami septales posteriores arteriae sphenopalatinae"
+ },
+ "FMA71691": {
+  "la": "Arteriae caroticotympanicae ramus caroticotympanicus"
+ },
+ "FMA7181": {
+  "id": "Trunkus",
+  "la": "Truncus"
+ },
+ "FMA7182": {
+  "id": "ekstremitas",
+  "la": "membrum"
+ },
+ "FMA7183": {
+  "id": "tungkai atas",
+  "la": "membrum superius"
+ },
+ "FMA7184": {
+  "la": "Crus humanum"
+ },
+ "FMA7190": {
+  "id": "Sistem penciuman",
+  "la": "Systema olfactorium"
+ },
+ "FMA7191": {
+  "id": "sistem penglihatan",
+  "la": "systema visuale"
+ },
+ "FMA7192": {
+  "id": "Sistem pendengaran"
+ },
+ "FMA71925": {
+  "la": "plana horizontalia"
+ },
+ "FMA7193": {
+  "id": "Sistem vestibular"
+ },
+ "FMA7196": {
+  "id": "limpa",
+  "la": "lien"
+ },
+ "FMA7197": {
+  "id": "hati",
+  "la": "iecur"
+ },
+ "FMA7198": {
+  "id": "pankreas",
+  "la": "Pancreas"
+ },
+ "FMA7200": {
+  "id": "Usus halus",
+  "la": "Intestinum tenue"
+ },
+ "FMA72006": {
+  "la": "Arteriolae rectae renis"
+ },
+ "FMA72007": {
+  "la": "Venulae rectae renis"
+ },
+ "FMA7201": {
+  "id": "Usus besar",
+  "la": "Intestinum crassum"
+ },
+ "FMA7202": {
+  "id": "kantung empedu",
+  "la": "Vesica biliaris"
+ },
+ "FMA7203": {
+  "id": "ginjal",
+  "la": "ren"
+ },
+ "FMA7206": {
+  "id": "Usus dua belas jari",
+  "la": "Duodenum"
+ },
+ "FMA72063": {
+  "id": "tulang belakang leher"
+ },
+ "FMA72065": {
+  "id": "tulang belakang lumbal"
+ },
+ "FMA7207": {
+  "id": "Usus kosong"
+ },
+ "FMA7208": {
+  "id": "Usus penyerapan",
+  "la": "Ileum"
+ },
+ "FMA7209": {
+  "id": "Ovarium",
+  "la": "Ovarium"
+ },
+ "FMA7210": {
+  "id": "Testis",
+  "la": "testis"
+ },
+ "FMA72170": {
+  "id": "Pronefros"
+ },
+ "FMA72172": {
+  "id": "Metanefros"
+ },
+ "FMA72208": {
+  "id": "Sel epitel timus"
+ },
+ "FMA72291": {
+  "la": "spermatogonium"
+ },
+ "FMA72297": {
+  "id": "Sel Leydig",
+  "la": "Cellulae Leydig"
+ },
+ "FMA72298": {
+  "id": "Sel Sertoli"
+ },
+ "FMA72300": {
+  "id": "Sel somatik"
+ },
+ "FMA7234": {
+  "la": "Valva atrioventricularis dextra"
+ },
+ "FMA7235": {
+  "la": "Valva atrioventricularis sinistra"
+ },
+ "FMA7236": {
+  "id": "Katup aorta",
+  "la": "Valva aortae"
+ },
+ "FMA72395": {
+  "id": "Zigot",
+  "la": "Zygotum"
+ },
+ "FMA7246": {
+  "la": "Valva trunci pulmonalis"
+ },
+ "FMA72478": {
+  "la": "Locus caeruleus"
+ },
+ "FMA72551": {
+  "la": "Blastomerus"
+ },
+ "FMA72634": {
+  "id": "kortiko spenalis",
+  "la": "Tractus pyramidalis"
+ },
+ "FMA72638": {
+  "la": "Tractus olivocerebellaris"
+ },
+ "FMA7280": {
+  "la": "Endocardium"
+ },
+ "FMA72954": {
+  "id": "Sistem otot",
+  "la": "Musculi"
+ },
+ "FMA72979": {
+  "id": "Sistem integumen",
+  "la": "Systema integumentarium"
+ },
+ "FMA7318": {
+  "id": "Alveolus",
+  "la": "Alveolus pulmonis"
+ },
+ "FMA73915": {
+  "la": "Nucleus intermediolateralis"
+ },
+ "FMA7394": {
+  "id": "Trakea",
+  "la": "Trachea"
+ },
+ "FMA7406": {
+  "id": "fapa situ"
+ },
+ "FMA74060": {
+  "la": "Musculi masticatorii"
+ },
+ "FMA74084": {
+  "la": "Musculi intercostales externi"
+ },
+ "FMA74085": {
+  "la": "Musculi intercostales interni"
+ },
+ "FMA74086": {
+  "la": "Musculus intercostalis intimus"
+ },
+ "FMA7409": {
+  "id": "bronkus",
+  "la": "bronchus"
+ },
+ "FMA7410": {
+  "id": "Bronkioli"
+ },
+ "FMA74274": {
+  "id": "Membran dasar glomerular"
+ },
+ "FMA74406": {
+  "id": "Autosom"
+ },
+ "FMA74412": {
+  "id": "asam deoksiribonukleat",
+  "la": "acidum desoxyribonucleicum"
+ },
+ "FMA74413": {
+  "id": "Histon"
+ },
+ "FMA74534": {
+  "id": "Ventral",
+  "la": "ventralis"
+ },
+ "FMA74538": {
+  "id": "Cranial",
+  "la": "cranialis"
+ },
+ "FMA74551": {
+  "la": "profundus"
+ },
+ "FMA74565": {
+  "la": "Planum occipitale"
+ },
+ "FMA74567": {
+  "la": "Planum interspinale"
+ },
+ "FMA74580": {
+  "id": "Sulkus gingiva"
+ },
+ "FMA74587": {
+  "la": "Linea intertrochanterica"
+ },
+ "FMA74594": {
+  "id": "sistem limfatik",
+  "la": "systema lymphoideum"
+ },
+ "FMA74627": {
+  "id": "Adenohipofisis",
+  "la": "Lobus anterior hypophysis"
+ },
+ "FMA74636": {
+  "id": "Hipofisis posterior"
+ },
+ "FMA74640": {
+  "id": "Tirotropin"
+ },
+ "FMA74642": {
+  "id": "Hormon pelutein"
+ },
+ "FMA74644": {
+  "id": "Melatonin",
+  "la": "Melatoninum"
+ },
+ "FMA74657": {
+  "id": "Integumen"
+ },
+ "FMA7466": {
+  "la": "Musculus trachealis"
+ },
+ "FMA7474": {
+  "id": "Tulang panjang",
+  "la": "Os longum"
+ },
+ "FMA7475": {
+  "id": "Tulang pendek"
+ },
+ "FMA7476": {
+  "la": "Os planum"
+ },
+ "FMA7477": {
+  "id": "tulang tidak beraturan",
+  "la": "Os irregulare"
+ },
+ "FMA74787": {
+  "id": "Sistem renin-angiotensin"
+ },
+ "FMA7480": {
+  "id": "Dada"
+ },
+ "FMA7482": {
+  "id": "Sistem muskuloskeletal manusia",
+  "la": "Systema musculosceletalis humanum"
+ },
+ "FMA7485": {
+  "id": "Tulang dada",
+  "la": "Sternum"
+ },
+ "FMA74868": {
+  "la": "trigonum habenulae"
+ },
+ "FMA74877": {
+  "la": "Corpus mammillare"
+ },
+ "FMA7488": {
+  "id": "Prosesus xifoid",
+  "la": "Processus xiphoideus"
+ },
+ "FMA7490": {
+  "id": "sendi",
+  "la": "Juncturae"
+ },
+ "FMA7491": {
+  "id": "Sinartrosis",
+  "la": "synarthrosis"
+ },
+ "FMA7493": {
+  "la": "Sutura"
+ },
+ "FMA7496": {
+  "la": "junctura cartilaginea"
+ },
+ "FMA7497": {
+  "id": "Sinkondrosis"
+ },
+ "FMA7498": {
+  "id": "Simfisis"
+ },
+ "FMA75004": {
+  "id": "Sfingter"
+ },
+ "FMA75020": {
+  "la": "Regio sternocleidomastoidea"
+ },
+ "FMA75043": {
+  "la": "Crista occipitalis interna"
+ },
+ "FMA75045": {
+  "la": "Crista infratemporalis"
+ },
+ "FMA75059": {
+  "la": "Crista lacrimalis anterior"
+ },
+ "FMA75076": {
+  "la": "Crista supracondylaris medialis"
+ },
+ "FMA75078": {
+  "la": "Crista supracondylaris lateralis"
+ },
+ "FMA75088": {
+  "la": "Linea arcuata ossis ilium"
+ },
+ "FMA75100": {
+  "la": "Crista intertrochanterica"
+ },
+ "FMA75101": {
+  "la": "Linea aspera"
+ },
+ "FMA75150": {
+  "id": "Dentisi"
+ },
+ "FMA75151": {
+  "id": "Gigi susu"
+ },
+ "FMA75152": {
+  "id": "gigi permanen"
+ },
+ "FMA75259": {
+  "la": "Organa sensuum"
+ },
+ "FMA75292": {
+  "la": "articulatio composita"
+ },
+ "FMA75298": {
+  "id": "Sendi pelana"
+ },
+ "FMA75301": {
+  "id": "Sendi peluru"
+ },
+ "FMA75305": {
+  "la": "Fossa incisiva"
+ },
+ "FMA75306": {
+  "la": "Foramen magnum"
+ },
+ "FMA75309": {
+  "la": "Fossa pterygopalatina"
+ },
+ "FMA75310": {
+  "la": "Fossa condylaris"
+ },
+ "FMA75313": {
+  "la": "Fossa mandibularis"
+ },
+ "FMA75316": {
+  "la": "Fossa iliaca"
+ },
+ "FMA75335": {
+  "la": "Sulcus sinus transversi"
+ },
+ "FMA75346": {
+  "la": "Foramen intervertebrale (pl foramina intervertebralia)"
+ },
+ "FMA75351": {
+  "id": "Foramen interventrikular (neuroanatomi)"
+ },
+ "FMA75356": {
+  "la": "foramina sacralia posteriora"
+ },
+ "FMA75369": {
+  "la": "Canalis condylaris"
+ },
+ "FMA75370": {
+  "la": "Canalis nervi hypoglossi"
+ },
+ "FMA75394": {
+  "la": "Vena uterina"
+ },
+ "FMA75395": {
+  "la": "Venae labiales posteriores"
+ },
+ "FMA75396": {
+  "la": "Venae scrotales posteriores"
+ },
+ "FMA75397": {
+  "la": "Venae dorsales superficiales clitoridis"
+ },
+ "FMA75398": {
+  "la": "Vena dorsalis profunda penis"
+ },
+ "FMA75410": {
+  "la": "Arteriae helicinae penis"
+ },
+ "FMA75427": {
+  "id": "Lempeng epifisis"
+ },
+ "FMA75428": {
+  "id": "Prosesus",
+  "la": "processus"
+ },
+ "FMA75429": {
+  "id": "Tuberkel (tulang)"
+ },
+ "FMA75434": {
+  "id": "Bongkol tulang",
+  "la": "Condylus"
+ },
+ "FMA75435": {
+  "la": "Epicondylus"
+ },
+ "FMA75437": {
+  "id": "Fontanel"
+ },
+ "FMA75439": {
+  "id": "Ubun-ubun"
+ },
+ "FMA75449": {
+  "la": "Nervi vasorum or nervi vascularorum"
+ },
+ "FMA75467": {
+  "la": "Nervi intercostales"
+ },
+ "FMA75468": {
+  "la": "Nervi clunium superiores"
+ },
+ "FMA75469": {
+  "la": "\"Nervi anales inferiores,"
+ },
+ "FMA75470": {
+  "la": "Nervi clunium inferiores"
+ },
+ "FMA75474": {
+  "la": "Nervi ciliares breves"
+ },
+ "FMA75478": {
+  "la": "Nervi labiales anteriores"
+ },
+ "FMA75479": {
+  "la": "Nervi scrotales anteriores"
+ },
+ "FMA75486": {
+  "la": "Nervi intercostobrachiales"
+ },
+ "FMA75489": {
+  "la": "Nervi clunium medii"
+ },
+ "FMA75490": {
+  "la": "Nervi digitales dorsales nervi radialis"
+ },
+ "FMA75491": {
+  "la": "Nervi digitales dorsales pedis"
+ },
+ "FMA75492": {
+  "la": "Nervi digitales plantares communes nervi plantaris lateralis"
+ },
+ "FMA75493": {
+  "la": "Nervi digitales plantares proprii nervi plantaris medialis"
+ },
+ "FMA75496": {
+  "la": "\"Plexus gastrici,"
+ },
+ "FMA75501": {
+  "la": "Rami musculares nervi ulnaris"
+ },
+ "FMA75518": {
+  "la": "Rami coeliaci nervi vagi"
+ },
+ "FMA75545": {
+  "la": "Rami alveolares superiores posteriores nervi maxillaris"
+ },
+ "FMA75572": {
+  "id": "sistem reproduksi manusia",
+  "la": "Systemata genitalia"
+ },
+ "FMA75579": {
+  "la": "Rami helicini uterinae"
+ },
+ "FMA75582": {
+  "la": "Rami vaginales arteriae uterinae"
+ },
+ "FMA75585": {
+  "la": "Rami scrotales posteriores arteriae pudendae internae"
+ },
+ "FMA7565": {
+  "la": "Cavitas thoracis"
+ },
+ "FMA75715": {
+  "id": "Organ Korti"
+ },
+ "FMA7574": {
+  "id": "Tulang rusuk",
+  "la": "costa"
+ },
+ "FMA75746": {
+  "la": "Tuberculum pharyngeum"
+ },
+ "FMA75749": {
+  "la": "Tuberculum jugulare ossis occipitalis"
+ },
+ "FMA75750": {
+  "la": "Processus jugularis ossis occipitalis"
+ },
+ "FMA75751": {
+  "la": "Processus intrajugularis"
+ },
+ "FMA75752": {
+  "la": "Protuberantia occipitalis externa"
+ },
+ "FMA75754": {
+  "la": "Eminentia cruciformis"
+ },
+ "FMA75755": {
+  "la": "Protuberantia occipitalis interna"
+ },
+ "FMA75759": {
+  "id": "Sulkus (neuroanatomi)"
+ },
+ "FMA75760": {
+  "la": "Sulcus praechiasmaticus,"
+ },
+ "FMA75770": {
+  "la": "sinus maxillaris"
+ },
+ "FMA75776": {
+  "la": "Spina nasalis posterior ossis palatini"
+ },
+ "FMA75779": {
+  "id": "Simfisis Mandibula"
+ },
+ "FMA75811": {
+  "la": "Impressio ligamenti costoclavicularis, tuberositas costalis claviculae"
+ },
+ "FMA7591": {
+  "id": "Tulang rawan kosta"
+ },
+ "FMA76446": {
+  "id": "bokong",
+  "la": "Nates"
+ },
+ "FMA76464": {
+  "id": "vili intestinium"
+ },
+ "FMA7647": {
+  "id": "Sumsum tulang belakang",
+  "la": "Medulla spinalis"
+ },
+ "FMA76481": {
+  "id": "Appendiks epiploik",
+  "la": "appendices omentales"
+ },
+ "FMA76564": {
+  "id": "Pusar kepala"
+ },
+ "FMA76568": {
+  "la": "Neurofibrae preganglionicae"
+ },
+ "FMA76569": {
+  "la": "Neurofibrae postganglionicae"
+ },
+ "FMA76570": {
+  "id": "Serabut saraf aferen",
+  "la": "Neurofibrae afferentes"
+ },
+ "FMA76571": {
+  "id": "Serabut saraf eferen",
+  "la": "Neurofibrae efferentes"
+ },
+ "FMA76585": {
+  "la": "Apertura nasalis posterior"
+ },
+ "FMA76590": {
+  "la": "Sinus durae matris"
+ },
+ "FMA76715": {
+  "id": "tendon sheat"
+ },
+ "FMA76718": {
+  "la": "Vena profunda"
+ },
+ "FMA76719": {
+  "la": "Vena superficialis"
+ },
+ "FMA76728": {
+  "la": "Rete mirabile"
+ },
+ "FMA76738": {
+  "la": "Funiculus"
+ },
+ "FMA76740": {
+  "id": "Fasikulus otot"
+ },
+ "FMA76749": {
+  "id": "Saraf terminal",
+  "la": "Nervus terminalis"
+ },
+ "FMA76848": {
+  "la": "lig. sacrococcygeum posterius superficiale"
+ },
+ "FMA77035": {
+  "la": "Commissura alba anterior medullae spinalis"
+ },
+ "FMA77043": {
+  "la": "Arteriola glomerularis efferens capsulae renalis"
+ },
+ "FMA77061": {
+  "id": "Parametrium"
+ },
+ "FMA77064": {
+  "id": "Ligamen kardinal"
+ },
+ "FMA77144": {
+  "la": "Arteria interossea recurrens"
+ },
+ "FMA77155": {
+  "la": "Arteria poplitea"
+ },
+ "FMA77168": {
+  "la": "Vena sacralis mediana"
+ },
+ "FMA77177": {
+  "la": "Musculus iliocostalis"
+ },
+ "FMA77178": {
+  "la": "Musculus longissimus"
+ },
+ "FMA77179": {
+  "la": "Musculus spinalis"
+ },
+ "FMA77231": {
+  "id": "Pramaksila",
+  "la": "Os incisivum"
+ },
+ "FMA77232": {
+  "la": "os centrale carpi"
+ },
+ "FMA77271": {
+  "id": "Diastema"
+ },
+ "FMA77276": {
+  "la": "Fibrae obliquae"
+ },
+ "FMA77280": {
+  "id": "Organ vomeronasal"
+ },
+ "FMA77302": {
+  "la": "frenulum"
+ },
+ "FMA77433": {
+  "id": "Vasa vasorum",
+  "la": "Vasa vasorum"
+ },
+ "FMA77444": {
+  "la": "Arteria comitans nervi ischiadici"
+ },
+ "FMA77504": {
+  "la": "Vena dorsalis profunda clitoridis"
+ },
+ "FMA77510": {
+  "la": "Vena bulbi penis"
+ },
+ "FMA77524": {
+  "la": "Nervus pharyngeus"
+ },
+ "FMA77528": {
+  "la": "Plexus dentalis superior"
+ },
+ "FMA77530": {
+  "la": "Plexus parotideus"
+ },
+ "FMA77533": {
+  "la": "Plexus tympanicus"
+ },
+ "FMA77543": {
+  "la": "Radix cranialis nervi accessorii, pars vagalis nervi accessorii"
+ },
+ "FMA77559": {
+  "la": "Nervus interosseus antebrachii posterior"
+ },
+ "FMA77563": {
+  "la": "Ramus cutaneus lateralis abdominalis nervi intercostalis"
+ },
+ "FMA77570": {
+  "la": "Ganglia coeliaca"
+ },
+ "FMA77574": {
+  "la": "Plexus aorticus thoracicus"
+ },
+ "FMA77577": {
+  "la": "Ganglia thoracica"
+ },
+ "FMA77578": {
+  "la": "\"Ganglia lumbalia"
+ },
+ "FMA77579": {
+  "la": "Ganglia sacralia"
+ },
+ "FMA77584": {
+  "la": "Ganglia coeliaca"
+ },
+ "FMA77585": {
+  "la": "Ganglia aorticorenalia"
+ },
+ "FMA77589": {
+  "la": "Ganglion mesentericum superius"
+ },
+ "FMA77590": {
+  "la": "Ganglion mesentericum inferius"
+ },
+ "FMA77596": {
+  "la": "Nervus hypogastricus"
+ },
+ "FMA77602": {
+  "la": "Ramus communicans fibularis nervi fibularis communis"
+ },
+ "FMA77616": {
+  "id": "Striatum"
+ },
+ "FMA77618": {
+  "id": "Striatum"
+ },
+ "FMA77624": {
+  "id": "Bulbus olfaktorius",
+  "la": "Bulbus olfactorius"
+ },
+ "FMA77670": {
+  "la": "Arteria hyaloidea"
+ },
+ "FMA77700": {
+  "la": "Pars basalis telencephali"
+ },
+ "FMA77710": {
+  "la": "Lamina spiralis ossea"
+ },
+ "FMA77791": {
+  "id": "Cerebellar peduncle"
+ },
+ "FMA77800": {
+  "id": "Lobus otak"
+ },
+ "FMA77823": {
+  "la": "spatium endolymphaticum"
+ },
+ "FMA77826": {
+  "id": "Otolit"
+ },
+ "FMA77858": {
+  "id": "Lunula"
+ },
+ "FMA77859": {
+  "id": "Eponikium"
+ },
+ "FMA78440": {
+  "id": "flatulensi",
+  "la": "peditum"
+ },
+ "FMA78454": {
+  "la": "Ventriculus tertius"
+ },
+ "FMA78477": {
+  "la": "fastigium"
+ },
+ "FMA78499": {
+  "id": "Sistem indera",
+  "la": "Systema sensorium"
+ },
+ "FMA78550": {
+  "id": "Fasia",
+  "la": "Fascia"
+ },
+ "FMA78705": {
+  "la": "Nervus musculi quadrati femoris"
+ },
+ "FMA78711": {
+  "la": "Nervus musculi obturatorii interni"
+ },
+ "FMA79467": {
+  "la": "Ramus accessorius arteriae meningeae mediae"
+ },
+ "FMA7951": {
+  "la": "articulatio capitis costae"
+ },
+ "FMA7952": {
+  "la": "articulatio costotransversaria"
+ },
+ "FMA79646": {
+  "la": "Ductus biliaris"
+ },
+ "FMA79789": {
+  "la": "ductus cochlearis"
+ },
+ "FMA79869": {
+  "id": "kotoran telinga",
+  "la": "cerumen"
+ },
+ "FMA79871": {
+  "id": "Duktus arteriosus",
+  "la": "Ductus arteriosus"
+ },
+ "FMA79876": {
+  "id": "batang otak"
+ },
+ "FMA79879": {
+  "id": "kumpulan organ pohon saraf"
+ },
+ "FMA82482": {
+  "id": "lapisan dari organ"
+ },
+ "FMA82513": {
+  "id": "Trokanter"
+ },
+ "FMA82553": {
+  "la": "ventriculus"
+ },
+ "FMA82737": {
+  "id": "Karbohidrat",
+  "la": "Carbohydratum"
+ },
+ "FMA82738": {
+  "id": "Asam lemak",
+  "la": "Unctoacidum"
+ },
+ "FMA82739": {
+  "id": "Asam amino",
+  "la": "acidum aminicum"
+ },
+ "FMA82740": {
+  "id": "nukleotida",
+  "la": "nucleotidum"
+ },
+ "FMA82741": {
+  "id": "monosakarida"
+ },
+ "FMA82742": {
+  "id": "Oligosakarida"
+ },
+ "FMA82743": {
+  "id": "Glukosa",
+  "la": "glucosum"
+ },
+ "FMA82744": {
+  "id": "Disakarida",
+  "la": "Disaccharides"
+ },
+ "FMA82745": {
+  "id": "asam palmitat"
+ },
+ "FMA82746": {
+  "id": "polisakarida"
+ },
+ "FMA82747": {
+  "id": "Glikogen",
+  "la": "Glycogenum"
+ },
+ "FMA82748": {
+  "id": "selulosa",
+  "la": "Cellulosa"
+ },
+ "FMA82749": {
+  "id": "Alanina",
+  "la": "Alaninum"
+ },
+ "FMA82751": {
+  "id": "Sisteina",
+  "la": "Cysteinum"
+ },
+ "FMA82752": {
+  "id": "Glutamina",
+  "la": "Glutaminum"
+ },
+ "FMA82753": {
+  "id": "glisina",
+  "la": "glycinum"
+ },
+ "FMA82754": {
+  "id": "fenilalanina"
+ },
+ "FMA82755": {
+  "id": "Histidina"
+ },
+ "FMA82756": {
+  "id": "Isoleusina"
+ },
+ "FMA82757": {
+  "id": "Leusina",
+  "la": "Leucinum"
+ },
+ "FMA82758": {
+  "id": "L-lisin"
+ },
+ "FMA82761": {
+  "id": "Prolina"
+ },
+ "FMA82762": {
+  "id": "Asam glutamat",
+  "la": "acidum glutamicum"
+ },
+ "FMA82764": {
+  "id": "Serina"
+ },
+ "FMA82765": {
+  "id": "Treonina"
+ },
+ "FMA82767": {
+  "id": "Triptofan",
+  "la": "Tryptophanum"
+ },
+ "FMA82769": {
+  "id": "asam heksanoat",
+  "la": "acidum capronicum"
+ },
+ "FMA82770": {
+  "id": "Asam stearat"
+ },
+ "FMA82771": {
+  "id": "Asam miristat"
+ },
+ "FMA82773": {
+  "id": "pirimidin",
+  "la": "Pyrimidinum"
+ },
+ "FMA82775": {
+  "id": "Guanina",
+  "la": "Guaninum"
+ },
+ "FMA82779": {
+  "id": "Fosfolipid",
+  "la": "Phospholipidum"
+ },
+ "FMA82780": {
+  "id": "Glikolipid",
+  "la": "glycolipida"
+ },
+ "FMA82784": {
+  "id": "Glikopeptida"
+ },
+ "FMA82785": {
+  "id": "Lipopolisakarida"
+ },
+ "FMA82788": {
+  "id": "Asam N-asetilneuraminat"
+ },
+ "FMA82790": {
+  "id": "Fukosa"
+ },
+ "FMA82794": {
+  "id": "Galaktosa"
+ },
+ "FMA82798": {
+  "id": "Asam glusuronat"
+ },
+ "FMA82801": {
+  "id": "Mannosa",
+  "la": "mannosa"
+ },
+ "FMA82804": {
+  "id": "Xilosa"
+ },
+ "FMA82837": {
+  "id": "Kondroitin"
+ },
+ "FMA82839": {
+  "id": "Heparin"
+ },
+ "FMA82841": {
+  "id": "Sel punca embrionik"
+ },
+ "FMA83029": {
+  "la": "Trophoblastus"
+ },
+ "FMA83030": {
+  "id": "Limfoblas"
+ },
+ "FMA83036": {
+  "id": "Sel dendritik"
+ },
+ "FMA83037": {
+  "id": "Sel dendritik folikular"
+ },
+ "FMA83040": {
+  "id": "Sinsitiotrofoblas",
+  "la": "Syncytiotrophoblastus"
+ },
+ "FMA83041": {
+  "id": "blastosis",
+  "la": "blastocystis"
+ },
+ "FMA83348": {
+  "id": "Kalsitonin",
+  "la": "Calcitoninum"
+ },
+ "FMA83353": {
+  "id": "Hormon steroid"
+ },
+ "FMA83358": {
+  "id": "Laktogen",
+  "la": "Prolactinum"
+ },
+ "FMA83362": {
+  "id": "Gonadotropin"
+ },
+ "FMA83364": {
+  "id": "Kortikotropin",
+  "la": "Hormonum adrenocorticotropinum"
+ },
+ "FMA83375": {
+  "id": "Androgen"
+ },
+ "FMA83504": {
+  "id": "Prorubrisit"
+ },
+ "FMA83518": {
+  "id": "Rubriblas"
+ },
+ "FMA83525": {
+  "id": "Mielosit"
+ },
+ "FMA83555": {
+  "id": "Megakariosit"
+ },
+ "FMA83585": {
+  "id": "Histiosit"
+ },
+ "FMA83602": {
+  "la": "Corpusculum Ruffinianum"
+ },
+ "FMA83604": {
+  "la": "Corpusculus Pacinianus"
+ },
+ "FMA83605": {
+  "la": "Corpusculum Meissnerianum"
+ },
+ "FMA83617": {
+  "id": "Neuron motorik"
+ },
+ "FMA83624": {
+  "id": "Sel stromal"
+ },
+ "FMA83665": {
+  "id": "Oligodendrosit",
+  "la": "Oligodendrocytus"
+ },
+ "FMA83673": {
+  "id": "Oogonium"
+ },
+ "FMA83675": {
+  "la": "Lemniscus medialis"
+ },
+ "FMA83686": {
+  "id": "nukleus"
+ },
+ "FMA83688": {
+  "id": "Upil"
+ },
+ "FMA83698": {
+  "id": "Rongga meduler"
+ },
+ "FMA83721": {
+  "la": "Cisterna magna"
+ },
+ "FMA83806": {
+  "id": "Fagosit"
+ },
+ "FMA83867": {
+  "la": "Alveus hippocampi"
+ },
+ "FMA83874": {
+  "id": "gyrus"
+ },
+ "FMA84013": {
+  "id": "Ganglia basal",
+  "la": "Nuclei basales"
+ },
+ "FMA84017": {
+  "la": "Nuclei raphes"
+ },
+ "FMA84049": {
+  "la": "spermatocyta"
+ },
+ "FMA84050": {
+  "id": "Sitokina",
+  "la": "Cytokinum"
+ },
+ "FMA84055": {
+  "id": "Kromosom X",
+  "la": "Chromosoma X"
+ },
+ "FMA84056": {
+  "id": "Kromosom-Y"
+ },
+ "FMA84065": {
+  "id": "Limfosit",
+  "la": "Lymphocytus"
+ },
+ "FMA84079": {
+  "id": "kompleks histokompatibilitas utama",
+  "la": "complexus histocompatibilitatis maior"
+ },
+ "FMA84105": {
+  "id": "sel piramida"
+ },
+ "FMA84115": {
+  "id": "Sinus ethmoid",
+  "la": "Cellulae ethmoidales,"
+ },
+ "FMA84120": {
+  "id": "ekson",
+  "la": "exon"
+ },
+ "FMA84121": {
+  "id": "intron"
+ },
+ "FMA84133": {
+  "id": "Histon oktamer"
+ },
+ "FMA84631": {
+  "id": "upper motor neuron"
+ },
+ "FMA84642": {
+  "id": "Histiosit"
+ },
+ "FMA84649": {
+  "id": "Neuron sensorik"
+ },
+ "FMA84650": {
+  "id": "Reseptor indra"
+ },
+ "FMA84662": {
+  "id": "Reseptor rasa"
+ },
+ "FMA84689": {
+  "id": "Sentromer"
+ },
+ "FMA84716": {
+  "id": "Eukromatin"
+ },
+ "FMA84717": {
+  "id": "Heterokromatin"
+ },
+ "FMA84719": {
+  "id": "Kromatid"
+ },
+ "FMA84786": {
+  "id": "Asam gamma-aminobutirat",
+  "la": "Acidum γ-aminobutyricum"
+ },
+ "FMA84787": {
+  "id": "neuron dopaminergik"
+ },
+ "FMA84795": {
+  "id": "Antigen leukosit manusia"
+ },
+ "FMA84970": {
+  "la": "Fossa pterygoidea ossis sphenoidalis"
+ },
+ "FMA85006": {
+  "id": "rongga tubuh"
+ },
+ "FMA85434": {
+  "id": "Fosfatidil kolina"
+ },
+ "FMA85435": {
+  "id": "Fosfatidilserina"
+ },
+ "FMA85438": {
+  "id": "Protein serat"
+ },
+ "FMA85521": {
+  "la": "Chorda dorsalis"
+ },
+ "FMA85528": {
+  "la": "Arteria canalis pterygoidei"
+ },
+ "FMA85538": {
+  "id": "Desidua"
+ },
+ "FMA85543": {
+  "id": "Badan polar"
+ },
+ "FMA85554": {
+  "id": "protein membran",
+  "la": "proteinum membranale"
+ },
+ "FMA85604": {
+  "id": "Kemoreseptor"
+ },
+ "FMA85613": {
+  "id": "Sel fotoreseptor"
+ },
+ "FMA85704": {
+  "id": "Sel beta"
+ },
+ "FMA85813": {
+  "id": "padat",
+  "la": "solidum"
+ },
+ "FMA85816": {
+  "id": "gas",
+  "la": "gas"
+ },
+ "FMA86033": {
+  "la": "Musculus opponens digiti minimi pedis"
+ },
+ "FMA86140": {
+  "la": "segmentum organi"
+ },
+ "FMA86333": {
+  "id": "makula densa"
+ },
+ "FMA86454": {
+  "id": "komponen seluler",
+  "la": "componens cellularis"
+ },
+ "FMA86464": {
+  "id": "Corpus callosum",
+  "la": "Corpus callosum"
+ },
+ "FMA86557": {
+  "id": "Massa sel dalam",
+  "la": "Massa cellularis interior"
+ },
+ "FMA86587": {
+  "id": "Mekanoreseptor"
+ },
+ "FMA86589": {
+  "id": "Primordia"
+ },
+ "FMA86666": {
+  "id": "Puncak saraf"
+ },
+ "FMA86740": {
+  "id": "Sel fotoreseptor"
+ },
+ "FMA87180": {
+  "id": "Kantung kuning telur",
+  "la": "Vesicula umbilicalis"
+ },
+ "FMA8961": {
+  "la": "ligamentum capitis costae radiatum"
+ },
+ "FMA9093": {
+  "id": "sistem saraf tepi"
+ },
+ "FMA9139": {
+  "id": "Tulang punggung tengah",
+  "la": "vertebrae thoracicae"
+ },
+ "FMA9146": {
+  "la": "Fovea costalis inferior"
+ },
+ "FMA9462": {
+  "id": "Miokard",
+  "la": "Myocardium"
+ },
+ "FMA9476": {
+  "id": "Sistem konduksi jantung"
+ },
+ "FMA9477": {
+  "id": "Node sinoatrial",
+  "la": "Nodus sinuatrialis"
+ },
+ "FMA9478": {
+  "la": "Nodus atrioventricularis"
+ },
+ "FMA9576": {
+  "id": "dada",
+  "la": "Pectus"
+ },
+ "FMA9577": {
+  "id": "Abdomen",
+  "la": "Abdomen"
+ },
+ "FMA9579": {
+  "id": "Perineum",
+  "la": "Perineum"
+ },
+ "FMA9580": {
+  "la": "Omentum maius"
+ },
+ "FMA9581": {
+  "id": "membran serosa",
+  "la": "Tunica serosa"
+ },
+ "FMA9584": {
+  "id": "Peritoneum",
+  "la": "peritoneum"
+ },
+ "FMA9587": {
+  "id": "Rectus sheath",
+  "la": "Vagina musculi recti abdominis"
+ },
+ "FMA9590": {
+  "la": "pia mater"
+ },
+ "FMA9591": {
+  "id": "Arachnoid mater"
+ },
+ "FMA9592": {
+  "id": "Dura Mater",
+  "la": "Dura mater"
+ },
+ "FMA9595": {
+  "id": "Gendang telinga",
+  "la": "Tympanum"
+ },
+ "FMA9596": {
+  "id": "Kelenjar eksokrin"
+ },
+ "FMA9597": {
+  "id": "Kelenjar liur",
+  "la": "Glandulae salivariae"
+ },
+ "FMA95971": {
+  "id": "Kelenjar liur",
+  "la": "Glandulae salivariae"
+ },
+ "FMA9598": {
+  "id": "Kelenjar Bartholin"
+ },
+ "FMA9600": {
+  "id": "prostat",
+  "la": "Prostata"
+ },
+ "FMA9602": {
+  "id": "Kelenjar endokrin",
+  "la": "Glandulae endocrinae"
+ },
+ "FMA9603": {
+  "id": "Kelenjar tiroid",
+  "la": "glandula thyreoeidea"
+ },
+ "FMA9604": {
+  "id": "kelenjar adrenal",
+  "la": "glandula adrenalis"
+ },
+ "FMA9607": {
+  "id": "timus",
+  "la": "thymus"
+ },
+ "FMA9608": {
+  "id": "Sumsum tulang",
+  "la": "Medulla ossium"
+ },
+ "FMA9609": {
+  "id": "Mandel",
+  "la": "tonsilla palatina"
+ },
+ "FMA9611": {
+  "id": "Tulang paha",
+  "la": "Os femoris"
+ },
+ "FMA9612": {
+  "id": "Metakarpus",
+  "la": "Metacarpus"
+ },
+ "FMA9613": {
+  "id": "Tulang parietal",
+  "la": "Os parietale"
+ },
+ "FMA9624": {
+  "la": "Musculus occipitofrontalis"
+ },
+ "FMA9625": {
+  "la": "Musculus stylohyoideus"
+ },
+ "FMA9626": {
+  "id": "Otot trapezius",
+  "la": "Musculus trapezius"
+ },
+ "FMA9627": {
+  "id": "Otot pectoralis major",
+  "la": "Musculus pectoralis major"
+ },
+ "FMA9628": {
+  "id": "Otot rektus abdominis",
+  "la": "Musculus rectus abdominis"
+ },
+ "FMA9629": {
+  "id": "Otot supraspinatus",
+  "la": "Musculus supraspinatus"
+ },
+ "FMA9630": {
+  "id": "Hipodermis"
+ },
+ "FMA9637": {
+  "id": "Jaringan",
+  "la": "textum biologicum"
+ },
+ "FMA9639": {
+  "id": "Jaringan epitel",
+  "la": "Textus epithelialis"
+ },
+ "FMA96404": {
+  "id": "jaringan Ikat",
+  "la": "Textus conexivus"
+ },
+ "FMA9644": {
+  "id": "Rongga kranial"
+ },
+ "FMA9661": {
+  "id": "area tungkai"
+ },
+ "FMA9663": {
+  "id": "Lengan bawah",
+  "la": "antebrachium"
+ },
+ "FMA9664": {
+  "id": "kaki",
+  "la": "pes"
+ },
+ "FMA9665": {
+  "id": "Pergelangan kaki"
+ },
+ "FMA9666": {
+  "id": "jari"
+ },
+ "FMA9668": {
+  "id": "Sistem endokrin",
+  "la": "systema endocrinum"
+ },
+ "FMA9669": {
+  "id": "zat biogenik"
+ },
+ "FMA9670": {
+  "id": "darah",
+  "la": "sanguis"
+ },
+ "FMA9671": {
+  "id": "limfa",
+  "la": "Lympha"
+ },
+ "FMA9673": {
+  "id": "cairan interstitial"
+ },
+ "FMA9680": {
+  "id": "rongga tulang belakang",
+  "la": "canalis vertebralis"
+ },
+ "FMA9692": {
+  "la": "Bursa synovialis"
+ },
+ "FMA9704": {
+  "id": "Ureter",
+  "la": "Ureter"
+ },
+ "FMA9705": {
+  "id": "Saluran Eustachi",
+  "la": "Tuba auditiva Eustachii"
+ },
+ "FMA9706": {
+  "id": "Saluran empedu"
+ },
+ "FMA9707": {
+  "id": "penis manusia",
+  "la": "Penis hominis"
+ },
+ "FMA9708": {
+  "la": "astragalus"
+ },
+ "FMA9710": {
+  "id": "Vomer",
+  "la": "Vomer (anatomia)"
+ },
+ "FMA9711": {
+  "id": "maksila",
+  "la": "Maxilla"
+ },
+ "FMA9712": {
+  "id": "tangan",
+  "la": "manus"
+ },
+ "FMA9715": {
+  "la": "Omentum minus"
+ },
+ "FMA9717": {
+  "la": "Musculus sternalis"
+ },
+ "FMA9721": {
+  "id": "tendon",
+  "la": "tendo"
+ },
+ "FMA9722": {
+  "id": "Aponeurosis"
+ },
+ "FMA9734": {
+  "id": "pleura"
+ },
+ "FMA9738": {
+  "id": "Rongga panggul"
+ },
+ "FMA9740": {
+  "id": "Pleural cavity"
+ },
+ "FMA9757": {
+  "la": "Musculi intercostales interni"
+ },
+ "FMA9760": {
+  "la": "Musculus transversus thoracis"
+ },
+ "FMA9825": {
+  "id": "sistem imun",
+  "la": "systema immunitatis"
+ },
+ "FMA9826": {
+  "id": "Mediastinum",
+  "la": "Mediastinum"
+ },
+ "FMA9869": {
+  "id": "Perikardium",
+  "la": "Pericardium"
+ },
+ "FMA9904": {
+  "id": "Sistem saraf somatik"
+ },
+ "FMA9905": {
+  "id": "Saraf otonom",
+  "la": "Systema nervosum autonomicum"
+ },
+ "FMA9906": {
+  "id": "Sistem saraf simpatis"
+ },
+ "FMA9907": {
+  "id": "Sistem saraf parasimpatis"
+ },
+ "FMA9909": {
+  "id": "klitoris",
+  "la": "Clitoris"
+ },
+ "FMA9914": {
+  "id": "Tulang punggung",
+  "la": "Vertebra"
+ },
+ "FMA9915": {
+  "id": "Tulang leher",
+  "la": "Vertebrae cervicales"
+ },
+ "FMA9921": {
+  "id": "Tulang punggung bawah",
+  "la": "Vertebrae lumbales"
+ }
+}
