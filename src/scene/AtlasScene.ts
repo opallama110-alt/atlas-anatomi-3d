@@ -113,6 +113,8 @@ export class AtlasScene {
     this.resize();
     this.jumpToPose(presetPose('awal', this.bodyBounds, FOV, this.camera.aspect));
     this.frame = requestAnimationFrame(this.tick);
+    // Development builds expose the scene for inspection from the browser console.
+    if (import.meta.env.DEV) Object.assign(window, { __atlasScene: this });
   }
 
   setManifest(manifest: BodyManifest, baseUrl: string): void {

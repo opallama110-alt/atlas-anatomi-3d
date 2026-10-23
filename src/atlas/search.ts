@@ -1,8 +1,13 @@
+import { SYSTEMS } from './systems';
 import type { PartNames, PartRecord } from './types';
 
 export interface SearchIndex {
-  entries: { id: string; keys: string[] }[];
+  /** `systemKey` is the part's Indonesian system label, matched after every name. */
+  entries: { id: string; keys: string[]; systemKey?: string }[];
 }
+
+/** Rank for a match on the system label only, below every name match. */
+const SYSTEM_RANK = 4;
 
 const NAME_KEYS: readonly (keyof PartNames)[] = ['en', 'id', 'la', 'ringan', 'kesehatan'];
 
@@ -15,11 +20,13 @@ export function normalizeQuery(s: string): string {
     .trim();
 }
 
-export function buildSearchIndex(parts: Pick<PartRecord, 'id' | 'names'>[]): SearchIndex {
+export function buildSearchIndex(parts: (Pick<PartRecord, 'id' | 'names'> & { system?: PartRecord['system'] })[]): SearchIndex {
+  const systemLabel = new Map(SYSTEMS.map((s) => [s.id, normalizeQuery(s.label)]));
   return {
     entries: parts.map((part) => ({
       id: part.id,
       keys: [...new Set(NAME_KEYS.map((k) => part.names[k]).filter((n): n is string => !!n).map(normalizeQuery))],
+      systemKey: part.system ? systemLabel.get(part.system) : undefined,
     })),
   };
 }
@@ -45,6 +52,9 @@ export function searchParts(index: SearchIndex, query: string, limit = 20): stri
       const r = rank(key, q, words);
       if (r === null) continue;
       if (!best || r < best.rank || (r === best.rank && key.length < best.length)) best = { rank: r, length: key.length };
+    }
+    if (!best && entry.systemKey && rank(entry.systemKey, q, words) !== null) {
+      best = { rank: SYSTEM_RANK, length: Math.min(...entry.keys.map((k) => k.length)) };
     }
     if (best) hits.push({ id: entry.id, ...best });
   }
