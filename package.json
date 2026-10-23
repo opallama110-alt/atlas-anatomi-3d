@@ -13,7 +13,9 @@
     "dev:hp": "vite --host",
     "build": "tsc --noEmit && vite build",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "models:male": "cd pipeline && .venv\\Scripts\\python -m atlas_pipeline male && cd .. && node scripts/optimize-glb.mjs male && node scripts/validate-models.mjs male",
+    "models:validate": "node scripts/validate-models.mjs"
   },
   "dependencies": {
     "marked": "^18.1.1",
