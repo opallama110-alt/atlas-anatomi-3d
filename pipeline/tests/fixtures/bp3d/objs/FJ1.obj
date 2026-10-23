@@ -1,0 +1,8 @@
+#
+# File ID : FJ1
+# Concept ID : FMA5018
+# English name : Left test femur
+v 100 0 0
+v 120 0 0
+v 110 0 900
+f 1 2 3

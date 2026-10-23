@@ -1,0 +1,8 @@
+#
+# File ID : FJ3
+# Concept ID : FMA7203
+# English name : Test kidney
+v -20 0 900
+v 20 0 900
+v 0 0 1000
+f 1 2 3

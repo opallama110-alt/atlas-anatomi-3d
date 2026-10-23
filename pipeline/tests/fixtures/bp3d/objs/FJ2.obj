@@ -1,0 +1,8 @@
+#
+# File ID : FJ2
+# Concept ID : FMA50720
+# English name : Right test artery
+v -120 0 0
+v -100 0 0
+v -110 0 900
+f 1 2 3

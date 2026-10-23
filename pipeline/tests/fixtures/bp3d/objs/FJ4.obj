@@ -1,0 +1,8 @@
+#
+# File ID : FJ4
+# Concept ID : FMA46472
+# English name : Test nose
+v -5 -150 1600
+v 5 -150 1600
+v 0 -150 1610
+f 1 2 3
