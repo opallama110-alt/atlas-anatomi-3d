@@ -1,0 +1,5 @@
+concept id	name	element file id
+FMA5018	bone organ	FJ1
+FMA50720	artery	FJ2
+FMA62955	anatomical entity	FJ1
+FMA62955	anatomical entity	FJ2
