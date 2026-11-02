@@ -90,6 +90,9 @@ export class SystemBatch {
       const [x, y, z] = explodeOffset(partCenter, bodyCenter, amount);
       this.mesh.setMatrixAt(instanceId, matrix.makeTranslation(x, y, z));
     });
+    // setMatrixAt does not refresh the bounds the renderer culls the whole batch by.
+    this.mesh.computeBoundingSphere();
+    this.mesh.computeBoundingBox();
   }
 
   has(id: string): boolean {

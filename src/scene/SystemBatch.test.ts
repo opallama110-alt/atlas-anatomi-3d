@@ -22,6 +22,14 @@ test('a ray through a part hits it and reports its id', () => {
   expect(batch.partIdAt(hits[0].batchId!)).toBe('B');
 });
 
+test('exploding moves the culling bounds with the parts', () => {
+  const batch = batchOfTwo();
+  batch.mesh.computeBoundingSphere(); // the renderer does this on the first frame and culls the whole batch by it
+  batch.setExplode(2, [0, 0, 0]); // part B (centre x = 1) moves to x = 1 + 1 * 1.5 * 2 = 4
+  expect(batch.mesh.boundingSphere!.containsPoint(new THREE.Vector3(4, 0, 0))).toBe(true);
+  expect(rayAt(4).intersectObject(batch.mesh, false).length).toBeGreaterThan(0);
+});
+
 test('hidden parts cannot be hit', () => {
   const batch = batchOfTwo();
   batch.setVisibility((id) => id !== 'B');
