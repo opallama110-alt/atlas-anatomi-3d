@@ -1203,3 +1203,17 @@ Setiap tahap berikut mendapat rencana sendiri setelah tahap sebelumnya selesai, 
 5. Napas, zoom alveolus, dan Ikuti udara.
 6. Nama dan penjelasan dua gaya.
 7. Bonus: berdiri, jalan, lari.
+
+## Temuan kecil yang ditunda (review akhir tahap 1)
+
+Temuan Critical dan Important dari review akhir sudah diperbaiki di branch ini. Temuan kecil berikut dibawa ke rencana tahap 2:
+
+1. Dua tes lebih lemah dari namanya: urutan peringkat di `src/atlas/search.test.ts` tidak menyentuh peringkat 1 dan 3, dan `scripts/lib/models.test.mjs` tidak punya kasus melewati batas 40 MB.
+2. Mematikan lapisan tidak mengosongkan pilihan; menekan Isolasi untuk bagian yang lapisannya mati membuat layar kosong (`src/atlas/viewState.ts`). Isolasi sebaiknya menyalakan sistemnya seperti `revealPart`.
+3. Dua `aria-label` belum ada di `strings.ts`: kanvas di `AtlasScene.ts` dan sakelar badan di `TopBar.tsx`.
+4. Tiga bagian BodyParts3D bertanda sisi yang berlawanan dengan posisinya (FJ1469, FJ1469M, FJ2190). `validate-models` sebaiknya memperingatkan bila |x| > 0,05 m dan sisi tidak cocok, ditambah daftar koreksi.
+5. `AtlasScene.dispose` belum membuang geometri dan material alas, tekstur lingkungan, atau memanggil `forceContextLoss`; `isSupported()` meninggalkan satu konteks WebGL2 sementara.
+6. Animasi kamera 450 ms melawan seretan pengguna; hentikan tween saat OrbitControls mulai diseret.
+7. Bila dua lapisan dimuat bersamaan, yang selesai lebih dulu menyembunyikan chip "Memuat…".
+8. `parseManifest` hanya memeriksa `names.en`; `names.id`/`names.la` yang bukan teks membuat pencarian error, dan badan di manifest tidak dibandingkan dengan yang diminta.
+9. Bila `WebGLRenderer` gagal dibuat walau `isSupported()` benar, belum ada error boundary; konteks WebGL yang hilang belum ditangani.
