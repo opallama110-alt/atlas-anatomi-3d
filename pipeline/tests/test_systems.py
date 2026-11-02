@@ -38,6 +38,11 @@ def ec(isa=(), partof=()):
     (ec(), "Left corona ciliaris", ("sensory", "sensory")),
     (ec(), "Wall of ventricle", ("cardiac", "name-heart")),
     (ec(), "Left ciliary ganglion", ("nervous", "name-nervous")),
+    # Liver segments and ducts: "hepatovenous" and "caudate lobe" are not veins or brain nuclei.
+    (ec(), "Hepatovenous segment IX", ("digestive", "name-digestive")),
+    (ec(partof={"FMA7152"}), "Hepatovenous segment II", ("digestive", "partof-alimentary")),
+    (ec(), "Left duct of caudate lobe of liver", ("digestive", "name-digestive")),
+    (ec(), "Right caudate nucleus", ("nervous", "name-nervous")),
 ])
 def test_classify_follows_rule_order(concepts, name, expected):
     assert classify(concepts, name) == expected

@@ -42,7 +42,8 @@ RULES: tuple[Rule, ...] = (
                                                  "FMA66332"})),
     Rule("isa-vein", "venous", isa=frozenset({"FMA50723", "FMA86188", "FMA30314", "FMA22917", "FMA63814"})),
     # Veins before arteries: "palmar venous arch" is a vein, "palmar arch" an artery.
-    Rule("name-vein", "venous", name=_names(r"\bveins?\b|venous|vena cava")),
+    # Whole word only: "hepatovenous segment" is liver tissue, not a vein.
+    Rule("name-vein", "venous", name=_names(r"\bveins?\b|\bvenous\b|vena cava")),
     Rule("name-artery", "arterial", name=_names(
         r"arter|aorta|celiac trunk|pulmonary trunk|costocervical trunk|thyrocervical trunk|palmar arch|plantar arch")),
     Rule("partof-heart", "cardiac", partof=frozenset({"FMA7088"})),
@@ -69,7 +70,7 @@ RULES: tuple[Rule, ...] = (
     Rule("connective", "connective", isa=frozenset({"FMA55107", "FMA10446", "FMA9721", "FMA7591", "FMA7538",
                                                     "FMA21496"})),
     Rule("name-nervous", "nervous", name=_names(
-        r"nerve|ganglion|chiasm|plexus|optic tract|amygdala|caudate|putamen|pallid|thalam|fornix|callosum"
+        r"nerve|ganglion|chiasm|plexus|optic tract|amygdala|caudate nucleus|putamen|pallid|thalam|fornix|callosum"
         r"|commissure|collicul|geniculate|mammillary|lamina terminalis|interpeduncular|peduncle|stria"
         r"|interventricular foramen|brain|cerebr|cerebell|medulla|pons|midbrain|spinal cord|hippocamp")),
     Rule("name-heart", "cardiac", name=_names(r"wall of ventricle|atrium|cardiac|papillary|valve")),
