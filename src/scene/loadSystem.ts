@@ -47,14 +47,68 @@ export function toWorldFloatGeometry(mesh: THREE.Mesh): THREE.BufferGeometry {
 
 const loader = new GLTFLoader().setMeshoptDecoder(MeshoptDecoder);
 
+/** A download that receives no bytes for this long counts as failed, so the user gets "Coba lagi". */
+export const STALL_MS = 20_000;
+
+async function readBody(url: string, signal: AbortSignal, onChunk: (loaded: number, total: number) => void) {
+  const response = await fetch(url, { signal });
+  if (!response.ok) throw new Error(`HTTP ${response.status}: ${url}`);
+  if (!response.body) return response.arrayBuffer();
+  const total = Number(response.headers.get('content-length')) || 0;
+  const reader = response.body.getReader();
+  const chunks: Uint8Array[] = [];
+  let loaded = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    chunks.push(value);
+    loaded += value.byteLength;
+    onChunk(loaded, total);
+  }
+  const bytes = new Uint8Array(loaded);
+  let offset = 0;
+  for (const chunk of chunks) {
+    bytes.set(chunk, offset);
+    offset += chunk.byteLength;
+  }
+  return bytes.buffer;
+}
+
+/**
+ * Download a model file. Fails when no data arrives for `stallMs` (a dead phone
+ * connection often hangs without an error), and aborts the request when it does.
+ */
+export function fetchModel(
+  url: string,
+  onProgress?: (fraction: number) => void,
+  stallMs = STALL_MS,
+): Promise<ArrayBuffer> {
+  const controller = new AbortController();
+  return new Promise<ArrayBuffer>((resolve, reject) => {
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    const arm = () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        controller.abort();
+        reject(new Error(`No data for ${stallMs} ms: ${url}`));
+      }, stallMs);
+    };
+    arm();
+    readBody(url, controller.signal, (loaded, total) => {
+      arm();
+      if (total > 0) onProgress?.(Math.min(1, loaded / total));
+    })
+      .then(resolve, reject)
+      .finally(() => clearTimeout(timer));
+  });
+}
+
 /** Load one system GLB and return its part geometries keyed by part id (the glTF node name). */
 export async function loadSystemGeometries(
   url: string,
   onProgress?: (fraction: number) => void,
 ): Promise<Map<string, THREE.BufferGeometry>> {
-  const gltf = await loader.loadAsync(url, (event) => {
-    if (onProgress && event.lengthComputable && event.total > 0) onProgress(event.loaded / event.total);
-  });
+  const gltf = await loader.parseAsync(await fetchModel(url, onProgress), '');
   gltf.scene.updateMatrixWorld(true);
   const geometries = new Map<string, THREE.BufferGeometry>();
   gltf.scene.traverse((object) => {
