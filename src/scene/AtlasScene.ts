@@ -6,6 +6,7 @@ import type { BodyManifest, SystemId } from '../atlas/types';
 import { isPartVisible, type ViewState } from '../atlas/viewState';
 import { fitDistance, presetPose, type Box3Like, type CameraPreset } from './cameraPresets';
 import { explodeOffset, type Vec3 } from './explode';
+import { LayerQueue } from './layerQueue';
 import { loadSystemGeometries } from './loadSystem';
 import { isTap, type PointerSample } from './picking';
 import { SystemBatch } from './SystemBatch';
@@ -46,7 +47,10 @@ export class AtlasScene {
   private readonly controls: OrbitControls;
   private readonly raycaster = new THREE.Raycaster();
   private readonly batches = new Map<SystemId, SystemBatch>();
-  private readonly loading = new Map<SystemId, Promise<void>>();
+  private readonly layers = new LayerQueue<SystemId>(
+    (system, isCurrent) => this.loadSystem(system, isCurrent),
+    (system, error) => this.events.onLayerError(system, error instanceof Error ? error.message : String(error)),
+  );
   private readonly lastExplode = new Map<SystemId, number>();
   private readonly resizeObserver: ResizeObserver;
   private manifest: BodyManifest | null = null;
@@ -54,7 +58,6 @@ export class AtlasScene {
   private bodyBounds: Box3Like = { min: [-0.35, 0, -0.2], max: [0.35, 1.75, 0.2] };
   private bodyCenter: Vec3 = [0, 0.875, 0];
   private view: ViewState | null = null;
-  private generation = 0;
   private dirty = true;
   private frame = 0;
   private tween: CameraTween | null = null;
@@ -118,13 +121,12 @@ export class AtlasScene {
   }
 
   setManifest(manifest: BodyManifest, baseUrl: string): void {
-    this.generation += 1;
+    this.layers.reset();
     for (const batch of this.batches.values()) {
       this.scene.remove(batch.mesh);
       batch.dispose();
     }
     this.batches.clear();
-    this.loading.clear();
     this.lastExplode.clear();
     this.manifest = manifest;
     this.baseUrl = baseUrl;
@@ -144,11 +146,17 @@ export class AtlasScene {
     this.requestRender();
   }
 
-  /** Load the given systems one after another; a failing system reports an error and the rest continue. */
-  async ensureSystems(systems: SystemId[]): Promise<void> {
-    for (const system of systems) {
-      if (!this.batches.has(system)) await this.loadSystem(system);
-    }
+  /**
+   * Load the given systems one after another; a failing system reports an error and the rest continue.
+   * A failed system is skipped until retryLayer() is called for it.
+   */
+  ensureSystems(systems: SystemId[]): Promise<void> {
+    return this.layers.ensure(systems);
+  }
+
+  /** Let the next ensureSystems() load a system that failed earlier ("Coba lagi"). */
+  retryLayer(system: SystemId): void {
+    this.layers.retry(system);
   }
 
   applyView(state: ViewState): void {
@@ -182,7 +190,7 @@ export class AtlasScene {
 
   dispose(): void {
     cancelAnimationFrame(this.frame);
-    this.generation += 1;
+    this.layers.reset();
     this.resizeObserver.disconnect();
     const canvas = this.renderer.domElement;
     canvas.removeEventListener('pointerdown', this.onPointerDown);
@@ -195,40 +203,30 @@ export class AtlasScene {
     this.fpsLabel?.remove();
   }
 
-  private loadSystem(system: SystemId): Promise<void> {
-    const pending = this.loading.get(system);
-    if (pending) return pending;
+  /** Load one system into a batch. Errors propagate to the layer queue, which reports them. */
+  private async loadSystem(system: SystemId, isCurrent: () => boolean): Promise<void> {
     const manifest = this.manifest;
     const file = manifest?.systems.find((s) => s.id === system);
-    if (!manifest || !file) return Promise.resolve();
-    const generation = this.generation;
-    const promise = (async () => {
-      try {
-        this.events.onLoading({ system, fraction: 0 });
-        const geometries = await loadSystemGeometries(`${this.baseUrl}/${manifest.body}/${file.file}`, (fraction) =>
-          this.events.onLoading({ system, fraction }),
-        );
-        if (generation !== this.generation) return;
-        const batch = new SystemBatch(system, geometries, systemInfo(system).color);
+    if (!manifest || !file) return;
+    this.events.onLoading({ system, fraction: 0 });
+    try {
+      const geometries = await loadSystemGeometries(`${this.baseUrl}/${manifest.body}/${file.file}`, (fraction) => {
+        if (isCurrent()) this.events.onLoading({ system, fraction });
+      });
+      if (!isCurrent()) {
         for (const geometry of geometries.values()) geometry.dispose();
-        batch.mesh.renderOrder = RENDER_ORDER[system] ?? 0;
-        this.batches.set(system, batch);
-        this.scene.add(batch.mesh);
-        if (this.view) this.applyBatch(batch, this.view);
-        this.requestRender();
-      } catch (error) {
-        if (generation === this.generation) {
-          this.events.onLayerError(system, error instanceof Error ? error.message : String(error));
-        }
-      } finally {
-        if (generation === this.generation) {
-          this.loading.delete(system);
-          this.events.onLoading(null);
-        }
+        return;
       }
-    })();
-    this.loading.set(system, promise);
-    return promise;
+      const batch = new SystemBatch(system, geometries, systemInfo(system).color);
+      for (const geometry of geometries.values()) geometry.dispose();
+      batch.mesh.renderOrder = RENDER_ORDER[system] ?? 0;
+      this.batches.set(system, batch);
+      this.scene.add(batch.mesh);
+      if (this.view) this.applyBatch(batch, this.view);
+      this.requestRender();
+    } finally {
+      if (isCurrent()) this.events.onLoading(null);
+    }
   }
 
   private applyBatch(batch: SystemBatch, state: ViewState): void {

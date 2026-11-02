@@ -67,7 +67,7 @@ export function useAtlas(): AtlasHandle {
 
   useEffect(() => {
     if (!manifest) return;
-    // Systems that failed stay unloaded until the user presses "Coba lagi".
+    // Systems that failed stay unloaded until the user presses "Coba lagi" (the scene skips them too).
     const wanted = SYSTEMS.map((s) => s.id).filter((id) => state.systems[id] && !layerErrors[id]);
     void scene.current?.ensureSystems(wanted);
   }, [manifest, state.systems, layerErrors]);
@@ -78,6 +78,7 @@ export function useAtlas(): AtlasHandle {
 
   const parts = useMemo(() => new Map((manifest?.parts ?? []).map((p) => [p.id, p])), [manifest]);
   const retryLayer = useCallback((system: SystemId) => {
+    scene.current?.retryLayer(system);
     setLayerErrors((errors) => {
       const next = { ...errors };
       delete next[system];
