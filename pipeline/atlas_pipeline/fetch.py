@@ -1,7 +1,10 @@
 """Download BodyParts3D 4.0 source files into data/raw, resuming partial files."""
 from __future__ import annotations
 
+import hashlib
+import json
 import urllib.request
+import zipfile
 from pathlib import Path
 
 BASE_URL = "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/"
@@ -47,3 +50,87 @@ def fetch_bodyparts3d(raw_dir: Path) -> None:
     raw_dir.mkdir(parents=True, exist_ok=True)
     for name in BODYPARTS3D_FILES:
         _download(BASE_URL + name, raw_dir / name)
+
+
+# --- Badan perempuan (tahap 2) -------------------------------------------------
+
+HRA_FEMALE_URL = ("https://cdn.humanatlas.io/digital-objects/ref-organ/united-female/v1.10/assets/"
+                  "3d-vh-f-united.glb")
+HRA_FEMALE_BYTES = 374_505_632
+
+BONEHUB_TREE_URL = ("https://huggingface.co/api/datasets/BoneHub/visible-human-3d-models/tree/main/"
+                    "visible_human_3d_models/CT/Mesh/02_Female?recursive=1")
+BONEHUB_FILE_URL = "https://huggingface.co/datasets/BoneHub/visible-human-3d-models/resolve/main/{path}"
+_BONEHUB_ROOT = "visible_human_3d_models/CT/Mesh/"
+
+ANDREASSEN_PAGE = "https://digitalcommons.du.edu/visiblehuman/1/"
+ANDREASSEN_MIN_STL = 76
+
+
+class ManualDownloadMissing(RuntimeError):
+    """A raw file the site refuses to serve to scripts has not been downloaded by hand yet."""
+
+
+def fetch_hra_female(raw_dir: Path) -> Path:
+    target = raw_dir / "hra" / "3d-vh-f-united.glb"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    _download(HRA_FEMALE_URL, target)
+    if target.stat().st_size != HRA_FEMALE_BYTES:
+        raise RuntimeError(f"{target.name}: expected {HRA_FEMALE_BYTES} bytes, got {target.stat().st_size}")
+    return target
+
+
+def bonehub_female_files(tree: list[dict]) -> list[tuple[str, int, str]]:
+    """(path, size, sha256) of every female STL in a Hugging Face tree listing."""
+    files = []
+    for entry in tree:
+        path = entry.get("path", "")
+        if entry.get("type") != "file" or not path.lower().endswith(".stl") or "/02_Female/" not in path:
+            continue
+        files.append((path, int(entry["size"]), entry.get("lfs", {}).get("oid", "")))
+    return sorted(files)
+
+
+def verify_sha256(path: Path, expected: str) -> None:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        while block := handle.read(CHUNK):
+            digest.update(block)
+    if digest.hexdigest() != expected:
+        raise RuntimeError(f"{path.name}: sha256 {digest.hexdigest()} tidak cocok dengan {expected}")
+
+
+def _json(url: str):
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(request, timeout=120) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def fetch_bonehub_female(raw_dir: Path) -> dict[str, Path]:
+    """Download the 143 female BoneHub STL files; returns file stem → local path."""
+    out: dict[str, Path] = {}
+    for path, size, sha256 in bonehub_female_files(_json(BONEHUB_TREE_URL)):
+        target = raw_dir / "bonehub" / path[len(_BONEHUB_ROOT):]
+        target.parent.mkdir(parents=True, exist_ok=True)
+        if not (target.exists() and target.stat().st_size == size):
+            _download(BONEHUB_FILE_URL.format(path=path), target)
+        if sha256:
+            verify_sha256(target, sha256)
+        out[target.stem] = target
+    return out
+
+
+def require_andreassen(raw_dir: Path) -> Path:
+    folder = raw_dir / "andreassen"
+    zips = sorted(folder.glob("*.zip")) if folder.is_dir() else []
+    if len(zips) == 1 and zipfile.is_zipfile(zips[0]):
+        with zipfile.ZipFile(zips[0]) as archive:
+            stl = [n for n in archive.namelist() if n.lower().endswith(".stl")]
+        if len(stl) >= ANDREASSEN_MIN_STL:
+            return zips[0]
+    raise ManualDownloadMissing(
+        "File otot Andreassen belum ada. Unduh sekali lewat browser:\n"
+        f"1. Buka {ANDREASSEN_PAGE}\n"
+        '2. Klik "Download" di samping "Final 3D STL Models (87.8 MB)".\n'
+        f"3. Simpan file .zip itu di folder {folder} lalu jalankan ulang.\n"
+        "Situs ini menolak unduhan otomatis, jadi langkah ini tidak bisa dilakukan skrip.")
