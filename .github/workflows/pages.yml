@@ -1,0 +1,54 @@
+# Bangun atlas dan terbitkan ke GitHub Pages setiap kali main berubah.
+# Situs: https://<pemilik>.github.io/<repo>/ — base path diambil dari pengaturan Pages.
+name: Terbitkan ke GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Satu penerbitan sekaligus; yang sedang berjalan dibiarkan selesai.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Tes
+        run: npm test
+
+      - id: pages
+        uses: actions/configure-pages@v6
+
+      - name: Build untuk subfolder Pages
+        run: npm run build -- --base=${{ steps.pages.outputs.base_path }}/
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
