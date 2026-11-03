@@ -31,6 +31,12 @@ class Similarity:
         return Similarity(1.0 / self.scale, rotation, -(rotation @ self.translation) / self.scale)
 
 
+def rigid_with_scale(src: np.ndarray, dst: np.ndarray, scale: float) -> Similarity:
+    """Best rotation and translation for a fixed scale."""
+    found = umeyama(scale * np.asarray(src, dtype=np.float64), dst, with_scale=False)
+    return Similarity(scale, found.rotation, found.translation)
+
+
 def umeyama(src: np.ndarray, dst: np.ndarray, with_scale: bool = True) -> Similarity:
     """Least-squares similarity mapping corresponding points src[i] → dst[i]."""
     src = np.asarray(src, dtype=np.float64)
@@ -48,7 +54,7 @@ def umeyama(src: np.ndarray, dst: np.ndarray, with_scale: bool = True) -> Simila
 
 def icp(src_points: np.ndarray, dst_points: np.ndarray, init: Similarity, with_scale: bool,
         iterations: int = 40, trim: float = 0.9) -> Similarity:
-    """Align src to dst. Every dst point is paired with its nearest transformed src point, so a dst that covers
+    """Align src to dst (with_scale=False keeps init.scale). Every dst point is paired with its nearest transformed src point, so a dst that covers
     only part of src (e.g. HRA's ilium against BoneHub's whole hip bone) still aligns correctly."""
     src = np.asarray(src_points, dtype=np.float64)
     dst = np.asarray(dst_points, dtype=np.float64)
@@ -62,7 +68,8 @@ def icp(src_points: np.ndarray, dst_points: np.ndarray, init: Similarity, with_s
             _, idx = tree.query(transform.inverse().apply(dst))
             distance = np.linalg.norm(transform.apply(src[idx]) - dst, axis=1)
             keep = distance <= np.quantile(distance, fraction)
-            transform = umeyama(src[idx[keep]], dst[keep], with_scale=with_scale)
+            transform = (umeyama(src[idx[keep]], dst[keep]) if with_scale
+                         else rigid_with_scale(src[idx[keep]], dst[keep], init.scale))
             error = float(distance[keep].mean())
             if abs(previous - error) < 1e-9:
                 break

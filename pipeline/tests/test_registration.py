@@ -39,3 +39,10 @@ def test_compose_and_inverse_round_trip():
     assert np.allclose(KNOWN.inverse().compose(KNOWN).apply(p), p)
     inner = Similarity(2.0, np.eye(3), np.array([1.0, 0, 0]))
     assert np.allclose(KNOWN.compose(inner).apply(p), KNOWN.apply(inner.apply(p)))
+
+
+def test_rigid_icp_keeps_the_starting_scale():
+    src = blob()
+    start = Similarity(1.1, np.eye(3), np.zeros(3))
+    found = icp(src, start.apply(src), start, with_scale=False)
+    assert found.scale == 1.1 and mean_distance_mm(src, start.apply(src), found)[0] < 1e-6
