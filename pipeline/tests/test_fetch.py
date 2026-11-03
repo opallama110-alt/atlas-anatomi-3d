@@ -47,3 +47,33 @@ def test_sha256_mismatch_raises(tmp_path):
     f.write_bytes(b"abc")
     with pytest.raises(RuntimeError, match="a.stl"):
         fetch.verify_sha256(f, "0" * 64)
+
+
+class _FakeResponse:
+    def __init__(self, data):
+        self._data = data
+
+    def read(self, n=-1):
+        chunk, self._data = (self._data, b"") if n < 0 else (self._data[:n], self._data[n:])
+        return chunk
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *exc):
+        return False
+
+
+def test_known_size_download_retries_after_a_timeout(tmp_path, monkeypatch):
+    calls = []
+
+    def flaky(request, timeout):
+        calls.append(request.full_url)
+        if len(calls) == 1:
+            raise TimeoutError("The read operation timed out")
+        return _FakeResponse(b"abcdef")
+
+    monkeypatch.setattr(fetch.urllib.request, "urlopen", flaky)
+    monkeypatch.setattr(fetch, "RETRY_PAUSE_S", 0)
+    fetch.download_known_size("https://example.test/a.stl", tmp_path / "a.stl", 6)
+    assert (tmp_path / "a.stl").read_bytes() == b"abcdef" and len(calls) == 2

@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import time
 import urllib.request
 import zipfile
 from pathlib import Path
@@ -106,14 +107,42 @@ def _json(url: str):
         return json.loads(response.read().decode("utf-8"))
 
 
+RETRY_PAUSE_S = 5
+RETRIES = 4
+
+
+def download_known_size(url: str, target: Path, size: int) -> None:
+    """Download a file whose size is already known (no HEAD request), resuming and retrying on network errors."""
+    last: Exception | None = None
+    for attempt in range(RETRIES):
+        have = target.stat().st_size if target.exists() else 0
+        if have == size:
+            return
+        if have > size:
+            target.unlink()
+            have = 0
+        headers = {"User-Agent": USER_AGENT}
+        if have:
+            headers["Range"] = f"bytes={have}-"
+        try:
+            request = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(request, timeout=120) as response, target.open("ab" if have else "wb") as out:
+                while block := response.read(CHUNK):
+                    out.write(block)
+        except (OSError, TimeoutError) as error:  # URLError and socket timeouts are OSErrors
+            last = error
+            time.sleep(RETRY_PAUSE_S * (attempt + 1))
+    if not target.exists() or target.stat().st_size != size:
+        raise RuntimeError(f"{target.name}: unduhan gagal setelah {RETRIES} kali ({last})")
+
+
 def fetch_bonehub_female(raw_dir: Path) -> dict[str, Path]:
     """Download the 143 female BoneHub STL files; returns file stem → local path."""
     out: dict[str, Path] = {}
     for path, size, sha256 in bonehub_female_files(_json(BONEHUB_TREE_URL)):
         target = raw_dir / "bonehub" / path[len(_BONEHUB_ROOT):]
         target.parent.mkdir(parents=True, exist_ok=True)
-        if not (target.exists() and target.stat().st_size == size):
-            _download(BONEHUB_FILE_URL.format(path=path), target)
+        download_known_size(BONEHUB_FILE_URL.format(path=path), target, size)
         if sha256:
             verify_sha256(target, sha256)
         out[target.stem] = target
