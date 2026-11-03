@@ -51,3 +51,10 @@ def test_names_side_origin_and_report(tmp_path):
     assert (femur["side"], femur["origin"], femur["source"]) == ("left", "laki-laki-asli", "bodyparts3d")
     report = json.loads((tmp_path / "male" / "classification-report.json").read_text("utf-8"))
     assert report["default"] == ["Test nose"]
+
+
+def test_side_corrections_flip_side_and_drop_labels(tmp_path, monkeypatch):
+    from atlas_pipeline import package_body
+    monkeypatch.setattr(package_body, "SIDE_CORRECTIONS", {"FJ1": "right"})
+    femur = next(p for p in build(tmp_path)["parts"] if p["id"] == "BP3D:FJ1")
+    assert femur["side"] == "right" and femur["names"] == {"en": "Right test femur"}
